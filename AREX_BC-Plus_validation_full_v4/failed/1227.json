@@ -1,0 +1,10 @@
+{
+  "query_id": "1227",
+  "status": "failed",
+  "error": {
+    "turn": 9,
+    "type": "ProtocolError",
+    "message": "search missing required parameters: ['query']",
+    "traceback": "Traceback (most recent call last):\n  File \"/data1/ESR-GRPO/ESR-GRPO/exper/arex_bcplus_native/runner.py\", line 216, in run\n    call = normalize_call(parse_tool_call(content))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data1/ESR-GRPO/ESR-GRPO/exper/arex_bcplus_native/protocol.py\", line 77, in normalize_call\n    raise ProtocolError(f\"{name} missing required parameters: {sorted(missing)}\")\nprotocol.ProtocolError: search missing required parameters: ['query']\n"
+  }
+}

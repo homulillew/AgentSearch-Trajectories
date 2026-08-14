@@ -1,0 +1,10 @@
+{
+  "query_id": "715",
+  "status": "failed",
+  "error": {
+    "turn": 44,
+    "type": "ProtocolError",
+    "message": "search.query must be a non-empty JSON string array",
+    "traceback": "Traceback (most recent call last):\n  File \"/data1/ESR-GRPO/ESR-GRPO/exper/arex_bcplus_native/runner.py\", line 216, in run\n    call = normalize_call(parse_tool_call(content))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data1/ESR-GRPO/ESR-GRPO/exper/arex_bcplus_native/protocol.py\", line 84, in normalize_call\n    raise ProtocolError(\"search.query must be a non-empty JSON string array\")\nprotocol.ProtocolError: search.query must be a non-empty JSON string array\n"
+  }
+}

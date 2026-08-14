@@ -1,0 +1,10 @@
+{
+  "query_id": "1228",
+  "status": "failed",
+  "error": {
+    "turn": 29,
+    "type": "ProtocolError",
+    "message": "model output contains no AREX <tool_call>",
+    "traceback": "Traceback (most recent call last):\n  File \"/data1/ESR-GRPO/ESR-GRPO/exper/arex_bcplus_native/runner.py\", line 216, in run\n    call = normalize_call(parse_tool_call(content))\n                          ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data1/ESR-GRPO/ESR-GRPO/exper/arex_bcplus_native/protocol.py\", line 34, in parse_tool_call\n    raise ProtocolError(\"model output contains no AREX <tool_call>\")\nprotocol.ProtocolError: model output contains no AREX <tool_call>\n"
+  }
+}

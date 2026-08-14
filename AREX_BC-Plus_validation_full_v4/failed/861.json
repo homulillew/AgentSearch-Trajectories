@@ -1,0 +1,10 @@
+{
+  "query_id": "861",
+  "status": "failed",
+  "error": {
+    "turn": 27,
+    "type": "ProtocolError",
+    "message": "url array must be valid JSON: Expecting value: line 2 column 3 (char 4)",
+    "traceback": "Traceback (most recent call last):\n  File \"/data1/ESR-GRPO/ESR-GRPO/exper/arex_bcplus_native/protocol.py\", line 52, in parse_tool_call\n    value = json.loads(value)\n            ^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 2 column 3 (char 4)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/data1/ESR-GRPO/ESR-GRPO/exper/arex_bcplus_native/runner.py\", line 216, in run\n    call = normalize_call(parse_tool_call(content))\n                          ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data1/ESR-GRPO/ESR-GRPO/exper/arex_bcplus_native/protocol.py\", line 54, in parse_tool_call\n    raise ProtocolError(f\"url array must be valid JSON: {exc}\") from exc\nprotocol.ProtocolError: url array must be valid JSON: Expecting value: line 2 column 3 (char 4)\n"
+  }
+}

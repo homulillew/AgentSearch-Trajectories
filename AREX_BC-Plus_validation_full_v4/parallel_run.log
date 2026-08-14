@@ -1,0 +1,16 @@
+=== 并行评测: 8 分片, 每分片 104 题, 共 830 题 (split=validation) ===
+manifest: /data1/ESR-GRPO/BrowseComp-Plus/data/splits/v1_all.json
+端点: http://127.0.0.1:8002/v1 http://127.0.0.1:8004/v1
+输出: /data1/ESR-GRPO/outputs/arex_bcplus_native/validation_full_v4
+分片 0: offset=0 limit=104 -> http://127.0.0.1:8002/v1 (log: shard_0.log)
+分片 1: offset=104 limit=104 -> http://127.0.0.1:8004/v1 (log: shard_1.log)
+分片 2: offset=208 limit=104 -> http://127.0.0.1:8002/v1 (log: shard_2.log)
+分片 3: offset=312 limit=104 -> http://127.0.0.1:8004/v1 (log: shard_3.log)
+分片 4: offset=416 limit=104 -> http://127.0.0.1:8002/v1 (log: shard_4.log)
+分片 5: offset=520 limit=104 -> http://127.0.0.1:8004/v1 (log: shard_5.log)
+分片 6: offset=624 limit=104 -> http://127.0.0.1:8002/v1 (log: shard_6.log)
+分片 7: offset=728 limit=104 -> http://127.0.0.1:8004/v1 (log: shard_7.log)
+
+=== 已启动 8 个分片进程: 302809 302810 302811 302812 302813 302814 302815 302816 ===
+等待全部完成...
+=== 全部分片完成 ===
