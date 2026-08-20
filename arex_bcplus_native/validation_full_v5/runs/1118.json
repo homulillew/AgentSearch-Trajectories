@@ -1,0 +1,1057 @@
+{
+  "metadata": {
+    "model": "AREX-Turbo",
+    "protocol": "AREX native XML adapted to BC-Plus fixed corpus",
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "top_k": 20,
+    "max_tokens_per_turn": 8192,
+    "turns": 10
+  },
+  "query_id": "1118",
+  "tool_call_counts": {
+    "search": 6,
+    "visit": 3,
+    "finish": 1
+  },
+  "status": "completed",
+  "retrieved_docids": [
+    "1000",
+    "100082",
+    "11242",
+    "1372",
+    "15314",
+    "15868",
+    "16657",
+    "1790",
+    "18336",
+    "20073",
+    "20497",
+    "20892",
+    "26208",
+    "27229",
+    "2733",
+    "29453",
+    "33257",
+    "3355",
+    "34435",
+    "37373",
+    "38226",
+    "38487",
+    "40256",
+    "41213",
+    "41317",
+    "41740",
+    "4384",
+    "46076",
+    "4688",
+    "48155",
+    "50851",
+    "52793",
+    "54355",
+    "54874",
+    "55806",
+    "55882",
+    "5642",
+    "57634",
+    "58337",
+    "58530",
+    "5896",
+    "59249",
+    "60377",
+    "65663",
+    "66376",
+    "67603",
+    "71253",
+    "71568",
+    "76731",
+    "76991",
+    "775",
+    "77500",
+    "78759",
+    "81760",
+    "81788",
+    "81952",
+    "82087",
+    "8331",
+    "85299",
+    "85362",
+    "86905",
+    "87304",
+    "87992",
+    "93573",
+    "94255",
+    "9580",
+    "96168",
+    "96472",
+    "96584",
+    "96952",
+    "97807",
+    "97901",
+    "99484"
+  ],
+  "visited_docids": [
+    "58530",
+    "65663",
+    "87304",
+    "97901"
+  ],
+  "evidences": [
+    {
+      "evidence": "Ron Rivett (August 2, 1940 - December 9, 2023) was an American entrepreneur best known for founding Super 8 Motels and My Place hotels. He graduated from Northern State University with a degree in business in 1963.",
+      "url": "https://en.wikipedia.org/wiki/Ron_Rivett"
+    },
+    {
+      "evidence": "Rivett co-founded Super 8 Motels with his long-time friend Dennis Brown in 1974 in Aberdeen, S.D. In 2012, he established My Place Hotels of America with his grandson, Ryan Rivett. The brand has expanded significantly, now comprising approximately 115 franchises across 36 states.",
+      "url": "https://hotelsmag.com/news/ron-rivett-co-founder-of-my-place-super-8-dies/"
+    },
+    {
+      "evidence": "An Aberdeen native, Rivett graduated from Northern State University in 1963. He was 83 years old when he passed away.",
+      "url": "https://www.sdpb.org/news/2023-12-14/aberdeen-hotel-founder-ron-rivett-dies-at-age-83"
+    },
+    {
+      "evidence": "Aberdeen was founded on July 6, 1881, when the first train came to Aberdeen on the new tracks carrying lumber and supplies. Charles Prior named the town Aberdeen after his boss, Alexander Mitchell, who came from Aberdeen, Scotland.",
+      "url": "https://dacotahprairiemuseum.org/unit-1-how-aberdeen-was-founded/"
+    }
+  ],
+  "evidence_validation": {
+    "visited_urls": [
+      "https://dacotahprairiemuseum.org/unit-1-how-aberdeen-was-founded/",
+      "https://en.wikipedia.org/wiki/Ron_Rivett",
+      "https://hotelsmag.com/news/ron-rivett-co-founder-of-my-place-super-8-dies/",
+      "https://www.sdpb.org/news/2023-12-14/aberdeen-hotel-founder-ron-rivett-dies-at-age-83"
+    ],
+    "cited_urls": [
+      "https://dacotahprairiemuseum.org/unit-1-how-aberdeen-was-founded/",
+      "https://en.wikipedia.org/wiki/Ron_Rivett",
+      "https://hotelsmag.com/news/ron-rivett-co-founder-of-my-place-super-8-dies/",
+      "https://www.sdpb.org/news/2023-12-14/aberdeen-hotel-founder-ron-rivett-dies-at-age-83"
+    ],
+    "unvisited_cited_urls": [],
+    "all_citations_visited": true
+  },
+  "result": [
+    {
+      "type": "tool_call",
+      "tool_name": "search",
+      "arguments": {
+        "query": [
+          "chain restaurant co-founded 2010s 110 franchises 30 states",
+          "restaurant franchise 110 to 120 locations 30 states founder 2010s",
+          "business founded 2010s 115 franchises 30 states founder born 1940s"
+        ]
+      },
+      "output": [
+        {
+          "query": "chain restaurant co-founded 2010s 110 franchises 30 states",
+          "results": [
+            {
+              "docid": "38226",
+              "url": "https://en.wikipedia.org/wiki/Burger_King_franchises",
+              "title": "Burger King franchises - Wikipedia",
+              "score": 28.168727309507634,
+              "snippet": "Burger King franchises - Wikipedia\n---\ntitle: Burger King franchises - Wikipedia\ndate: 2008-04-12\n---\nThe majority of the locations of international fast-food restaurant chain Burger King are privately owned franchises. While the majority of franchisees are smaller operations, several have grown into major corporations in their own right. At the end of the company's fiscal year in 2015, Burger King reported it had more than 15,000 outlets in 84 countries; of these, approximately 50% are in the United States and 99.9% are privately owned and operated. The company locations employ more than 37,000 people who serve approximately 11.4 million customers daily.\n\nSince its predecessor's inception in 1953, Burger King has used several variations of franchising to expand its operations. In the United States, the company originally relied on a regional franchise model with owners having exclusive expansion rights in a defined geographic territory. This model proved to be problematic as it led to issues of food quality, procedures and image management. A 1970s attempt by one of its largest franchises to take over the chain led to a restructuring of its franchising system, tossing the old method in favor of a restricted, per store licensing model. The 1978 restructuring, led by a new director of operations, firmly placed the mantel of franchise oversight on the shoulders of the company.\n\nWhile Burger King still utilizes a version of its revamped franchising system in the United States, o"
+            },
+            {
+              "docid": "26208",
+              "url": "https://en.wikipedia.org/wiki/Dave_Thomas_(businessman)",
+              "title": "Dave Thomas (businessman) - Wikipedia",
+              "score": 27.109549832679104,
+              "snippet": "Dave Thomas (businessman) - Wikipedia\n---\ntitle: Dave Thomas (businessman) - Wikipedia\nauthor: Authority control databases International ISNI VIAF FAST WorldCat National United States Netherlands\ndate: 2002-01-09\n---\nbirth_name: Rex David Thomas\nbirth_date: 2 July 1932\nbirth_place: Atlantic City, New Jersey, U.S\ndeath_date: 8 January 2002\ndeath_place: Fort Lauderdale, Florida, U.S\nburial_place: Union CemeteryColumbus, Ohio, U.S\noccupation: * Businessman, * philanthropist\nknown_for: Founder of Wendy's\nyears_active: 1953–2002\nspouse: Lorraine\nchildren: 5, including Wendy\n\nRex David Thomas (July 2, 1932 – January 8, 2002) was an American businessman, philanthropist, and fast-food tycoon who was the founder and chief executive officer of Wendy's, a fast-food restaurant chain specializing in hamburgers. In this role, Thomas appeared in more than 800 commercial advertisements for the chain from 1989 to 2002, more than any other company founder in television history.\n\nEarly life\n\nRex David Thomas was born July 2, 1932, in Atlantic City, New Jersey. His biological father's name was Sam and his biological mother's name was Molly. Thomas was adopted between six weeks and six months later by Rex and Auleva Thomas, and as an adult became a well-known advocate for adoption, founding the Dave Thomas Foundation for Adoption. After his adoptive mother's death when he was five, his father moved around the country seeking work. Thomas spent some of his early childhood near Kalamazoo, Michigan,"
+            },
+            {
+              "docid": "54355",
+              "url": "https://en.wikipedia.org/wiki/Del_Taco",
+              "title": "Del Taco - Wikipedia",
+              "score": 26.947139997256034,
+              "snippet": "Del Taco - Wikipedia\n---\ntitle: Del Taco - Wikipedia\ndate: 2004-09-06\n---\nname: Del Taco Restaurants, Inc.\nlogo_caption: Logo of Del Taco used since September 2022\nlogo: Logo of Del Taco.svg\ntype: Subsidiary\nindustry: Restaurants franchising\ngenre: Fast food\nfoundation: 16 September 1964, in Yermo, California Del Taco - History July 11, 2014 Del Taco\nfounders: Ed HackbarthDavid Jameson\nlocation_city: 25521 Commercentre Drive, Lake Forest, California\nlocation_country: US\nlocations: 595 2025 04 19 US Index of Locations Del Taco June 1, 2022 DelTaco.com May 1, 2023\narea_served: * Western United States, * Southern United States, * Metropolitan Detroit, * Columbus metropolitan area, Ohio\nkey_people: Tom Rose (Brand president)Lee, K. (September 19, 2023). Jack in the Box Inc. Names New Del Taco Brand President. Retail & Restaurant Facility Business.\nrevenue: US$513 million (2019) Del Taco Form 10-K 2020\nnum_employees: 8, 000\nnum_employees_year: 2019\nproducts: * Tacos, * Mission burritos, * Mexican style cuisine, * Salads, * Hamburgers, * French fries, * Milkshakes\nparent: Jack in the Box (2022–present)\nhomepage: deltaco.com\n\nDel Taco Restaurants, Inc. is an American fast food restaurant chain focused on a variety of tacos, burritos, French fries, and burgers. Del Taco is led by Brand President Tom Rose, and is headquartered in Lake Forest, California. On December 6, 2021, Jack in the Box announced it was acquiring Del Taco for $12.51 per share. The acquisition was finalized in Marc"
+            },
+            {
+              "docid": "29453",
+              "url": "https://en.wikipedia.org/wiki/Howard_Johnson%27s",
+              "title": "Howard Johnson's - Wikipedia",
+              "score": 26.8103605765133,
+              "snippet": "Howard Johnson's - Wikipedia\n---\ntitle: Howard Johnson's - Wikipedia\ndate: 2003-06-19\n---\nname: Howard Johnson International Inc.\nlogo: HowardJohnson - Logo 1996.svg\nlogo_size: 250px\nformer_name: Howard Johnson's\nindustry: Hotels, formerly restaurants\nfounded: 1 02 1925 in Quincy, Massachusetts (restaurants)Office United States Patent Official Gazette of the United States Patent Office 1952 U.S. Patent Office. en 1371in Savannah, Georgia (motor lodges)\nfounder: Howard Deering JohnsonWyndham Hotel Group - Company Backgrounder Wyndham Hotel Group 21 January 2015 .pdf\ndefunct: 2022 (restaurants only)Nathan Diller Washington Post The last Howard Johnson's restaurant closed, ending an era of Americana 2 June 2022 2 June 2022\nhq_location_city: Parsippany, New Jersey\nhq_location_country: U.S.\nnum_locations: Hotels: 292Locations - Howard Johnson by Wyndham Hotels Press Release 9 April 2019 Wyndham Hotels & Resorts, Inc. 2024 Annual Report 10-K\nnum_locations_year: Dec. 31, 2024\nareas_served: North America, South America, Asia, Middle East\nkey_people: Clement Bence (Brand President)\nparent: Wyndham Hotels & Resorts\n\nHoward Johnson by Wyndham, still commonly referred to as Howard Johnson's, is an American hotel brand with over 200 hotels in 15 countries. It was also formerly a restaurant chain, which at one time was the largest in the U.S., with more than 1,000 locations. Since 2006, all hotels and company trademarks, including those of the defunct restaurant chain, have been owned by W"
+            },
+            {
+              "docid": "48155",
+              "url": "https://www.upmenu.com/fast-food-statistics/",
+              "title": "The History of Fast Food: Statistics & Numbers",
+              "score": 26.637388163571092,
+              "snippet": "The History of Fast Food: Statistics & Numbers\n---\ntitle: The History of Fast Food: Statistics & Numbers\ndate: 2025-01-01\n---\nThe History of Fast Food: Statistics & Numbers\n\nWho dominates the fast food industry? How large is the fast food industry? We've traced the growth of 16 leading fast-food chains.\n\n- Products Sell\n\n- Online Ordering SystemOnline Ordering System Sell directly from your website with commission-free ordering\n\n- Mobile AppMobile App Get your own branded iOS and Android mobile app\n\n- Website BuilderWebsite Builder Create a restaurant website with an easy drag-and-drop editor\n\n- Website TemplatesWebsite Templates Choose from 40+ website templates for any restaurant\n\n- QR Code MenuQR Code Menu Create a paperless digital menu with QR codes\n\nManage- Delivery ManagementDelivery Management Manage your deliveries & drivers with courier app\n\n- Delivery DispatcherDelivery Dispatcher Start offering deliveries with third-party services—no own fleet needed\n\n- Order AggregationOrder Aggregation Manage all orders from every channel in one place — no more multiple tablets\n\n- IntegrationsIntegrations Integrate with your POS, food ordering platforms and delivery services\n\nEngageSee all features- Marketing ToolsMarketing Tools Run your marketing on auto-pilot using all-in-one tools\n\n- Loyalty ProgramLoyalty Program Build loyalty and retention with a rewards program\n\n- Restaurant CRMRestaurant CRM Manage customer data and relationships in one place\n\n- Email MarketingEmail Mark"
+            },
+            {
+              "docid": "96168",
+              "url": "https://www.azfamily.com/2025/02/02/50-most-popular-chain-restaurants-america/",
+              "title": "50 most popular chain restaurants in America",
+              "score": 26.429532487407254,
+              "snippet": "50 most popular chain restaurants in America\n---\ntitle: 50 most popular chain restaurants in America\nauthor: Paul Feinstein; Madison Troyer\ndate: 2025-02-02\n---\n50 most popular chain restaurants in America\n\n(Stacker) - Since A&W Root Beer became the first American restaurant to franchise in 1925, the U.S.—not to mention the rest of the world—has been dominated by chains.\n\nIconic establishments like the now-defunct Howard Johnson's trained customers to look toward its distinctive orange roofs for consistency and comfort, while McDonald's revolutionized the industry with its focus on speed and affordability.\n\nOver the years, chains have had a tremendous influence on American culture, from Little Caesars making takeout pizza accessible to families to Panda Express bringing Chinese American cuisine to the mainstream. It's no wonder so many of us feel connected to chain restaurants, which have had a notable impact on what and how we eat.\n\nAt the same time, the resilience of these destinations has been tested in recent years. The COVID-19 pandemic disrupted operations across the industry, with staffing shortages and health restrictions causing some chains to close numerous locations or shut down entirely.\n\nInflation in 2024 made the situation even worse, driving up the cost of ingredients, labor, and rent while consumers—burdened by rising costs—scaled back on dining out. Even once-thriving chains like Boston Market and Subway have faced closures, underscoring the volatility of the"
+            },
+            {
+              "docid": "85362",
+              "url": "https://www.usatoday.com/story/travel/destinations/2014/05/31/fast-food-chains-origins/9729901/",
+              "title": "Where your favorite fast-food chains began",
+              "score": 25.242687542322535,
+              "snippet": "Where your favorite fast-food chains began\n---\ntitle: Where your favorite fast-food chains began\ndate: 2014-05-31\n---\nWhere your favorite fast-food chains began\n\nThe fast-food industry in this country has a long and storied history. The founders of America's biggest chains built mega-empires based on the pursuit of the American dream, and in the process changed the way that the world eats. But how did these chains first get off the ground?\n\nGiven the ways that fast food influences everything from American pop culture to politics to dietary trends, it's fascinating to look back on the origins of the biggest players in the industry. One of the first fast-food chains to emerge was White Castle, founded by Bill Ingram in Wichita in 1921; the design of the original White Castle was inspired by the Water Tower building in Chicago.\n\nThe novel and efficient system developed by the McDonald brothers at their original San Bernardino, Calif., location inspired a handful of other up-and-coming entrepreneurs to try their hand in the industry, namely Keith J. Kramer and Matthew Burns (founders of Insta-Burger King, which would later become Burger King), Carl Karcher (founder of Carl's Jr.), Glen Bell (founder of Taco Bell), and James Collins (the founder of Kentucky Fried Chicken). But certainly the person most famously inspired by the original McDonald's was Ray Kroc, who bought the company from the McDonald brothers in 1954 and turned it into the mega-corporation that it is today.\n\nResta"
+            },
+            {
+              "docid": "52793",
+              "url": "https://www.eatthis.com/fast-food-restaurants-origins/",
+              "title": "How 23 of Your Favorite Fast-Food Restaurants Got Started",
+              "score": 25.00404091026326,
+              "snippet": "How 23 of Your Favorite Fast-Food Restaurants Got Started\n---\ntitle: How 23 of Your Favorite Fast-Food Restaurants Got Started\nauthor: Kate Mulcrone\ndate: 2023-01-01\n---\nHow 23 of Your Favorite Fast-Food Restaurants Got Started\n\nDid you know that McDonald's started out serving slow-cooked barbecue, that Subway was founded by a teenager, and that \"Wendy\" was really named Melinda? These fast-food origin stories may sound too good to be true, but we promise they're legit.\n\nRead on to learn how some of your favorite chains got started. From the invention of the drive-thru to using college funds to start a business, these stories will give you a newfound appreciation for fast-food restaurants.\n\nMcDonald's started out serving BBQ.\n\nToday, the name McDonald's is intimately associated with hamburgers. But the original restaurant debuted in San Bernardino, California, in 1940, serving up pit barbecue. It wasn't until after World War II that brothers Dick and Mac McDonald realized that some 80 percent of their sales came from burgers and converted their operations so that they could prepare fewer menu items more efficiently.\n\nWhen salesman Ray Kroc visited the original McDonald's location in 1954, he was so wowed that he bought his own franchise. Kroc eventually bought out the McDonald brothers altogether in 1961 and grew the family brand into a worldwide phenomenon.\n\nBurger King was out to beat McDonald's almost from the start.\n\nThe Home of the Whopper got its start as a restaurant ca"
+            },
+            {
+              "docid": "81952",
+              "url": "https://en.wikipedia.org/wiki/List_of_countries_with_McDonald%27s_restaurants",
+              "title": "List of countries with McDonald's restaurants - Wikipedia",
+              "score": 24.970516162800507,
+              "snippet": "List of countries with McDonald's restaurants - Wikipedia\n---\ntitle: List of countries with McDonald's restaurants - Wikipedia\ndate: 2005-05-12\n---\nMcDonald's is one of the largest chains of fast-food restaurants in the world,List of the largest fast food restaurant chains with more than 40,000 outlets worldwide.McDonald's :: About Us :: FAQ , retrieved August 18, 2008 The majority of McDonald's outlets outside of the United States are franchises.\n\nThe biggest temporary McDonald's restaurant in the world was opened during the 2012 Summer Olympics in London, which was by area. The biggest still standing is the World's Largest Entertainment McDonald's. The northernmost McDonald's restaurant in the world is located in Tromsø, Norway (previously held by Rovaniemi, Finland after the restaurant in Murmansk, Russia, was closed in 2022), and the southernmost in the world is located in Invercargill, New Zealand.Invercargill: The World's Southernmost… - Invercargill Holiday Park and Motels\n\nThe list of countries follows the company's own calculation and contains several non-sovereign territories. Today or as of 2024, there are over 13,000 McDonald's restaurants in the United States, over 6,800 in mainland China, almost 3,000 in Japan, almost 1,600 in France, almost 1,500 in Canada, over 1,400 in the United Kingdom, over 1,300 in Germany, over 1,100 in Brazil, over 1,000 in Australia, over 790 in the Philippines and over 750 in Italy. McDonald's ceased to be operational in Russia, Belar"
+            },
+            {
+              "docid": "46076",
+              "url": "https://en.wikipedia.org/wiki/Subway_(restaurant)",
+              "title": "Subway (restaurant) - Wikipedia",
+              "score": 24.913473240546466,
+              "snippet": "Subway (restaurant) - Wikipedia\n---\ntitle: Subway (restaurant) - Wikipedia\nauthor: Authority control databases International VIAF National United States\ndate: 2002-06-01\n---\nname: Subway IP LLC\ntrade_name: Subway\nlogo: Subway 2016 logo.svg\nlogo_caption: Logo used since 2016\nformer_name: * *Pete's Subs (1968–1970) *Pete's Subway (1970–1972)\ntype: Private\nindustry: Restaurants\ngenre: Fast-food restaurant\nfoundation: 28 August 1965 in Bridgeport, Connecticut, U.S.\nfounders: * Fred DeLuca, * Peter Buck, * Carmela DeLuca\nhq_location_city: Shelton, Connecticut\nhq_location_country: U.S.Contact Customer Service SUBWAY 2023-08-07 Franchise World Headquarters 1 Corporate Drive Suite 1000 Shelton, CT 06484 USA\nlocations: 37, 000 (September 2023)\narea_served: Worldwide (100+ countries)\nkey_people: John Chidsey (president & CEO)\nowner: Roark Capital Group\nproducts: * Submarine sandwiches, * Cookies, * Pizzas (some locations), * Salads\nrevenue: US$16.1 billion (2019) February 25, 2021 6. Subway December 18, 2022US$10.2 billion (U.S.) Sales of Subway restaurants in the United States from 2015 to 2020 statista.com 18 September 2021\nnum_employees: 410, 000, including franchises (2022)Subway Forbes May 24, 2022 January 25, 2022\nhomepage: subway.com\n\nSubway IP LLC, trading as Subway, is an American multinational fast food restaurant franchise that specializes in submarine sandwiches (subs) and wraps. It was founded by Fred DeLuca and financed by Peter Buck in 1965 as Pete's Super Submarine Sand"
+            }
+          ]
+        },
+        {
+          "query": "restaurant franchise 110 to 120 locations 30 states founder 2010s",
+          "results": [
+            {
+              "docid": "48155",
+              "url": "https://www.upmenu.com/fast-food-statistics/",
+              "title": "The History of Fast Food: Statistics & Numbers",
+              "score": 34.07179724274334,
+              "snippet": "The History of Fast Food: Statistics & Numbers\n---\ntitle: The History of Fast Food: Statistics & Numbers\ndate: 2025-01-01\n---\nThe History of Fast Food: Statistics & Numbers\n\nWho dominates the fast food industry? How large is the fast food industry? We've traced the growth of 16 leading fast-food chains.\n\n- Products Sell\n\n- Online Ordering SystemOnline Ordering System Sell directly from your website with commission-free ordering\n\n- Mobile AppMobile App Get your own branded iOS and Android mobile app\n\n- Website BuilderWebsite Builder Create a restaurant website with an easy drag-and-drop editor\n\n- Website TemplatesWebsite Templates Choose from 40+ website templates for any restaurant\n\n- QR Code MenuQR Code Menu Create a paperless digital menu with QR codes\n\nManage- Delivery ManagementDelivery Management Manage your deliveries & drivers with courier app\n\n- Delivery DispatcherDelivery Dispatcher Start offering deliveries with third-party services—no own fleet needed\n\n- Order AggregationOrder Aggregation Manage all orders from every channel in one place — no more multiple tablets\n\n- IntegrationsIntegrations Integrate with your POS, food ordering platforms and delivery services\n\nEngageSee all features- Marketing ToolsMarketing Tools Run your marketing on auto-pilot using all-in-one tools\n\n- Loyalty ProgramLoyalty Program Build loyalty and retention with a rewards program\n\n- Restaurant CRMRestaurant CRM Manage customer data and relationships in one place\n\n- Email MarketingEmail Mark"
+            },
+            {
+              "docid": "38226",
+              "url": "https://en.wikipedia.org/wiki/Burger_King_franchises",
+              "title": "Burger King franchises - Wikipedia",
+              "score": 32.95598162287949,
+              "snippet": "Burger King franchises - Wikipedia\n---\ntitle: Burger King franchises - Wikipedia\ndate: 2008-04-12\n---\nThe majority of the locations of international fast-food restaurant chain Burger King are privately owned franchises. While the majority of franchisees are smaller operations, several have grown into major corporations in their own right. At the end of the company's fiscal year in 2015, Burger King reported it had more than 15,000 outlets in 84 countries; of these, approximately 50% are in the United States and 99.9% are privately owned and operated. The company locations employ more than 37,000 people who serve approximately 11.4 million customers daily.\n\nSince its predecessor's inception in 1953, Burger King has used several variations of franchising to expand its operations. In the United States, the company originally relied on a regional franchise model with owners having exclusive expansion rights in a defined geographic territory. This model proved to be problematic as it led to issues of food quality, procedures and image management. A 1970s attempt by one of its largest franchises to take over the chain led to a restructuring of its franchising system, tossing the old method in favor of a restricted, per store licensing model. The 1978 restructuring, led by a new director of operations, firmly placed the mantel of franchise oversight on the shoulders of the company.\n\nWhile Burger King still utilizes a version of its revamped franchising system in the United States, o"
+            },
+            {
+              "docid": "29453",
+              "url": "https://en.wikipedia.org/wiki/Howard_Johnson%27s",
+              "title": "Howard Johnson's - Wikipedia",
+              "score": 32.12584514603433,
+              "snippet": "Howard Johnson's - Wikipedia\n---\ntitle: Howard Johnson's - Wikipedia\ndate: 2003-06-19\n---\nname: Howard Johnson International Inc.\nlogo: HowardJohnson - Logo 1996.svg\nlogo_size: 250px\nformer_name: Howard Johnson's\nindustry: Hotels, formerly restaurants\nfounded: 1 02 1925 in Quincy, Massachusetts (restaurants)Office United States Patent Official Gazette of the United States Patent Office 1952 U.S. Patent Office. en 1371in Savannah, Georgia (motor lodges)\nfounder: Howard Deering JohnsonWyndham Hotel Group - Company Backgrounder Wyndham Hotel Group 21 January 2015 .pdf\ndefunct: 2022 (restaurants only)Nathan Diller Washington Post The last Howard Johnson's restaurant closed, ending an era of Americana 2 June 2022 2 June 2022\nhq_location_city: Parsippany, New Jersey\nhq_location_country: U.S.\nnum_locations: Hotels: 292Locations - Howard Johnson by Wyndham Hotels Press Release 9 April 2019 Wyndham Hotels & Resorts, Inc. 2024 Annual Report 10-K\nnum_locations_year: Dec. 31, 2024\nareas_served: North America, South America, Asia, Middle East\nkey_people: Clement Bence (Brand President)\nparent: Wyndham Hotels & Resorts\n\nHoward Johnson by Wyndham, still commonly referred to as Howard Johnson's, is an American hotel brand with over 200 hotels in 15 countries. It was also formerly a restaurant chain, which at one time was the largest in the U.S., with more than 1,000 locations. Since 2006, all hotels and company trademarks, including those of the defunct restaurant chain, have been owned by W"
+            },
+            {
+              "docid": "96168",
+              "url": "https://www.azfamily.com/2025/02/02/50-most-popular-chain-restaurants-america/",
+              "title": "50 most popular chain restaurants in America",
+              "score": 31.23796518634113,
+              "snippet": "50 most popular chain restaurants in America\n---\ntitle: 50 most popular chain restaurants in America\nauthor: Paul Feinstein; Madison Troyer\ndate: 2025-02-02\n---\n50 most popular chain restaurants in America\n\n(Stacker) - Since A&W Root Beer became the first American restaurant to franchise in 1925, the U.S.—not to mention the rest of the world—has been dominated by chains.\n\nIconic establishments like the now-defunct Howard Johnson's trained customers to look toward its distinctive orange roofs for consistency and comfort, while McDonald's revolutionized the industry with its focus on speed and affordability.\n\nOver the years, chains have had a tremendous influence on American culture, from Little Caesars making takeout pizza accessible to families to Panda Express bringing Chinese American cuisine to the mainstream. It's no wonder so many of us feel connected to chain restaurants, which have had a notable impact on what and how we eat.\n\nAt the same time, the resilience of these destinations has been tested in recent years. The COVID-19 pandemic disrupted operations across the industry, with staffing shortages and health restrictions causing some chains to close numerous locations or shut down entirely.\n\nInflation in 2024 made the situation even worse, driving up the cost of ingredients, labor, and rent while consumers—burdened by rising costs—scaled back on dining out. Even once-thriving chains like Boston Market and Subway have faced closures, underscoring the volatility of the"
+            },
+            {
+              "docid": "54355",
+              "url": "https://en.wikipedia.org/wiki/Del_Taco",
+              "title": "Del Taco - Wikipedia",
+              "score": 30.773668001273247,
+              "snippet": "Del Taco - Wikipedia\n---\ntitle: Del Taco - Wikipedia\ndate: 2004-09-06\n---\nname: Del Taco Restaurants, Inc.\nlogo_caption: Logo of Del Taco used since September 2022\nlogo: Logo of Del Taco.svg\ntype: Subsidiary\nindustry: Restaurants franchising\ngenre: Fast food\nfoundation: 16 September 1964, in Yermo, California Del Taco - History July 11, 2014 Del Taco\nfounders: Ed HackbarthDavid Jameson\nlocation_city: 25521 Commercentre Drive, Lake Forest, California\nlocation_country: US\nlocations: 595 2025 04 19 US Index of Locations Del Taco June 1, 2022 DelTaco.com May 1, 2023\narea_served: * Western United States, * Southern United States, * Metropolitan Detroit, * Columbus metropolitan area, Ohio\nkey_people: Tom Rose (Brand president)Lee, K. (September 19, 2023). Jack in the Box Inc. Names New Del Taco Brand President. Retail & Restaurant Facility Business.\nrevenue: US$513 million (2019) Del Taco Form 10-K 2020\nnum_employees: 8, 000\nnum_employees_year: 2019\nproducts: * Tacos, * Mission burritos, * Mexican style cuisine, * Salads, * Hamburgers, * French fries, * Milkshakes\nparent: Jack in the Box (2022–present)\nhomepage: deltaco.com\n\nDel Taco Restaurants, Inc. is an American fast food restaurant chain focused on a variety of tacos, burritos, French fries, and burgers. Del Taco is led by Brand President Tom Rose, and is headquartered in Lake Forest, California. On December 6, 2021, Jack in the Box announced it was acquiring Del Taco for $12.51 per share. The acquisition was finalized in Marc"
+            },
+            {
+              "docid": "71253",
+              "url": "https://www.ececonsortium.org/leadership-team/board/",
+              "title": "Board",
+              "score": 30.606387787198507,
+              "snippet": "Board\n---\ntitle: Board\ndate: 2025-01-01\n---\nBoard\n\nJo Kirchner\n\nCo-Chair of ECEC\n\nCEO of Primrose Schools\n\nAs CEO of Primrose Schools, Jo Kirchner has a lifelong mission to deliver a nurturing environment and a quality early learning foundation to help children become confident adults who love who they are and what they do. Jo leads strategic direction and external brand leadership efforts for Primrose, including the launch of Primrose on Premise℠ employer-sponsored schools.\n\nShe joined the company in 1990 as Vice President and became President and CEO in 1999. Under Jo's leadership, Primrose has grown from four schools in metro Atlanta to 425 schools nationwide.\n\nChad Dunkley\n\nCo-Chair of ECEC\n\nCEO of New Horizon Academy\n\nChad Dunkley is Chief Executive Officer for New Horizon Academy and Kinderberry Hill Child Development Centers. He oversees operations, marketing, strategy, and finance, and drives the culture of continuous improvement at all New Horizon and Kinderberry Hill locations.\n\nChad has served on the board of ECEC since 2001. Chad is also President of the Minnesota Child Care Association (MCCA), and was elected to serve a 4-year term on the governing board of the National Association for the Education of Young Children (NAEYC) in 2012. Chad received his J.D. from William Mitchell College of Law and his B.A. in management from Hamline University.\n\nTony Amandi\n\nTreasurer at ECEC\n\nChief Financial Officer at KinderCare Education\n\nTony Amandi is the CFO of KinderCare Ed"
+            },
+            {
+              "docid": "4688",
+              "url": "https://www.restaurantindia.in/awards/speakers.php",
+              "title": "Chennai Edition Our Speakers",
+              "score": 30.40516318051598,
+              "snippet": "Chennai Edition Our Speakers\n---\ntitle: Chennai Edition Our Speakers\ndate: 2025-01-01\n---\nEditor-in-Chief, Franchise Media Entrepreneur India & Asia-Pacific\n\nRitu Marya is the Editor- in- Chief for Entrepreneur India-Asia-Pacific and Franchise India Media, a group company of Franchise India Holdings Limited. She is the Group Editor and leads the editorial desk which comprises business magazines including Entrepreneur, The Franchising World and Retailer together with the Digital media arm of Entrepreneur.com, Franchiseindia.com, wellnessindia.com, indianretailer.com and restaurantindia.in. In her tryst with Business Journalism over the last 16 years, Ritu is regarded as an authority on Startups, Entrepreneurship, Technology, Fintech, AI, Blockchain, Consumer Businesses, Retail, Luxury to Education, Restaurant, Funding and more. In her role as the Group Editor she meets and interacts with Leading Indian and Global Entrepreneurs and thought-leaders while tracking Startup and Entrepreneurial and consumer business landscape in India and Asia-Pacific.\n\nCategory Lead, Hyperpure by Zomato\n\nUdit Saran, the Category Lead at Hyperpure by Zomato, boasts over 15+ years of expertise in\n\nthe food and supply chain industry. Renowned for his dynamic leadership, he enabes seamless\n\naggregation between vendors and restaurant owners within the kitchen essentials category.\n\nAs the driving force behind the category team, he optimizes procurement processes, negotiates\n\nfavorable terms, and strategi"
+            },
+            {
+              "docid": "4384",
+              "url": "https://www.al.com/life/2024/08/10-alabama-restaurant-chains-that-began-as-mom-and-pop-shops.html",
+              "title": "11 Alabama restaurant chains that began as mom-and-pop shops",
+              "score": 30.28096292533771,
+              "snippet": "11 Alabama restaurant chains that began as mom-and-pop shops\n---\ntitle: 11 Alabama restaurant chains that began as mom-and-pop shops\nauthor: Bob Carlton; Bcarlton Com\ndate: 2024-08-10\n---\nAlmost everybody has a favorite fast-food chain – a place to grab a quick burger for lunch or a drive-thru taco late at night.\n\nWhile national brands abound to satisfy your cravings, Alabama has its fair share of homegrown chains, most of which started as small, independent \"mom-and-pop\" shops before branching out.\n\nAs part of our Beautiful Alabama summer project, we've put together this list of 11 such Alabama chain restaurants, all of which began in the state and many of which remain in the same family.\n\n(Note: For this story, we did not include barbecue restaurant chains, which belong in a category unto themselves.)\n\nChicken Salad Chick\n\nHow it started: Chicken Salad Chick founder Stacy Brown started making her soon-to-be-famous chicken salad out of her home kitchen in Auburn in 2007, and after a little run-in with the health department that turned out to be a blessing in disguise, she and her husband, Kevin Brown, pooled their savings to open a take-out business the next year. (Kevin Brown died in 2015 after a two-year battle with cancer.)\n\nHow it's going: From that first Auburn location, the Chicken Salad Chick brand has grown to include 271 stores throughout the Southeast, as well as into Colorado, Illinois and Ohio. Chicken Salad Chick was sold to a Los Angeles-based private equity fi"
+            },
+            {
+              "docid": "41213",
+              "url": "https://www.thetakeout.com/1591318/fast-food-chains-closing-in-2024/",
+              "title": "Fast Food Chains That Are Shutting Down Stores In 2024",
+              "score": 29.92928433216201,
+              "snippet": "Fast Food Chains That Are Shutting Down Stores In 2024\n---\ntitle: Fast Food Chains That Are Shutting Down Stores In 2024\nauthor: Brianna Lopez\ndate: 2024-06-03\n---\nFast Food Chains That Are Shutting Down Stores In 2024\n\nThe restaurant industry can come with a lot of financial instability, especially after the COVID-19 pandemic, when formerly successful businesses all over the country were shutting down due to a loss of profit. Most of the COVID restrictions required restaurants to switch to takeout only, which was easy for fast food chains to do, given that most have drive-throughs or mobile ordering systems that allow a no-contact ordering process. But many fast food chains have experienced a decline in staffers and an increase in food supply prices, leading to even the largest of franchises having to close some stores.\n\nFive months into 2024, national chains like Red Lobster, Chili's, and Outback Steakhouse are closing locations across the country to account for profit losses within their businesses. This downward trend is creeping into the fast food industry, too, an industry known for cost-effective, accessible food and beloved by many. In fact, about 65% of people consume fast food at least once a week. This group might be saddened to know that many of these fast food franchises are closing locations in 2024, although some are also opening new locations to balance out their losses. This article will break down the 15 fast food franchises that have closed or will be closi"
+            },
+            {
+              "docid": "11242",
+              "url": "https://www.mentalfloss.com/article/514254/origin-stories-25-your-favorite-fast-food-chains",
+              "title": "The Origin Stories of 25 of Your Favorite Fast Food Chains",
+              "score": 29.910844862904757,
+              "snippet": "The Origin Stories of 25 of Your Favorite Fast Food Chains\n---\ntitle: The Origin Stories of 25 of Your Favorite Fast Food Chains\ndate: 2025-01-01\n---\nCurious how your favorite fast food joint became a mainstay at food courts, strip malls, and truck stops around the country? Read on to learn the origin stories of 25 famous chain restaurants.\n\n1. TACO BELL\n\nBefore he launched a Tex-Mex empire, Taco Bell founder Glen Bell ran a group of hamburger and hot dog stands in the San Bernardino, California area. Bell, himself, liked Mexican food, and had noticed the success of a neighboring diner called Mitla Cafe, which sold tacos made with hard fried shells. Wrapping and frying an individual taco was a lengthy process, so Bell asked a chicken coop maker to create him a frying gadget. To expedite service, he began selling his own version of the street food made with preformed fried shells.\n\nCustomers liked Bell's tacos so much that in 1954 he and a partner founded a Mexican-style restaurant called Taco Tia. The partner didn't want to expand beyond three restaurants, so Bell found himself new partners and opened yet another short-lived taco business, El Taco, before finally going solo.\n\nBell used a $4000 investment to open the very first Taco Bell in Downey, California, in 1962. PepsiCo eventually purchased the burgeoning chain in 1965 for around $125 million.\n\n2. WHITE CASTLE\n\nOne of the the nation's very first (if not the first) fast food chains was White Castle, the restaurant whose "
+            }
+          ]
+        },
+        {
+          "query": "business founded 2010s 115 franchises 30 states founder born 1940s",
+          "results": [
+            {
+              "docid": "38487",
+              "url": "https://www.gamedesigning.org/game-development-studios/",
+              "title": "The Biggest Video Game Design Studios and Game Publishers of All Time",
+              "score": 25.44297738934937,
+              "snippet": "The Biggest Video Game Design Studios and Game Publishers of All Time\n---\ntitle: The Biggest Video Game Design Studios and Game Publishers of All Time\ndate: 2021-10-07\n---\nWe are reader-supported. Purchases made through links on our site may earn us a commission. Learn More.\n\nThe list of quality video game companies continues to grow as the gaming industry explodes in popularity.\n\nWhile countless new game design studios come to market, we'd like to highlight the very best of the best.\n\nStudents are flocking to the best gaming colleges to join many of the game dev companies listed below that are consistently voted to be the best in the world – and hold a reputation to match.\n\nThe Top 50 Video Game Companies\n\nNintendo\n\nKyoto, Japan\n\nThis company is credited with the conception of handheld video games in 1979. Nintendo was founded by Fusajiro Yamauchi in September 1889. It is headquartered in Kyoto, Japan but has subsidiaries and offices in several other parts of the world.\n\nNintendo is the world's largest video game company by revenue, with a net value of over USD85 Billion.\n\nSome of the notable video game by this company are:\n\n- Mario\n\n- Pokémon\n\n- The legend of Zelda\n\nWhat Makes It Great\n\n- Great Heritage: Nintendo saved the video game industry from the crash of 1983.\n\nThe company's older games set standards for the industry and helped define game design. - Consistent Quality: Nintendo continues to produce excellent games even 25 years after its first masterpieces.\n\n- Innovat"
+            },
+            {
+              "docid": "3355",
+              "url": "https://en.wikipedia.org/wiki/Video_games_in_the_United_States",
+              "title": "Video games in the United States - Wikipedia",
+              "score": 24.634424052884064,
+              "snippet": "Video games in the United States - Wikipedia\n---\ntitle: Video games in the United States - Wikipedia\ndate: 2011-05-03\n---\nThe video game industry in the United States is one of the fastest-growing entertainment industries in the country. The American video game industry is the largest video game industry in the world. According to a 2020 study released by the Entertainment Software Association (ESA), the yearly economic output of the American video game industry in 2019 was $90.3 billion, supporting over 429,000 American jobs. With an average yearly salary of about $121,000, the latter figure includes over 143,000 individuals who are directly employed by the video game business. Additionally, activities connected to the video game business generate $12.6 billion in federal, state, and local taxes each year. The World Economic Forum estimates that, by 2025, the American gaming industry will reach $42.3 billion while the worldwide gaming industry will possibly reach US$270 billion. The United States is one of the nations with the largest influence in the video game industry, with video games representing a significant part of its economy.\n\nMajor publishers headquartered in the United States are: Sony Interactive Entertainment, Microsoft Gaming (consist of Xbox Game Studios, Bethesda Softworks and Activision Blizzard), Electronic Arts, Take-Two Interactive, Epic Games, Valve, Warner Bros. Games, Riot Games, and others. Major video game events such as BlizzCon, QuakeCon, Summer G"
+            },
+            {
+              "docid": "29453",
+              "url": "https://en.wikipedia.org/wiki/Howard_Johnson%27s",
+              "title": "Howard Johnson's - Wikipedia",
+              "score": 24.439307756450965,
+              "snippet": "Howard Johnson's - Wikipedia\n---\ntitle: Howard Johnson's - Wikipedia\ndate: 2003-06-19\n---\nname: Howard Johnson International Inc.\nlogo: HowardJohnson - Logo 1996.svg\nlogo_size: 250px\nformer_name: Howard Johnson's\nindustry: Hotels, formerly restaurants\nfounded: 1 02 1925 in Quincy, Massachusetts (restaurants)Office United States Patent Official Gazette of the United States Patent Office 1952 U.S. Patent Office. en 1371in Savannah, Georgia (motor lodges)\nfounder: Howard Deering JohnsonWyndham Hotel Group - Company Backgrounder Wyndham Hotel Group 21 January 2015 .pdf\ndefunct: 2022 (restaurants only)Nathan Diller Washington Post The last Howard Johnson's restaurant closed, ending an era of Americana 2 June 2022 2 June 2022\nhq_location_city: Parsippany, New Jersey\nhq_location_country: U.S.\nnum_locations: Hotels: 292Locations - Howard Johnson by Wyndham Hotels Press Release 9 April 2019 Wyndham Hotels & Resorts, Inc. 2024 Annual Report 10-K\nnum_locations_year: Dec. 31, 2024\nareas_served: North America, South America, Asia, Middle East\nkey_people: Clement Bence (Brand President)\nparent: Wyndham Hotels & Resorts\n\nHoward Johnson by Wyndham, still commonly referred to as Howard Johnson's, is an American hotel brand with over 200 hotels in 15 countries. It was also formerly a restaurant chain, which at one time was the largest in the U.S., with more than 1,000 locations. Since 2006, all hotels and company trademarks, including those of the defunct restaurant chain, have been owned by W"
+            },
+            {
+              "docid": "55882",
+              "url": "https://www.slideshare.net/achu008/film-history-between-1990-2000",
+              "title": "Film history between 1990 2000",
+              "score": 23.440711844517185,
+              "snippet": "Film history between 1990 2000\n---\ntitle: Film history between 1990 2000\nauthor: Ashley Moorthy\ndate: 2012-08-08\n---\nDownload as pptx, pdf1 like8,162 views\n\nThe document provides information on movies from 1990-2000. It discusses the rise of independent films in the early 1990s and Disney's acquisition of Miramax. Pixar released the first computer animated feature film Toy Story in 1995. Some of the highest grossing and most acclaimed films of the decade are listed, including Titanic, Jurassic Park, and The Silence of the Lambs. Blockbuster movies from each year that made over $200 million are also highlighted. The document concludes with brief profiles of several animated Disney films from the late 1990s, including Tarzan, The Lion King, and Toy Story 2.\n\n1 of 36\n\nDownloaded 39 times\n\nAd\n\nBritish Cinema History\n\nBritish Cinema Historykingedmedia The document provides a detailed overview of the history of the British film industry from the 1930s to present day. It describes the various booms and recessions experienced over the decades, with American competition and the two World Wars significantly impacting production. While British films have found international success, the industry remains small compared to Hollywood and largely produces films for the British/international art house market rather than big-budget blockbusters.\n\nHistory of British Cinema\n\nHistory of British Cinemaruthers64 Use this to help answer the exam strand: • How does contemporary representation compar"
+            },
+            {
+              "docid": "96472",
+              "url": "https://en.wikipedia.org/wiki/Cinema_of_the_United_Kingdom",
+              "title": "Cinema of the United Kingdom - Wikipedia",
+              "score": 23.100641296994144,
+              "snippet": "Cinema of the United Kingdom - Wikipedia\n---\ntitle: Cinema of the United Kingdom - Wikipedia\ndate: 2001-06-19\n---\nname: Cinema of the United Kingdom\nscreens: 4, 720 (2022)Statistical Yearbook 2023 BFI British Film Institute 10 Feb 2025 live 67 PDF\nscreens_per_capita: 7.0 per 100, 000 (2022)\ndistributors: Walt Disney Studios Motion Pictures StudioCanal Universal Pictures Pathé 20th Century Studios Entertainment OneTable 6: Share of Top 3 distributors (Excel) UNESCO Institute for Statistics 24 December 2018\nproduced_year: 2017\nproduced_ref: Table 1: Feature Film Production - Genre/Method of Shooting UNESCO Institute for Statistics 7 May 2019 24 December 2018\nproduced_total: 285\nproduced_fictional: 213 (74.7%)\nproduced_animated: 5 (1.8%)\nproduced_documentary: 66 (23.2%)\nadmissions_year: 2022\nadmissions_ref: Statistical Yearbook 2023 BFI British Film Institute 10 Feb 2025 live 67 PDF\nadmissions_total: 117, 300, 000\nadmissions_per_capita: 1.7\nbox_office_year: 2022\nbox_office_ref: Statistical Yearbook 2023 BFI British Film Institute 2 Feb 2025 live 14, 21 PDF\nbox_office_total: £904000000\nbox_office_national: £266680000 (29.5%)\n\nBritish cinema has significantly influenced the global film industry since the 19th century.\n\nThe oldest known surviving film in the world, Roundhay Garden Scene (1888), was shot in England by French inventor Louis Le Prince. Early colour films were also pioneered in the UK. Film production reached an all-time high in 1936, but the \"golden age\" of British ci"
+            },
+            {
+              "docid": "100082",
+              "url": "https://pantheon.world/profile/occupation/film-director/country/united-states",
+              "title": "FILM DIRECTORS from United States",
+              "score": 22.689663737669747,
+              "snippet": "FILM DIRECTORS from United States\n---\ntitle: FILM DIRECTORS from United States\ndate: 1999-03-07\n---\nThe Most Famous\n\nFILM DIRECTORS from United States\n\nThis page contains a list of the greatest American Film Directors. The pantheon dataset contains 2,041 Film Directors, 633 of which were born in United States. This makes United States the birth place of the most number of Film Directors.\n\nTop 10\n\nThe following people are considered by Pantheon to be the top 10 most legendary American Film Directors of all time. This list of famous American Film Directors is sorted by HPI (Historical Popularity Index), a metric that aggregates information on a biography's online popularity. Visit the rankings page to view the entire list of American Film Directors.\n\n1. Steven Spielberg (b. 1946)\n\nWith an HPI of 87.59, Steven Spielberg is the most famous American Film Director. His biography has been translated into 139 different languages on wikipedia.\n\nSteven Allan Spielberg ( SPEEL-burg; born December 18, 1946) is an American filmmaker. A major figure of the New Hollywood era and pioneer of the modern blockbuster, Spielberg is widely regarded as one of the greatest film directors of all time and is the highest-grossing film director of all time. Several of Spielberg's works are considered among the greatest films in history, and some are among the highest-grossing films ever. Spielberg was born in Cincinnati, Ohio, and grew up in Phoenix, Arizona. He moved to California and studied film in c"
+            },
+            {
+              "docid": "58337",
+              "url": "https://en.wikipedia.org/wiki/Video_game_industry",
+              "title": "Video game industry - Wikipedia",
+              "score": 22.6647436765052,
+              "snippet": "Video game industry - Wikipedia\n---\ntitle: Video game industry - Wikipedia\nauthor: Authority control databases International FAST National United States Czech Republic Latvia Israel\ndate: 2003-11-19\n---\nThe video game industry is the tertiary and quaternary sectors of the entertainment industry that specialize in the development, marketing, distribution, monetization, and consumer feedback of video games. The industry encompasses dozens of job disciplines and thousands of jobs worldwide.Zackariasson, P. and Wilson, T.L. eds. (2012). The Video Game Industry: Formation, Present State, and Future. New York: Routledge.\n\nThe video game industry has grown from niche to mainstream. , video games generated annually in global sales. In the US, the industry earned about in 2007, in 2008, and 2010, according to the ESA annual report. Research from Ampere Analysis indicated three points: the sector has consistently grown since at least 2015 and expanded 26% from 2019 to 2021, to a record ; the global games and services market is forecast to shrink 1.2% annually to in 2022.\n\nThe industry has influenced the technological advancement of personal computers through sound cards, graphics cards and 3D graphic accelerators, CPUs, and co-processors like PhysX. Sound cards, for example, were originally developed for games and then improved for adoption by the music industry.\n\nIndustry overview\n\nSize\n\nIn 2017 in the United States, which represented about a third of the global video game market, the"
+            },
+            {
+              "docid": "97901",
+              "url": "https://hotelsmag.com/news/ron-rivett-co-founder-of-my-place-super-8-dies/",
+              "title": "Ron Rivett, co-founder of My Place, Super 8, passes away at 83",
+              "score": 22.64547723154476,
+              "snippet": "Ron Rivett, co-founder of My Place, Super 8, passes away at 83\n---\ntitle: Ron Rivett, co-founder of My Place, Super 8, passes away at 83\nauthor: Kathakali Nandi December ; Hotels News\ndate: 2023-12-14\n---\nRon Rivett, an entrepreneur who founded Super 8, helping to usher in and foster the branded economy segment in the U.S., and in a second act co-founded My Place Hotels America, passed away on December 9 at the age of 83.\n\nRivett co-founded Super 8 Motels with his long-time friend Dennis Brown in 1974 in Aberdeen, S.D., marking a major moment in the budget hotel industry. Rivett founded Super 8 with the philosophy of a 'clean, comfortable room for a few bucks less than the guy next door.'\n\nBy 1993, Super 8 had grown to achieve a milestone of 1,000 locations globally, helping the brand become one of the leading budget hotel chains at that time. The same year, Rivett sold the business to Hospitality Franchise Systems. The brand is now called Super 8 by Wyndham and operates as a Wyndham Hotels and Resorts subsidiary.\n\nFurthering the philosophy of Super 8 and incorporating modern touches to create an affordable extended-stay brand, Rivett established My Place Hotels of America with his grandson, Ryan Rivett, now CEO, in 2012.\n\nThe first hotel opened in February 2012 in Dickinson, N.D. Since then, the upper-midscale extended-stay brand has expanded significantly, now comprising approximately 115 franchises across 36 states.\n\n\"Ron was an entrepreneur in every sense of the word and "
+            },
+            {
+              "docid": "67603",
+              "url": "https://www.wikiwand.com/en/articles/Video_games_in_the_United_States",
+              "title": "Video games in the United States",
+              "score": 22.46003472918875,
+              "snippet": "Video games in the United States\n---\ntitle: Video games in the United States\ndate: 2023-06-15\n---\nEnglish\n\nTop Qs\n\nTimeline\n\nChat\n\nPerspective\n\nFrom Wikipedia, the free encyclopedia\n\nRemove ads\n\nThe video game industry in the United States is one of the fastest-growing entertainment industries in the country. The American video game industry is the largest video game industry in the world. According to a 2020 study released by the Entertainment Software Association (ESA), the yearly economic output of the American video game industry in 2019 was $90.3 billion, supporting over 429,000 American jobs. With an average yearly salary of about $121,000, the latter figure includes over 143,000 individuals who are directly employed by the video game business. Additionally, activities connected to the video game business generate $12.6 billion in federal, state, and local taxes each year.[1] The World Economic Forum estimates that, by 2025, the American gaming industry will reach $42.3 billion while the worldwide gaming industry will possibly reach US$270 billion.[2][3] The United States is one of the nations with the largest influence in the video game industry, with video games representing a significant part of its economy.\n\nMajor publishers headquartered in the United States are: Sony Interactive Entertainment, Microsoft Gaming (consist of Xbox Game Studios, Bethesda Softworks and Activision Blizzard), Electronic Arts, Take-Two Interactive, Epic Games, Valve, Warner Bros. Games, Ri"
+            },
+            {
+              "docid": "48155",
+              "url": "https://www.upmenu.com/fast-food-statistics/",
+              "title": "The History of Fast Food: Statistics & Numbers",
+              "score": 22.09984940621966,
+              "snippet": "The History of Fast Food: Statistics & Numbers\n---\ntitle: The History of Fast Food: Statistics & Numbers\ndate: 2025-01-01\n---\nThe History of Fast Food: Statistics & Numbers\n\nWho dominates the fast food industry? How large is the fast food industry? We've traced the growth of 16 leading fast-food chains.\n\n- Products Sell\n\n- Online Ordering SystemOnline Ordering System Sell directly from your website with commission-free ordering\n\n- Mobile AppMobile App Get your own branded iOS and Android mobile app\n\n- Website BuilderWebsite Builder Create a restaurant website with an easy drag-and-drop editor\n\n- Website TemplatesWebsite Templates Choose from 40+ website templates for any restaurant\n\n- QR Code MenuQR Code Menu Create a paperless digital menu with QR codes\n\nManage- Delivery ManagementDelivery Management Manage your deliveries & drivers with courier app\n\n- Delivery DispatcherDelivery Dispatcher Start offering deliveries with third-party services—no own fleet needed\n\n- Order AggregationOrder Aggregation Manage all orders from every channel in one place — no more multiple tablets\n\n- IntegrationsIntegrations Integrate with your POS, food ordering platforms and delivery services\n\nEngageSee all features- Marketing ToolsMarketing Tools Run your marketing on auto-pilot using all-in-one tools\n\n- Loyalty ProgramLoyalty Program Build loyalty and retention with a rewards program\n\n- Restaurant CRMRestaurant CRM Manage customer data and relationships in one place\n\n- Email MarketingEmail Mark"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tool_call",
+      "tool_name": "visit",
+      "arguments": {
+        "url": [
+          "https://hotelsmag.com/news/ron-rivett-co-founder-of-my-place-super-8-dies/"
+        ],
+        "goal": "Find full biographical details about Ron Rivett: birth year, college graduation, town where he lived, etc."
+      },
+      "output": [
+        {
+          "url": "https://hotelsmag.com/news/ron-rivett-co-founder-of-my-place-super-8-dies/",
+          "docid": "97901",
+          "goal": "Find full biographical details about Ron Rivett: birth year, college graduation, town where he lived, etc.",
+          "content": "Ron Rivett, co-founder of My Place, Super 8, passes away at 83\n---\ntitle: Ron Rivett, co-founder of My Place, Super 8, passes away at 83\nauthor: Kathakali Nandi December ; Hotels News\ndate: 2023-12-14\n---\nRon Rivett, an entrepreneur who founded Super 8, helping to usher in and foster the branded economy segment in the U.S., and in a second act co-founded My Place Hotels America, passed away on December 9 at the age of 83.\n\nRivett co-founded Super 8 Motels with his long-time friend Dennis Brown in 1974 in Aberdeen, S.D., marking a major moment in the budget hotel industry. Rivett founded Super 8 with the philosophy of a 'clean, comfortable room for a few bucks less than the guy next door.'\n\nBy 1993, Super 8 had grown to achieve a milestone of 1,000 locations globally, helping the brand become one of the leading budget hotel chains at that time. The same year, Rivett sold the business to Hospitality Franchise Systems. The brand is now called Super 8 by Wyndham and operates as a Wyndham Hotels and Resorts subsidiary.\n\nFurthering the philosophy of Super 8 and incorporating modern touches to create an affordable extended-stay brand, Rivett established My Place Hotels of America with his grandson, Ryan Rivett, now CEO, in 2012.\n\nThe first hotel opened in February 2012 in Dickinson, N.D. Since then, the upper-midscale extended-stay brand has expanded significantly, now comprising approximately 115 franchises across 36 states.\n\n\"Ron was an entrepreneur in every sense of the word and every endeavor he took on, always finding ways to improve,\" said Ryan Rivett, co-founder and CEO of My Place Hotels. \"His foresight was uncanny and his ability to cast vision remarkable to say the least. In his ever-pragmatic approach, Ron diligently ensured that the value and integrity of the businesses he created would be well positioned to proceed long after he was gone.\"\n\nAn alumnus of Northern State University, he lived his entire life at Aberdeen, S.D. He has three daughters with his first wife. With his second wife, Sharon, he has two sons, and together, the couple has seven grandchildren and nine great-grandchildren.",
+          "truncated": false,
+          "original_chars": 2132
+        }
+      ]
+    },
+    {
+      "type": "tool_call",
+      "tool_name": "search",
+      "arguments": {
+        "query": [
+          "Ron Rivett born 1940 Northern State University",
+          "Aberdeen South Dakota founded year history",
+          "Ron Rivett biography early life education"
+        ]
+      },
+      "output": [
+        {
+          "query": "Ron Rivett born 1940 Northern State University",
+          "results": [
+            {
+              "docid": "65663",
+              "url": "https://en.wikipedia.org/wiki/Ron_Rivett",
+              "title": "Ron Rivett - Wikipedia",
+              "score": 38.20190873868626,
+              "snippet": "Ron Rivett - Wikipedia\n---\ntitle: Ron Rivett - Wikipedia\ndate: 2016-12-27\n---\nRon Rivett (August 2, 1940 - December 9, 2023) was an American entrepreneur. He was best known for being founder of Super 8 Motels and My Place hotels. By 1993, Super 8 had 1,000 locations worldwide. Super 8 grew to be the largest budget hotel chain in the world. In 1993, Rivett sold Super 8 Motels to Hospitality Franchise Systems for $125 million. \n\nIn 2012, he founded My Place Hotels of America,Five questions: Ron Rivett, co-founder of My Place Hotels which is known for its brands My Place Hotels and Trend Hotels & Suites. Rivett served as the chairman for My Place Hotels of America. \n\nOn December 9, 2023, Rivett died at Baptist Medical Center in Miami, FL \n\nEducation\n\nRivett graduated from Northern State University with a degree in business in 1963 and received an honorary \"Doctorate of Humane Letters\" from NSU in 1990.Ronald J. Rivett - Utah Hospitality\n\nMy Place Hotels of America\n\nMy Place Hotels of America is a hospitality company in the United States headquartered in Aberdeen, South Dakota.\n\nThe company announced My Place Hotels alongside its franchising system in 2014. The brand was founded by Rivett and grandson Ryan (Rivett) in 2012. The hospitality company had 56 My Place Hotels open across 27 states as of June 2020.\n\nThe company announced a new brand, Trend Hotels & Suites, in June 2020.\n\nReferences\n\nCategory:1940 births\nCategory:2023 deaths\nCategory:American hoteliers\nCategory:Northern "
+            },
+            {
+              "docid": "97901",
+              "url": "https://hotelsmag.com/news/ron-rivett-co-founder-of-my-place-super-8-dies/",
+              "title": "Ron Rivett, co-founder of My Place, Super 8, passes away at 83",
+              "score": 31.586932114826947,
+              "snippet": "Ron Rivett, co-founder of My Place, Super 8, passes away at 83\n---\ntitle: Ron Rivett, co-founder of My Place, Super 8, passes away at 83\nauthor: Kathakali Nandi December ; Hotels News\ndate: 2023-12-14\n---\nRon Rivett, an entrepreneur who founded Super 8, helping to usher in and foster the branded economy segment in the U.S., and in a second act co-founded My Place Hotels America, passed away on December 9 at the age of 83.\n\nRivett co-founded Super 8 Motels with his long-time friend Dennis Brown in 1974 in Aberdeen, S.D., marking a major moment in the budget hotel industry. Rivett founded Super 8 with the philosophy of a 'clean, comfortable room for a few bucks less than the guy next door.'\n\nBy 1993, Super 8 had grown to achieve a milestone of 1,000 locations globally, helping the brand become one of the leading budget hotel chains at that time. The same year, Rivett sold the business to Hospitality Franchise Systems. The brand is now called Super 8 by Wyndham and operates as a Wyndham Hotels and Resorts subsidiary.\n\nFurthering the philosophy of Super 8 and incorporating modern touches to create an affordable extended-stay brand, Rivett established My Place Hotels of America with his grandson, Ryan Rivett, now CEO, in 2012.\n\nThe first hotel opened in February 2012 in Dickinson, N.D. Since then, the upper-midscale extended-stay brand has expanded significantly, now comprising approximately 115 franchises across 36 states.\n\n\"Ron was an entrepreneur in every sense of the word and "
+            },
+            {
+              "docid": "87304",
+              "url": "https://www.sdpb.org/news/2023-12-14/aberdeen-hotel-founder-ron-rivett-dies-at-age-83",
+              "title": "Aberdeen hotel founder Ron Rivett dies at age 83",
+              "score": 30.565644042120326,
+              "snippet": "Aberdeen hotel founder Ron Rivett dies at age 83\n---\ntitle: Aberdeen hotel founder Ron Rivett dies at age 83\nauthor: SDPB\ndate: 2023-12-14\n---\nAn Aberdeen businessman known for founding several major hotel chains has died.\n\nRon Rivett passed away over the weekend, according to his family.\n\nRivett founded both the Super 8 and My Place hotel chains. The first Super 8 opened in 1974 in Aberdeen. It now has over 2,000 locations worldwide, according to its parent company, Wyndham Hotels.\n\nAn Aberdeen native, Rivett graduated from Northern State University in 1963.\n\nHe was 83."
+            },
+            {
+              "docid": "85299",
+              "url": "https://libguides.consortiumlibrary.org/ASCAirForce",
+              "title": "United States. Air Force in Alaska archival collections",
+              "score": 26.964067203106463,
+              "snippet": "United States. Air Force in Alaska archival collections\n---\ntitle: United States. Air Force in Alaska archival collections\ndate: 2025-03-31\n---\n');\n\nSkip to Main ContentYou may be able to find additional resources on this topic by searching the guides to all of our collections on our website, or using the search box below.\n\nAfrican American history in Alaska\n\nAlaska Constitutional Convention and statehood\n\nAlaska state legislators and legislation\n\nAnchorage Winter Olympics bids\n\nArctic National Wildlife Refuge\n\nBusinesses, clubs, and organizations\n\nFishing, fisheries, and canneries\n\nFur trading, trapping, and farming\n\nGeography and environmental studies\n\nNon-English language collections\n\nSenior Citizen issues and advocacy\n\nStudent newspapers, Anchorage Community College and University of Alaska Anchorage\n\nThis guide contains information about collections related to the United States Air Force in Alaska. During World War II, Alaska became the Air defense of Alaska protecting America on the Pacific coast. Post World War II in 1947, the United States Army Air Force was reduced and a new branch of the United States Military, the United States Air Force, was born. This guide lists collections related to both the U.S. Army Air Force during World War II, such as the and the later United States Air Force.\n\nPlease note that this guide may not be comprehensive, and there may be material related to the Air Force in Collections not listed here. We suggest using this guide as a starting p"
+            },
+            {
+              "docid": "66376",
+              "url": "https://en.wikipedia.org/wiki/Super_8_(hotel)",
+              "title": "Super 8 (hotel) - Wikipedia",
+              "score": 24.860272524831363,
+              "snippet": "Super 8 (hotel) - Wikipedia\n---\ntitle: Super 8 (hotel) - Wikipedia\ndate: 2005-07-27\n---\nname: Super 8 by WyndhamSuper 8 Worldwide, Inc.\nlogo: Super 8.svg\nlogo_size: 130px\npredecessor: Main Street Inn\nfoundation: 1974, Aberdeen, South Dakota\nfounders: Ron Rivett Dennis Brown\nlocation_city: Parsippany-Troy Hills, New Jersey\nlocation_country: United States\nlocations: 2, 691Super 8 by Wyndham HotelsLocations Super 8 by Wyndham Hotels 2021-09-09 \narea_served: United States, Canada, China, Brazil, Germany, Saudi Arabia, United Arab Emirates, United Kingdom\nindustry: Hotels\nparent: Wyndham Hotels & Resorts\nhomepage: \n\nSuper 8 by Wyndham, commonly known as Super 8, is an American hotel brand, being the world's largest budget hotel chain with over 2,600 locations worldwide. The chain is a subsidiary of Wyndham Hotels and Resorts. The original room cost was $8.88 per night. As of December 2022, the brand website listed 2,691 hotels worldwide.\n\nHistory\n\nLaunch\n\nRon Rivett and Dennis Brown created the new Super 8 Motel corporation with each of them owning 50% of the stock in the new company. The original room rate was US$8.88 (equivalent to $50.07 in 2021), hence the numeric brand name. The first Super 8, with 60 rooms, opened in Aberdeen, South Dakota, in 1974, built near a Holiday Inn with just some drawings made by Rivett as blueprints. The stucco exterior with an English Tudor style was inspired by Rivett's father-in-law, who was a stuccoer; the English Tudor style and placing of Sup"
+            },
+            {
+              "docid": "96952",
+              "url": "http://furrowedmiddlebrow.blogspot.com/2020/04/the-world-war-ii-fiction-list.html",
+              "title": "FURROWED MIDDLEBROW",
+              "score": 23.329750028510478,
+              "snippet": "FURROWED MIDDLEBROW\n---\ntitle: FURROWED MIDDLEBROW\nauthor: Furrowed Middlebrow\ndate: 2020-04-02\n---\nThose who have followed this blog for a while will recall that back in 2015 I created a \"World War II Book List\". It was a list of WWII-themed books mostly by women who qualified for my master list. It was divided into six thematic sections: 1) Diaries/Memoirs, 2) Fiction: The Approach of War and Early Days, 3) Fiction: The Thick of It, 4) Fiction: The Immediate Postwar, 5) Fiction: Retrospective (post-1950), 6) Other Non-fiction.\n\nI managed to update the list once, in May of 2016, after which it languished, in part because its format made it a pain to revise. Since I had done lots more research since then—including quite a lot in preparation for a WWII-themed batch of Furrowed Middlebrow titles from Dean Street Press—I had lots and lots of new titles to add. But I just couldn't face that format. In addition to logistics, it was a wee bit clunky conceptually, since although everyone who reads a lot of WWII fiction will recognize the distinction between the cheerful, gung-ho tone of most \"early days\" novels and the more fatigued tone of novels from the \"thick of it\", it was sometimes challenging to determine where lesser-known titles belonged. Likewise, it always bothered me that the works of an author like Angela Thirkell or D. E. Stevenson, for example, were split across three or even four sections of the list.\n\nSo, the old list is done with, finished, finito! (Well, not reall"
+            },
+            {
+              "docid": "16657",
+              "url": "https://en.wikipedia.org/wiki/2022_deaths_in_the_United_States_(July%E2%80%93December)",
+              "title": "2022 deaths in the United States (July–December) - Wikipedia",
+              "score": 20.055554505877517,
+              "snippet": "2022 deaths in the United States (July–December) - Wikipedia\n---\ntitle: 2022 deaths in the United States (July–December) - Wikipedia\ndate: 2023-01-13\n---\nThe following notable deaths in the United States occurred in 2022 within the period July–December. Names are reported under the date of death, in alphabetical order as set out in WP:NAMESORT.\nA typical entry reports information in the following sequence:\nName, age, country of citizenship at birth and subsequent nationality (if applicable), what subject was noted for, year of birth (if known), and reference.\n\nJuly\n\n* July 1\n** Richard Taruskin, 77, musicologist (Oxford History of Western Music) (b. 1945)\n* July 2\n** Ed Hindson, 77, televangelist and academic (Liberty University) (b. 1944)\n** Ryan Leone, 36, novelist and prison reform activist (b. 1985)\n** Jim Van Pelt, 86, football player (Michigan Wolverines, Winnipeg Blue Bombers) (b. 1935)\n** Jeffrey Plale, 54, politician, Wisconsin Railroad Commissioner (2011–2016), member of the Wisconsin State Assembly (1996–2003) and Senate (2003–2011) (b. 1968)\n** Spider Webb, 78, tattoo artist (b. 1944)\n** John Watson, 73, football player (San Francisco 49ers, New Orleans Saints) (b. 1949)\n* July 3\n** Clifford Alexander Jr., 88, lawyer, Secretary of the Army (1977–1981) (b. 1933)\n** Joseph Banowetz, 87, classical pianist and pedagogue (b. 1934)\n** Robert Curl, 88, chemist, Nobel Prize laureate (1996) (b. 1933) \n** Bradford C. Freeman, 97, World War II veteran, last surviving member "
+            },
+            {
+              "docid": "76991",
+              "url": "https://www.olivercromwell.org/wordpress/cromwells-wife-and-children/",
+              "title": "Cromwell's Wife and Children",
+              "score": 19.956843762038066,
+              "snippet": "Cromwell's Wife and Children\n---\ntitle: Cromwell's Wife and Children\ndate: 2017-08-01\n---\nHow much do we know about Cromwell's own family?\n\nAlthough we have only occasional glimpses of Cromwell's personal and family life and know very little about his and his wife's childhood or about the childhood of their own children, their adult lives are fairly well recorded and documented.\n\nIn August 1620, just a few months after his twenty-first birthday, Oliver Cromwell married Elizabeth Bourchier at St Giles's church in Cripplegate, London. Elizabeth had been born in 1598, the eldest of twelve children (nine sons and three daughters) of Sir James Bourchier and his wife Frances, who was a daughter of Thomas Crane of Newton Tony, Wiltshire. Sir James, an only son, had inherited land and property from his father, and seems himself to have been a successful and prosperous businessman in London, reportedly involved in the fur and leather trades. He owned property both in the City of London, especially around Tower Hill, and in Essex, especially Little Stambridge Hall. He had been knighted by James I in July 1603. The Bourchier family from which Elizabeth sprang does not seem to have been connected with the noble families of that name, including the late medieval Bourchier Earls of Essex; nor, as far as we can tell, was Elizabeth related to the Sir William Bourchier who married Cromwell's relative Katherine/Catherine Barrington and who fathered the regicide Sir John Bourchier. We know virt"
+            },
+            {
+              "docid": "41317",
+              "url": "https://www.hoteldive.com/news/my-place-new-prototype-enhancements/726837/",
+              "title": "'How freaked out should we be?': Taking the pulse of the hotel industry",
+              "score": 19.083872136989445,
+              "snippet": "'How freaked out should we be?': Taking the pulse of the hotel industry\n---\ntitle: 'How freaked out should we be?': Taking the pulse of the hotel industry\nauthor: Noelle Mateer Editor\ndate: 2025-06-09\n---\nDive Brief:\n\n- My Place Hotels of America launched My Place 3.0, a new hotel prototype and a set of product enhancements, the South Dakota-based extended stay hotel brand announced Wednesday in a release obtained by Hotel Dive.\n\n- In addition to the new four-story, 71-key prototype, available upgrades include a new exterior design and a new room type, the My Place Business Suite, designed to boost ADRs and upsell opportunities, according to CEO Ryan Rivett.\n\n- My Place anticipates \"several\" installations of the new prototype in 2025. Rivett said the enhancements offer more flexibility amid the current cost environment, a move intended to \"directly benefit franchisees.\"\n\nDive Insight:\n\nMy Place's new exterior design option \"blends the cost-effectiveness of a pitched roof with the modern aesthetics of a flat roof,\" according to My Place, which will allow individual hotels to \"switch based on preferences or local regulations.\" Hotel owners can also customize the exterior's masonry options, and exterior finishes can be interchanged between manufactured panels and applied options like Dryvit plaster, My Place shared.\n\n\"[F]lexibility promotes availability, and availability improves time to market,\" said Rivett, in a statement.\n\nMy Place is continuing to offer its 87-key prototype "
+            },
+            {
+              "docid": "60377",
+              "url": "https://en.wikipedia.org/wiki/2024_deaths_in_the_United_States",
+              "title": "2024 deaths in the United States - Wikipedia",
+              "score": 18.64717015820623,
+              "snippet": "2024 deaths in the United States - Wikipedia\n---\ntitle: 2024 deaths in the United States - Wikipedia\ndate: 2023-12-24\n---\nThe following notable deaths in the United States occurred in 2024. Names are reported under the date of death, in alphabetical order as set out in WP:NAMESORT.\nA typical entry reports information in the following sequence:\nName, age, country of citizenship at birth and subsequent nationality (if applicable), what subject was noted for, year of birth (if known), and reference.\n\nJanuary\n\n* January 1\n** Adaora Adimora, 67, doctor and academic (b. 1956)'A true pioneer': ID physician, researcher Adaora Adimora, MD, MPH, FIDSA, dies at 67\n** Anthony J. Alvarado, 81, educator, New York City Schools Chancellor (1983–1984) (b. 1942)Anthony Alvarado\n** Mickey Cottrell, 79, actor (My Own Private Idaho, Drugstore Cowboy, Volcano) and publicist (b. 1944)Mickey Cottrell, Veteran Publicist and Champion of Independent Film, Dies at 79\n** J. Russell George, 60, attorney, treasury inspector general for tax administration (since 2004) (b. 1963)TIGTA head J. Russell George has died\n** Lynja, 67, internet personality (b. 1956)Lynn Yamada Davis, the TikTok star known for 'Cooking with Lynja' dies at 67\n** Ved Prakash Nanda, India-born legal scholarProf Ved Prakash Nanda passes away in US, PM offers condolences\n** Jack O'Connell, 64, author (b. 1959)John F. O'Connell\n** Frank Ryan, 87, football player (Los Angeles Rams, Cleveland Browns, Washington Redskins) (b. 1936)Frank Ryan"
+            }
+          ]
+        },
+        {
+          "query": "Aberdeen South Dakota founded year history",
+          "results": [
+            {
+              "docid": "9580",
+              "url": "https://history.sd.gov/archives/womenshistory.aspx",
+              "title": "RESOURCES",
+              "score": 28.210326404918348,
+              "snippet": "RESOURCES\n---\ntitle: RESOURCES\ndate: 2000-01-01\n---\nWomen's History Collection\n\nLetters, diaries, reminiscences, photographs, and organizational records bring history alive through the voices of women who participated in events as they happened. Whether it be a description of day-to-day activities on a family farm or letters which chronicle the lives of a prominent family, each is a part of our history. Donors to the State Archives are aware of the significance of women and their contributions to the history of our state, which can be seen in the increasing volume of women's resources added to the archives collections in the past twenty years.\n\nIn addition to the collections cited here, the State Archives has many other resources in which women's voices are found. Church records, county, city, and family histories, census records, naturalization records, school census records, the biographical file, the general photograph collection, the South Dakota Authors file, and South Dakota newspapers are some of the sources available.\n\nStill more materials are found in other government record groups. Department of Education records documenting teacher certifications, Secretary of State photographs, Cosmetology Commission licensing records, County Mother's Pension records, Board of Nursing records, the WPA nursery project, and the Commission on the Status of Women records all provide insight into the lives of South Dakota women.\n\nIn addition, scholars have used archives collections for"
+            },
+            {
+              "docid": "5642",
+              "url": "https://en.wikipedia.org/wiki/Presentation_Sisters",
+              "title": "Presentation Sisters - Wikipedia",
+              "score": 27.24863199716487,
+              "snippet": "Presentation Sisters - Wikipedia\n---\ntitle: Presentation Sisters - Wikipedia\ndate: 2006-10-12\n---\nThe Presentation Sisters, officially the Sisters of the Presentation of the Blessed Virgin Mary, are a religious institute of Roman Catholic women founded in Cork, Ireland, by Honora \"Nano\" Nagle in 1775. The sisters of the congregation use the postnominal initials PBVM.\n\nThe Presentation Sisters' mission is to help the poor and needy around the world. Historically, the Sisters focused their energies on creating and staffing schools that would educate young people, especially young women. Most of these schools are still in operation and can be found across the globe.\n\nAs of 2024, the Presentation Sisters are active in 19 countries: Australia, Bolivia, Canada, Chile, Dominica, Ecuador, India, Ireland, Israel, New Zealand, Pakistan, Papua New Guinea, Peru, Philippines, Thailand, United Kingdom, United States, Zambia, and Zimbabwe.\n\nHistory\n\nBeginnings\n\nHonora (Nano) Nagle (1718–1784) was born in Ballygriffin, Cork, Ireland. Her wealthy Catholic family provided her the advantage of an education in France, at a time when Ireland's Education Act 1695 precluded the less advantaged from education. She quietly began teaching Irish children in the trading port of Cork City, and her reputation spread widely. In a 1769 letter, she wrote: \"I often think my schools will never bring me to heaven, as I only take delight and pleasure in them... I can assure you my schools are beginning to be of "
+            },
+            {
+              "docid": "82087",
+              "url": "https://en.wikipedia.org/wiki/L._Frank_Baum",
+              "title": "L. Frank Baum - Wikipedia",
+              "score": 26.83558489982581,
+              "snippet": "L. Frank Baum - Wikipedia\n---\ntitle: L. Frank Baum - Wikipedia\nauthor: Authority control databases\ndate: 2001-09-29\n---\nname: L. Frank Baum\npseudonym: George Brooks, Louis F. Baum, Laura Bancroft, Suzanne Metcalf, Capt. Hugh Fitzgerald, Schuyler Staunton, Edith Van Dyne, Floyd Akers, John Estes Cooke\nbirth_name: Lyman Frank Baum\nbirth_date: 15 05 1856\nbirth_place: Chittenango, New York, U.S.\ndeath_date: 06 05 1919\ndeath_place: Los Angeles, California, U.S.\nresting_place: Forest Lawn Memorial Park\noccupation: Author\ngenre: Fantasy, poetry, short stories\nspouse: Maud Gage Baum (m. November 9, 1882)\nchildren: 4, including Frank and Harry\nrelatives: Matilda Joslyn Gage (mother-in-law)Roger S. Baum (great-grandson)\nsignature: L Frank Baum Signature.svg\n\nLyman Frank Baum (; May 15, 1856 – May 6, 1919) was an American author best known for his children's fantasy books, particularly The Wonderful Wizard of Oz, part of a series. In addition to the 14 Oz books, Baum penned 41 other novels (not including four lost, unpublished novels), 83 short stories, over 200 poems, and at least 42 scripts. He made numerous attempts to bring his works to the stage and screen; the 1939 adaptation of the first Oz book became a landmark of 20th-century cinema.\n\nBorn and raised in Chittenango, New York, Baum moved west after an unsuccessful stint as a theater producer and playwright. He and his wife opened a store in South Dakota and he edited and published a newspaper. They then moved to Chicago, where "
+            },
+            {
+              "docid": "86905",
+              "url": "https://northwestairlineshistory.org/timeline-1940s/",
+              "title": "Timeline – 1940s",
+              "score": 25.455626681939812,
+              "snippet": "Timeline – 1940s\n---\ntitle: Timeline – 1940s\ndate: 2025-03-09\n---\n1940\n\n- June: The Civilian Pilot Training Program is greatly expanded by the U.S. War Department. Zimmerly opens an additional flying training school in LaGrande, Oregon.\n\n1941\n\n- February 14: NWA common stock is publicly traded for the first time.\n\n- Northwest's annual passenger revenue exceeds mail revenue for the first time.\n\n1942\n\n- Service to several smaller cities is suspended when the government commandeers half of Northwest's fleet.\n\n- February: The U.S. government looks to Northwest and its experience in extreme cold and mountainous terrain to set up an aerial highway between the industrial heartland of the Midwest up to Alaska. Frank Judd, an NWA pilot since 1931, is given responsibility for the new Northern Division.\n\n- March 15: Northwest begins regular service along the air bridge to Alaska. Key points linked out of Minneapolis/St. Paul include Edmonton, Alberta; Ft. John and Ft. Nelson, British Columbia; Watson Lake and Dawson, Yukon; and Fairbanks and Anchorage in Alaska.\n\n- May 12: Northwest Flight 1, operated by a DC-3, overruns the runway at Miles City, Montana, hits obstacles on the ground, and crashes while attempting to go around. 3 perish out of the 14 aboard.\n\n- In the first six months of World War II, Northwest flies over one million pounds of cargo through Minneapolis. Two thousand NWA staff are at work on various projects to support the war effort.\n\n- December: The main hangar for the "
+            },
+            {
+              "docid": "71568",
+              "url": "https://horatioalger.org/members/detail/joseph-robbie/",
+              "title": "Joseph Robbie*",
+              "score": 23.967973701420195,
+              "snippet": "Joseph Robbie*\n---\ntitle: Joseph Robbie*\ndate: 2025-01-01\n---\nJoseph Robbie*\n\nClass of 1979\n\n- President and Owner Miami Dolphins\n\nJoseph Robbie was born in Sisseton, South Dakota, in 1916. His father was a Lebanese immigrant, and his mother was a second-generation descendant of Irish and Swiss pioneers. His father managed the town's café and pool hall. His mother worked at the café as a waitress and pastry cook.\n\nDuring the Great Depression, the family lost the café, and Robbie's father became a night watchman. Robbie took a year off from high school to serve in the Civilian Conservation Corps to help his family. In 1935, he graduated with honors from high school and then went on to Northern State Teachers College in Aberdeen. He began studying law at the University of South Dakota, but enlisted in the U.S. Navy when the United States entered World War II.\n\nAfter the war, Robbie used the GI bill to finish law school, and he became a successful trial lawyer in Mitchell, South Dakota. At age 33, he entered politics and was elected to the South Dakota House of Representatives. In the early 1950s, after an unsuccessful bid for governor of South Dakota, Robbie became head of the Office of Price Stabilization for four states.\n\nIn 1965, Robbie became the first owner of the Miami Dolphins football team, and in 1987, he built the $115 million Joe Robbie Stadium with private funds."
+            },
+            {
+              "docid": "76731",
+              "url": "https://quoteinvestigator.com/2015/11/05/new-ending/",
+              "title": "Quote Origin: We Cannot Go Back and Start Over, But We Can Begin Now, and Make a New Ending",
+              "score": 23.807286735592943,
+              "snippet": "Quote Origin: We Cannot Go Back and Start Over, But We Can Begin Now, and Make a New Ending\n---\ntitle: Quote Origin: We Cannot Go Back and Start Over, But We Can Begin Now, and Make a New Ending\nauthor: This Is A Placeholder Posted By Quoteresearch\ndate: 2015-11-05\n---\nZig Ziglar? C. S. Lewis? Carl Bard? James R. Sherman? Philadelphia Eagles Football Team? Barrie M. Tritie? Dennis Reinhart? Maria Robinson? Jessie Jones? Michael York?\n\nQuestion for Quote Investigator: Whenever I reach a dead-end or feel that I am stuck in a rut I can be re-energized by the following inspirational saying. Here are two versions:\n\nAlthough no one can go back and make a brand new start, anyone can start from now and make a brand new ending.\n\nYou can't go back and change the beginning, but you can start where you are and change the ending.\n\nThis saying has been attributed to fantasy author C. S. Lewis, motivational speaker Zig Ziglar, and someone named Carl Bard. Would you please explore the provenance of this expression?\n\nReply from Quote Investigator: QI has found no substantive evidence supporting the linkage to C. S. Lewis. He died in 1963, and he received credit by 2017.\n\nZig Ziglar did employ this saying, and he credited Carl Bard. However, the earliest citation located by QI was written by another individual. In 1982 the author James R. Sherman, Ph. D. published a book titled \"Rejection\" which included the following prefatory statement:\n\nAll of us have been rejected more than once. We've bee"
+            },
+            {
+              "docid": "58530",
+              "url": "https://dacotahprairiemuseum.org/unit-1-how-aberdeen-was-founded/",
+              "title": "How Aberdeen was Founded",
+              "score": 23.55892463569908,
+              "snippet": "How Aberdeen was Founded\n---\ntitle: How Aberdeen was Founded\ndate: 2025-01-01\n---\nDacotah Prairie Museum Foundation, an independent nonprofit corporation that supports the Dacotah Prairie Museum, owns the collection and operates The Mercantile gift shop.\n\nIn the late 1800s, Aberdeen did not look like it does today. Very few people lived where Aberdeen is today because there were no roads to bring people here, and there were no homes, stores, schools or other buildings here either. Aberdeen was part of a large grassy area called a prairie.\n\nThe population of America was growing, and the people who lived in the eastern part of the country wanted to find new places to live in the unsettled western part of the country where Aberdeen was. Many farmers in Minnesota and Wisconsin wanted to have larger farms but there were no more farms for them to buy where they lived, so they were also interested in moving west to places like Aberdeen. This was a time of expansion for our country.\n\nRailroad companies were the first businesses to come into the prairie area, building tracks so their trains could bring people and supplies to the unsettled parts of America.\n\nCharles Prior worked for the Chicago, Milwaukee, and St. Paul railroad in Minneapolis, and his job was to decide where the new railroad tracks would go and make new towns along the railroad, including Aberdeen. Charles Prior named each town he founded after a place or person he knew. He called our town Aberdeen because Mr. Prior's "
+            },
+            {
+              "docid": "33257",
+              "url": "https://en.wikipedia.org/wiki/Knight_Ridder",
+              "title": "Knight Ridder - Wikipedia",
+              "score": 23.438436525779967,
+              "snippet": "Knight Ridder - Wikipedia\n---\ntitle: Knight Ridder - Wikipedia\ndate: 2004-03-25\n---\nname: Knight Ridder\nlogo: Knight Ridder logo.gif\nimage_caption: The Knight Ridder building in San Jose, California.\nindustry: Mass media\nfate: Purchased by The McClatchy Company\npredecessor: Knight Newspapers, Inc., Ridder Publications, Inc.\nsuccessor: The McClatchy Company\nfounded: 11 07 1974\nfounder: John S. Knight, Herman Ridder\ndefunct: 27 06 2006(1974 11 2006 27)\nhq_location_city: San Jose, California\nhq_location_country: United States\nproducts: Newspapers\n\nKnight Ridder was an American media company, specializing in newspaper and Internet publishing. It was bought by McClatchy on June 27, 2006, allowing the latter to become the second largest newspaper publisher in the United States at the time, with 32 daily newspaper brands sold. Its headquarters were located in San Jose, California.\"Where We Are.\" Knight Ridder. April 28, 2005. Retrieved on August 28, 2012. \"Knight Ridder 50 W. San Fernando St. San Jose, CA 95113\" and \"Knight Ridder Digital 35 South Market Street San Jose, CA 95113-2302\"\n\nHistory\n\nOrigins\n\nThe corporate ancestors of Knight Ridder were Knight Newspapers, Inc. and Ridder Publications, Inc. The first company was founded by John S. Knight upon inheriting control of the Akron Beacon Journal from his father, Charles Landon Knight, in 1933; the second company was founded by Herman Ridder when he acquired the , a German language newspaper, in 1892. As anti-German sentiment in"
+            },
+            {
+              "docid": "2733",
+              "url": "https://www.amazon.com/How-Lucky-You-Can-Be/dp/034552411X",
+              "title": "How Lucky You Can Be: The Story of Coach Don Meyer Hardcover – November 9, 2010",
+              "score": 22.608135617989145,
+              "snippet": "How Lucky You Can Be: The Story of Coach Don Meyer Hardcover – November 9, 2010\n---\ntitle: How Lucky You Can Be: The Story of Coach Don Meyer Hardcover – November 9, 2010\nauthor: Buster Olney\ndate: 2010-11-09\n---\n-42% $14.53$14.53\n\nDelivery Thursday, June 19\n\nShips from: Amazon Sold by: Bookstan\n\n$9.49$9.49\n\nDelivery Saturday, June 14\n\nShips from: Amazon Sold by: Zoom Books Company\n\nReturn this item for free\n\nFree returns are available for the shipping address you chose. You can return the item for any reason in new and unused condition: no return shipping charges.\n\nLearn more about free returns.- Go to your orders and start the return\n\n- Select your preferred free shipping option\n\n- Drop off and leave!\n\nSorry, there was a problem.\n\nThere was an error retrieving your Wish Lists. Please try again.Sorry, there was a problem.\n\nList unavailable.Download the free Kindle app and start reading Kindle books instantly on your smartphone, tablet, or computer - no Kindle device required.\n\nRead instantly on your browser with Kindle for Web.\n\nUsing your mobile phone camera - scan the code below and download the Kindle app.\n\nImage Unavailable\n\nColor:\n\n-\n\n-\n\n-\n\n- To view this video download Flash Player\n\n- VIDEO\n\nHow Lucky You Can Be: The Story of Coach Don Meyer Hardcover – November 9, 2010\n\nPurchase options and add-ons\n\nIn How Lucky You Can Be, acclaimed sports journalist Buster Olney tells the remarkable story of the successive tragedies that befell Coach Meyer but could not defeat him. "
+            },
+            {
+              "docid": "55806",
+              "url": "https://www.archives.gov/research/census/publications-microfilm-catalogs-census/1920/part-01.html",
+              "title": "1920 Federal Population Census - Microfilm Catalog - Part 1",
+              "score": 21.851869018884678,
+              "snippet": "1920 Federal Population Census - Microfilm Catalog - Part 1\n---\ntitle: 1920 Federal Population Census - Microfilm Catalog - Part 1\ndate: 2018-07-12\n---\n1920 Federal Population Census - Microfilm Catalog - Part 1\n\n- Introduction\n\n- Census Schedules\n\n- Soundex\n\n- Research Hints\n\n- Enumeration Districts (EDs)\n\n- Enumeration District Maps By State\n\n- How to Order Microfilm\n\n- Regional Archives System\n\nSee Also:\n\nIntroduction\n\nThis catalog lists the 1920 population schedules, reproduced as microfilm publication T625, and the 1920 Soundex indexes.\n\nThis microfilm has been reproduced by the National Archives and Records Administration from the highest quality master negatives available from the Bureau of the Census. The original film includes defects that affect the legibility of some frames; the original schedules no longer exist.\n\nThis catalog supplements the Federal Population Censuses, 1790-1890, the 1900 Federal Population Census, and the 1910 Federal Population Census catalogs, which contain details for ordering copies of the population schedules for 1790-1910 and of the 1880-1910 Soundexes.\n\nPrinted versions of these catalogs can also be ordered. For information about fees and the ordering of these catalogs, please contact Publications Distribution (NECD), National Archives, Room G9, Seventh and Pennsylvania Avenue, NW, Washington, DC 20408; telephone 202-501-7190 or toll-free 1-866-272-6272.\n\n1920 Census Schedules (T625)\n\nOn January 2, 1920, at 9:00 a.m., the Bureau of the C"
+            }
+          ]
+        },
+        {
+          "query": "Ron Rivett biography early life education",
+          "results": [
+            {
+              "docid": "97901",
+              "url": "https://hotelsmag.com/news/ron-rivett-co-founder-of-my-place-super-8-dies/",
+              "title": "Ron Rivett, co-founder of My Place, Super 8, passes away at 83",
+              "score": 30.887736411558347,
+              "snippet": "Ron Rivett, co-founder of My Place, Super 8, passes away at 83\n---\ntitle: Ron Rivett, co-founder of My Place, Super 8, passes away at 83\nauthor: Kathakali Nandi December ; Hotels News\ndate: 2023-12-14\n---\nRon Rivett, an entrepreneur who founded Super 8, helping to usher in and foster the branded economy segment in the U.S., and in a second act co-founded My Place Hotels America, passed away on December 9 at the age of 83.\n\nRivett co-founded Super 8 Motels with his long-time friend Dennis Brown in 1974 in Aberdeen, S.D., marking a major moment in the budget hotel industry. Rivett founded Super 8 with the philosophy of a 'clean, comfortable room for a few bucks less than the guy next door.'\n\nBy 1993, Super 8 had grown to achieve a milestone of 1,000 locations globally, helping the brand become one of the leading budget hotel chains at that time. The same year, Rivett sold the business to Hospitality Franchise Systems. The brand is now called Super 8 by Wyndham and operates as a Wyndham Hotels and Resorts subsidiary.\n\nFurthering the philosophy of Super 8 and incorporating modern touches to create an affordable extended-stay brand, Rivett established My Place Hotels of America with his grandson, Ryan Rivett, now CEO, in 2012.\n\nThe first hotel opened in February 2012 in Dickinson, N.D. Since then, the upper-midscale extended-stay brand has expanded significantly, now comprising approximately 115 franchises across 36 states.\n\n\"Ron was an entrepreneur in every sense of the word and "
+            },
+            {
+              "docid": "65663",
+              "url": "https://en.wikipedia.org/wiki/Ron_Rivett",
+              "title": "Ron Rivett - Wikipedia",
+              "score": 28.18528622380652,
+              "snippet": "Ron Rivett - Wikipedia\n---\ntitle: Ron Rivett - Wikipedia\ndate: 2016-12-27\n---\nRon Rivett (August 2, 1940 - December 9, 2023) was an American entrepreneur. He was best known for being founder of Super 8 Motels and My Place hotels. By 1993, Super 8 had 1,000 locations worldwide. Super 8 grew to be the largest budget hotel chain in the world. In 1993, Rivett sold Super 8 Motels to Hospitality Franchise Systems for $125 million. \n\nIn 2012, he founded My Place Hotels of America,Five questions: Ron Rivett, co-founder of My Place Hotels which is known for its brands My Place Hotels and Trend Hotels & Suites. Rivett served as the chairman for My Place Hotels of America. \n\nOn December 9, 2023, Rivett died at Baptist Medical Center in Miami, FL \n\nEducation\n\nRivett graduated from Northern State University with a degree in business in 1963 and received an honorary \"Doctorate of Humane Letters\" from NSU in 1990.Ronald J. Rivett - Utah Hospitality\n\nMy Place Hotels of America\n\nMy Place Hotels of America is a hospitality company in the United States headquartered in Aberdeen, South Dakota.\n\nThe company announced My Place Hotels alongside its franchising system in 2014. The brand was founded by Rivett and grandson Ryan (Rivett) in 2012. The hospitality company had 56 My Place Hotels open across 27 states as of June 2020.\n\nThe company announced a new brand, Trend Hotels & Suites, in June 2020.\n\nReferences\n\nCategory:1940 births\nCategory:2023 deaths\nCategory:American hoteliers\nCategory:Northern "
+            },
+            {
+              "docid": "87304",
+              "url": "https://www.sdpb.org/news/2023-12-14/aberdeen-hotel-founder-ron-rivett-dies-at-age-83",
+              "title": "Aberdeen hotel founder Ron Rivett dies at age 83",
+              "score": 25.032871848148236,
+              "snippet": "Aberdeen hotel founder Ron Rivett dies at age 83\n---\ntitle: Aberdeen hotel founder Ron Rivett dies at age 83\nauthor: SDPB\ndate: 2023-12-14\n---\nAn Aberdeen businessman known for founding several major hotel chains has died.\n\nRon Rivett passed away over the weekend, according to his family.\n\nRivett founded both the Super 8 and My Place hotel chains. The first Super 8 opened in 1974 in Aberdeen. It now has over 2,000 locations worldwide, according to its parent company, Wyndham Hotels.\n\nAn Aberdeen native, Rivett graduated from Northern State University in 1963.\n\nHe was 83."
+            },
+            {
+              "docid": "66376",
+              "url": "https://en.wikipedia.org/wiki/Super_8_(hotel)",
+              "title": "Super 8 (hotel) - Wikipedia",
+              "score": 23.947488794406958,
+              "snippet": "Super 8 (hotel) - Wikipedia\n---\ntitle: Super 8 (hotel) - Wikipedia\ndate: 2005-07-27\n---\nname: Super 8 by WyndhamSuper 8 Worldwide, Inc.\nlogo: Super 8.svg\nlogo_size: 130px\npredecessor: Main Street Inn\nfoundation: 1974, Aberdeen, South Dakota\nfounders: Ron Rivett Dennis Brown\nlocation_city: Parsippany-Troy Hills, New Jersey\nlocation_country: United States\nlocations: 2, 691Super 8 by Wyndham HotelsLocations Super 8 by Wyndham Hotels 2021-09-09 \narea_served: United States, Canada, China, Brazil, Germany, Saudi Arabia, United Arab Emirates, United Kingdom\nindustry: Hotels\nparent: Wyndham Hotels & Resorts\nhomepage: \n\nSuper 8 by Wyndham, commonly known as Super 8, is an American hotel brand, being the world's largest budget hotel chain with over 2,600 locations worldwide. The chain is a subsidiary of Wyndham Hotels and Resorts. The original room cost was $8.88 per night. As of December 2022, the brand website listed 2,691 hotels worldwide.\n\nHistory\n\nLaunch\n\nRon Rivett and Dennis Brown created the new Super 8 Motel corporation with each of them owning 50% of the stock in the new company. The original room rate was US$8.88 (equivalent to $50.07 in 2021), hence the numeric brand name. The first Super 8, with 60 rooms, opened in Aberdeen, South Dakota, in 1974, built near a Holiday Inn with just some drawings made by Rivett as blueprints. The stucco exterior with an English Tudor style was inspired by Rivett's father-in-law, who was a stuccoer; the English Tudor style and placing of Sup"
+            },
+            {
+              "docid": "775",
+              "url": "https://adb.anu.edu.au/biography/deakin-alfred-5927",
+              "title": "Australian Dictionary of Biography",
+              "score": 23.485115656541744,
+              "snippet": "Australian Dictionary of Biography\n---\ntitle: Australian Dictionary of Biography\nauthor: R Norris\ndate: 2025-06-10\n---\n- Tip: searches only the name field\n\n- Tip: Use double quotes to search for a phrase\n\nThis article was published:\n\n- in the Australian Dictionary of Biography, Volume 8 , 1981\n\n- online in 2006\n\nAlfred Deakin (1856-1919), barrister, journalist and prime minister, was born on 3 August 1856 at Collingwood, Melbourne, younger child of William Deakin of Towcester, Northamptonshire, England, and his wife Sarah, née Bill, of Llanarth, Monmouthshire, Wales. William and Sarah left England in December 1849 in the Samuel Boddington, bound for Sydney. In March 1850 they disembarked at Adelaide, where William's married sister lived and where their first child, Catherine Sarah, was born in July. William briefly pursued his former occupations of clerk and shopman before, late in 1851, joining the exodus of men to the goldfields of Victoria. The family soon followed; by 1853 William had abandoned the fields and the Deakins settled in Collingwood (later a part of Fitzroy), where they lived as respectable suburbanites of modest means. William undertook a variety of jobs, storekeeping, water-carting and carrying, before becoming a partner in a coaching business and later manager of Cobb & Co. in Victoria.\n\nAlfred Deakin began his formal education aged 4 at a boarding school situated first at Kyneton and later at South Yarra. In 1864 he became a day-boy at the nearby Melbourne "
+            },
+            {
+              "docid": "76991",
+              "url": "https://www.olivercromwell.org/wordpress/cromwells-wife-and-children/",
+              "title": "Cromwell's Wife and Children",
+              "score": 23.163708348802988,
+              "snippet": "Cromwell's Wife and Children\n---\ntitle: Cromwell's Wife and Children\ndate: 2017-08-01\n---\nHow much do we know about Cromwell's own family?\n\nAlthough we have only occasional glimpses of Cromwell's personal and family life and know very little about his and his wife's childhood or about the childhood of their own children, their adult lives are fairly well recorded and documented.\n\nIn August 1620, just a few months after his twenty-first birthday, Oliver Cromwell married Elizabeth Bourchier at St Giles's church in Cripplegate, London. Elizabeth had been born in 1598, the eldest of twelve children (nine sons and three daughters) of Sir James Bourchier and his wife Frances, who was a daughter of Thomas Crane of Newton Tony, Wiltshire. Sir James, an only son, had inherited land and property from his father, and seems himself to have been a successful and prosperous businessman in London, reportedly involved in the fur and leather trades. He owned property both in the City of London, especially around Tower Hill, and in Essex, especially Little Stambridge Hall. He had been knighted by James I in July 1603. The Bourchier family from which Elizabeth sprang does not seem to have been connected with the noble families of that name, including the late medieval Bourchier Earls of Essex; nor, as far as we can tell, was Elizabeth related to the Sir William Bourchier who married Cromwell's relative Katherine/Catherine Barrington and who fathered the regicide Sir John Bourchier. We know virt"
+            },
+            {
+              "docid": "85299",
+              "url": "https://libguides.consortiumlibrary.org/ASCAirForce",
+              "title": "United States. Air Force in Alaska archival collections",
+              "score": 19.90668553355728,
+              "snippet": "United States. Air Force in Alaska archival collections\n---\ntitle: United States. Air Force in Alaska archival collections\ndate: 2025-03-31\n---\n');\n\nSkip to Main ContentYou may be able to find additional resources on this topic by searching the guides to all of our collections on our website, or using the search box below.\n\nAfrican American history in Alaska\n\nAlaska Constitutional Convention and statehood\n\nAlaska state legislators and legislation\n\nAnchorage Winter Olympics bids\n\nArctic National Wildlife Refuge\n\nBusinesses, clubs, and organizations\n\nFishing, fisheries, and canneries\n\nFur trading, trapping, and farming\n\nGeography and environmental studies\n\nNon-English language collections\n\nSenior Citizen issues and advocacy\n\nStudent newspapers, Anchorage Community College and University of Alaska Anchorage\n\nThis guide contains information about collections related to the United States Air Force in Alaska. During World War II, Alaska became the Air defense of Alaska protecting America on the Pacific coast. Post World War II in 1947, the United States Army Air Force was reduced and a new branch of the United States Military, the United States Air Force, was born. This guide lists collections related to both the U.S. Army Air Force during World War II, such as the and the later United States Air Force.\n\nPlease note that this guide may not be comprehensive, and there may be material related to the Air Force in Collections not listed here. We suggest using this guide as a starting p"
+            },
+            {
+              "docid": "20073",
+              "url": "https://www.icpl.org/books-more/staff-picks/lists/125-recommended-nonfiction-titles",
+              "title": "125 Recommended Nonfiction Titles",
+              "score": 18.975096954495907,
+              "snippet": "125 Recommended Nonfiction Titles\n---\ntitle: 125 Recommended Nonfiction Titles\nauthor: Becky\ndate: 2000-01-01\n---\nCheck out this list of 125 Nonfiction Titles, recommended by ICPL staff. What a great way to jumpstart the Summer Reading Program!\n\nThe know-it-all : one man's humble quest to become the smartest person in the world\n\nA. J. Jacobs\n\n001.2 /Jacobs\n\nPart memoir and part education (or lack thereof), The Know-It-All chronicles NPR contributor A.J. Jacobs's hilarious, enlightening, and seemingly impossible quest to read the Encyclopedia Britannica from A to Z.\n\nThe library book\n\nSusan Orlean\n\n027.4794 /Orlean\n\nOrlean chronicles the LAPL fire and its aftermath to showcase the larger, crucial role that libraries play in our lives; delves into the evolution of libraries across the country and around the world, from their humble beginnings as a metropolitan charitable initiative to their current status as a cornerstone of national identity.\n\nThinking, fast and slow\n\nDaniel Kahneman\n\n153.42 /Kahneman\n\nKahneman exposes the extraordinary capabilities and also the faults and biases of fast thinking, and the pervasive influence of intuitive impressions on peoples' thoughts and choices.\n\nQuiet : the power of introverts in a world that can't stop talking\n\nSusan Cain\n\n155.232 /Cain\n\nIntroverts are the ones who prefer listening to speaking, reading to partying; who invent and create but prefer not to pitch their own ideas; who favor working on their own over brainstorming in teams. A"
+            },
+            {
+              "docid": "8331",
+              "url": "https://nss.org/reviewed-non-fiction-books-alphabetically-by-title/",
+              "title": "Reviewed Nonfiction Books alphabetically by title",
+              "score": 18.876908537549404,
+              "snippet": "Reviewed Nonfiction Books alphabetically by title\n---\ntitle: Reviewed Nonfiction Books alphabetically by title\ndate: 2025-01-01\n---\nSee also list alphabetically by author\n\n- 2001: The Heritage and Legacy of The Space Odyssey, by Frederick I. Ordway III and Robert Godwin (2010). Ordway was the science consultant for the movie 2001 and the book provides great insight into its creation.\n\n- 2081: A Hopeful View of the Human Future, by Gerard K. O'Neill (1981). This second book by O'Neill describes his thoughts on anticipated advancements in computers, automation, space colonies, energy, and communications.\n\n- 50 Years in Space, by Patrick Moore, illustrated by David A. Hardy (2006). Noted author-astronomer and BBC commentator attempts to rekindle the wonder of the Space Age.\n\n- 50 Years of Rockets & Spacecraft: NASA Marshall Space Flight Center, Edited by Ed Buckbee (2009). Documenting the history of Marshall Space Flight Center from the 1950s through 2008, including many insider stories.\n\n- A History of Near-Earth Objects Research, by Erik M. Conway, Donald K. Yeomans, and Meg Rosenburg (2022). This free downloadable book is impressively detailed and informative, including descriptions of robotic space missions to NEOs and accounts of talented individuals making incredible discoveries and working to protect Earth from NEOs.\n\n- A Passion for Mars, by Andrew Chaikin (2008). The author of the landmark A Man on the Moon offers striking new information about humankind's quest for the"
+            },
+            {
+              "docid": "96952",
+              "url": "http://furrowedmiddlebrow.blogspot.com/2020/04/the-world-war-ii-fiction-list.html",
+              "title": "FURROWED MIDDLEBROW",
+              "score": 18.86294688899986,
+              "snippet": "FURROWED MIDDLEBROW\n---\ntitle: FURROWED MIDDLEBROW\nauthor: Furrowed Middlebrow\ndate: 2020-04-02\n---\nThose who have followed this blog for a while will recall that back in 2015 I created a \"World War II Book List\". It was a list of WWII-themed books mostly by women who qualified for my master list. It was divided into six thematic sections: 1) Diaries/Memoirs, 2) Fiction: The Approach of War and Early Days, 3) Fiction: The Thick of It, 4) Fiction: The Immediate Postwar, 5) Fiction: Retrospective (post-1950), 6) Other Non-fiction.\n\nI managed to update the list once, in May of 2016, after which it languished, in part because its format made it a pain to revise. Since I had done lots more research since then—including quite a lot in preparation for a WWII-themed batch of Furrowed Middlebrow titles from Dean Street Press—I had lots and lots of new titles to add. But I just couldn't face that format. In addition to logistics, it was a wee bit clunky conceptually, since although everyone who reads a lot of WWII fiction will recognize the distinction between the cheerful, gung-ho tone of most \"early days\" novels and the more fatigued tone of novels from the \"thick of it\", it was sometimes challenging to determine where lesser-known titles belonged. Likewise, it always bothered me that the works of an author like Angela Thirkell or D. E. Stevenson, for example, were split across three or even four sections of the list.\n\nSo, the old list is done with, finished, finito! (Well, not reall"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tool_call",
+      "tool_name": "visit",
+      "arguments": {
+        "url": [
+          "https://en.wikipedia.org/wiki/Ron_Rivett",
+          "https://dacotahprairiemuseum.org/unit-1-how-aberdeen-was-founded/"
+        ],
+        "goal": "Verify Ron Rivett's full biographical details and Aberdeen SD founding date\"\n]"
+      },
+      "output": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ron_Rivett",
+          "docid": "65663",
+          "goal": "Verify Ron Rivett's full biographical details and Aberdeen SD founding date\"\n]",
+          "content": "Ron Rivett - Wikipedia\n---\ntitle: Ron Rivett - Wikipedia\ndate: 2016-12-27\n---\nRon Rivett (August 2, 1940 - December 9, 2023) was an American entrepreneur. He was best known for being founder of Super 8 Motels and My Place hotels. By 1993, Super 8 had 1,000 locations worldwide. Super 8 grew to be the largest budget hotel chain in the world. In 1993, Rivett sold Super 8 Motels to Hospitality Franchise Systems for $125 million. \n\nIn 2012, he founded My Place Hotels of America,Five questions: Ron Rivett, co-founder of My Place Hotels which is known for its brands My Place Hotels and Trend Hotels & Suites. Rivett served as the chairman for My Place Hotels of America. \n\nOn December 9, 2023, Rivett died at Baptist Medical Center in Miami, FL \n\nEducation\n\nRivett graduated from Northern State University with a degree in business in 1963 and received an honorary \"Doctorate of Humane Letters\" from NSU in 1990.Ronald J. Rivett - Utah Hospitality\n\nMy Place Hotels of America\n\nMy Place Hotels of America is a hospitality company in the United States headquartered in Aberdeen, South Dakota.\n\nThe company announced My Place Hotels alongside its franchising system in 2014. The brand was founded by Rivett and grandson Ryan (Rivett) in 2012. The hospitality company had 56 My Place Hotels open across 27 states as of June 2020.\n\nThe company announced a new brand, Trend Hotels & Suites, in June 2020.\n\nReferences\n\nCategory:1940 births\nCategory:2023 deaths\nCategory:American hoteliers\nCategory:Northern State University alumni",
+          "truncated": false,
+          "original_chars": 1523
+        },
+        {
+          "url": "https://dacotahprairiemuseum.org/unit-1-how-aberdeen-was-founded/",
+          "docid": "58530",
+          "goal": "Verify Ron Rivett's full biographical details and Aberdeen SD founding date\"\n]",
+          "content": "How Aberdeen was Founded\n---\ntitle: How Aberdeen was Founded\ndate: 2025-01-01\n---\nDacotah Prairie Museum Foundation, an independent nonprofit corporation that supports the Dacotah Prairie Museum, owns the collection and operates The Mercantile gift shop.\n\nIn the late 1800s, Aberdeen did not look like it does today. Very few people lived where Aberdeen is today because there were no roads to bring people here, and there were no homes, stores, schools or other buildings here either. Aberdeen was part of a large grassy area called a prairie.\n\nThe population of America was growing, and the people who lived in the eastern part of the country wanted to find new places to live in the unsettled western part of the country where Aberdeen was. Many farmers in Minnesota and Wisconsin wanted to have larger farms but there were no more farms for them to buy where they lived, so they were also interested in moving west to places like Aberdeen. This was a time of expansion for our country.\n\nRailroad companies were the first businesses to come into the prairie area, building tracks so their trains could bring people and supplies to the unsettled parts of America.\n\nCharles Prior worked for the Chicago, Milwaukee, and St. Paul railroad in Minneapolis, and his job was to decide where the new railroad tracks would go and make new towns along the railroad, including Aberdeen. Charles Prior named each town he founded after a place or person he knew. He called our town Aberdeen because Mr. Prior's boss, Alexander Mitchell, came from Aberdeen, Scotland.\n\nThe first train came to Aberdeen on the new tracks on July 6, 1881, carrying lumber and other supplies to start the town, so July 6 is Aberdeen's birthday. The first train carrying people arrived on August 1, 1881. These people came from places like New York, Wisconsin, Minnesota, and the New England states. Some people also came from foreign countries like Germany, Russia, and England. These people were called settlers or pioneers.\n\nAfter this, many other railroad companies built tracks to Aberdeen, and Aberdeen became known as the Hub City because all these tracks met here like spokes on a wheel meet in the center or hub of the wheel.\n\nThe first time our new settlers saw Aberdeen they saw lots of tall grass but no trees, and the landscape was very flat compared to where they lived before. This is because Aberdeen was part of the prairie. The new town was also very small with only 16 blocks platted. This area quickly filled up with houses and businesses that our pioneers built.\n\nThe first business in Aberdeen was a drugstore built by Mr. Mills. The people in Aberdeen called Mr. Mill's store, The Pillbox, because he sold lots of pills. The Pillbox was very small, only 10 feet by 12 feet, and was built out of wood. Later, Mr. Mills built a larger store.\n\nCharles Prior founded our town, but he never lived here. He was busy starting other new towns as his railroad company continued to work its way westward through South Dakota.\n\nDo you think you would have liked to be one of Aberdeen's pioneers?\n\n- \n\n- \n\n- \n\n- \n\n- \n\n- \n\n- \n\n© 2025 Dacotah Prairie Museum |Dacotah Prairie Museum Foundation",
+          "truncated": false,
+          "original_chars": 3168
+        }
+      ]
+    },
+    {
+      "type": "tool_call",
+      "tool_name": "search",
+      "arguments": {
+        "query": [
+          "Northern State University Aberdeen South Dakota founded year history"
+        ]
+      },
+      "output": [
+        {
+          "query": "Northern State University Aberdeen South Dakota founded year history",
+          "results": [
+            {
+              "docid": "9580",
+              "url": "https://history.sd.gov/archives/womenshistory.aspx",
+              "title": "RESOURCES",
+              "score": 32.10111390397017,
+              "snippet": "RESOURCES\n---\ntitle: RESOURCES\ndate: 2000-01-01\n---\nWomen's History Collection\n\nLetters, diaries, reminiscences, photographs, and organizational records bring history alive through the voices of women who participated in events as they happened. Whether it be a description of day-to-day activities on a family farm or letters which chronicle the lives of a prominent family, each is a part of our history. Donors to the State Archives are aware of the significance of women and their contributions to the history of our state, which can be seen in the increasing volume of women's resources added to the archives collections in the past twenty years.\n\nIn addition to the collections cited here, the State Archives has many other resources in which women's voices are found. Church records, county, city, and family histories, census records, naturalization records, school census records, the biographical file, the general photograph collection, the South Dakota Authors file, and South Dakota newspapers are some of the sources available.\n\nStill more materials are found in other government record groups. Department of Education records documenting teacher certifications, Secretary of State photographs, Cosmetology Commission licensing records, County Mother's Pension records, Board of Nursing records, the WPA nursery project, and the Commission on the Status of Women records all provide insight into the lives of South Dakota women.\n\nIn addition, scholars have used archives collections for"
+            },
+            {
+              "docid": "82087",
+              "url": "https://en.wikipedia.org/wiki/L._Frank_Baum",
+              "title": "L. Frank Baum - Wikipedia",
+              "score": 30.926542479549347,
+              "snippet": "L. Frank Baum - Wikipedia\n---\ntitle: L. Frank Baum - Wikipedia\nauthor: Authority control databases\ndate: 2001-09-29\n---\nname: L. Frank Baum\npseudonym: George Brooks, Louis F. Baum, Laura Bancroft, Suzanne Metcalf, Capt. Hugh Fitzgerald, Schuyler Staunton, Edith Van Dyne, Floyd Akers, John Estes Cooke\nbirth_name: Lyman Frank Baum\nbirth_date: 15 05 1856\nbirth_place: Chittenango, New York, U.S.\ndeath_date: 06 05 1919\ndeath_place: Los Angeles, California, U.S.\nresting_place: Forest Lawn Memorial Park\noccupation: Author\ngenre: Fantasy, poetry, short stories\nspouse: Maud Gage Baum (m. November 9, 1882)\nchildren: 4, including Frank and Harry\nrelatives: Matilda Joslyn Gage (mother-in-law)Roger S. Baum (great-grandson)\nsignature: L Frank Baum Signature.svg\n\nLyman Frank Baum (; May 15, 1856 – May 6, 1919) was an American author best known for his children's fantasy books, particularly The Wonderful Wizard of Oz, part of a series. In addition to the 14 Oz books, Baum penned 41 other novels (not including four lost, unpublished novels), 83 short stories, over 200 poems, and at least 42 scripts. He made numerous attempts to bring his works to the stage and screen; the 1939 adaptation of the first Oz book became a landmark of 20th-century cinema.\n\nBorn and raised in Chittenango, New York, Baum moved west after an unsuccessful stint as a theater producer and playwright. He and his wife opened a store in South Dakota and he edited and published a newspaper. They then moved to Chicago, where "
+            },
+            {
+              "docid": "5642",
+              "url": "https://en.wikipedia.org/wiki/Presentation_Sisters",
+              "title": "Presentation Sisters - Wikipedia",
+              "score": 30.3361087084254,
+              "snippet": "Presentation Sisters - Wikipedia\n---\ntitle: Presentation Sisters - Wikipedia\ndate: 2006-10-12\n---\nThe Presentation Sisters, officially the Sisters of the Presentation of the Blessed Virgin Mary, are a religious institute of Roman Catholic women founded in Cork, Ireland, by Honora \"Nano\" Nagle in 1775. The sisters of the congregation use the postnominal initials PBVM.\n\nThe Presentation Sisters' mission is to help the poor and needy around the world. Historically, the Sisters focused their energies on creating and staffing schools that would educate young people, especially young women. Most of these schools are still in operation and can be found across the globe.\n\nAs of 2024, the Presentation Sisters are active in 19 countries: Australia, Bolivia, Canada, Chile, Dominica, Ecuador, India, Ireland, Israel, New Zealand, Pakistan, Papua New Guinea, Peru, Philippines, Thailand, United Kingdom, United States, Zambia, and Zimbabwe.\n\nHistory\n\nBeginnings\n\nHonora (Nano) Nagle (1718–1784) was born in Ballygriffin, Cork, Ireland. Her wealthy Catholic family provided her the advantage of an education in France, at a time when Ireland's Education Act 1695 precluded the less advantaged from education. She quietly began teaching Irish children in the trading port of Cork City, and her reputation spread widely. In a 1769 letter, she wrote: \"I often think my schools will never bring me to heaven, as I only take delight and pleasure in them... I can assure you my schools are beginning to be of "
+            },
+            {
+              "docid": "71568",
+              "url": "https://horatioalger.org/members/detail/joseph-robbie/",
+              "title": "Joseph Robbie*",
+              "score": 29.3748817057312,
+              "snippet": "Joseph Robbie*\n---\ntitle: Joseph Robbie*\ndate: 2025-01-01\n---\nJoseph Robbie*\n\nClass of 1979\n\n- President and Owner Miami Dolphins\n\nJoseph Robbie was born in Sisseton, South Dakota, in 1916. His father was a Lebanese immigrant, and his mother was a second-generation descendant of Irish and Swiss pioneers. His father managed the town's café and pool hall. His mother worked at the café as a waitress and pastry cook.\n\nDuring the Great Depression, the family lost the café, and Robbie's father became a night watchman. Robbie took a year off from high school to serve in the Civilian Conservation Corps to help his family. In 1935, he graduated with honors from high school and then went on to Northern State Teachers College in Aberdeen. He began studying law at the University of South Dakota, but enlisted in the U.S. Navy when the United States entered World War II.\n\nAfter the war, Robbie used the GI bill to finish law school, and he became a successful trial lawyer in Mitchell, South Dakota. At age 33, he entered politics and was elected to the South Dakota House of Representatives. In the early 1950s, after an unsuccessful bid for governor of South Dakota, Robbie became head of the Office of Price Stabilization for four states.\n\nIn 1965, Robbie became the first owner of the Miami Dolphins football team, and in 1987, he built the $115 million Joe Robbie Stadium with private funds."
+            },
+            {
+              "docid": "86905",
+              "url": "https://northwestairlineshistory.org/timeline-1940s/",
+              "title": "Timeline – 1940s",
+              "score": 29.224400258150208,
+              "snippet": "Timeline – 1940s\n---\ntitle: Timeline – 1940s\ndate: 2025-03-09\n---\n1940\n\n- June: The Civilian Pilot Training Program is greatly expanded by the U.S. War Department. Zimmerly opens an additional flying training school in LaGrande, Oregon.\n\n1941\n\n- February 14: NWA common stock is publicly traded for the first time.\n\n- Northwest's annual passenger revenue exceeds mail revenue for the first time.\n\n1942\n\n- Service to several smaller cities is suspended when the government commandeers half of Northwest's fleet.\n\n- February: The U.S. government looks to Northwest and its experience in extreme cold and mountainous terrain to set up an aerial highway between the industrial heartland of the Midwest up to Alaska. Frank Judd, an NWA pilot since 1931, is given responsibility for the new Northern Division.\n\n- March 15: Northwest begins regular service along the air bridge to Alaska. Key points linked out of Minneapolis/St. Paul include Edmonton, Alberta; Ft. John and Ft. Nelson, British Columbia; Watson Lake and Dawson, Yukon; and Fairbanks and Anchorage in Alaska.\n\n- May 12: Northwest Flight 1, operated by a DC-3, overruns the runway at Miles City, Montana, hits obstacles on the ground, and crashes while attempting to go around. 3 perish out of the 14 aboard.\n\n- In the first six months of World War II, Northwest flies over one million pounds of cargo through Minneapolis. Two thousand NWA staff are at work on various projects to support the war effort.\n\n- December: The main hangar for the "
+            },
+            {
+              "docid": "2733",
+              "url": "https://www.amazon.com/How-Lucky-You-Can-Be/dp/034552411X",
+              "title": "How Lucky You Can Be: The Story of Coach Don Meyer Hardcover – November 9, 2010",
+              "score": 29.18430862504189,
+              "snippet": "How Lucky You Can Be: The Story of Coach Don Meyer Hardcover – November 9, 2010\n---\ntitle: How Lucky You Can Be: The Story of Coach Don Meyer Hardcover – November 9, 2010\nauthor: Buster Olney\ndate: 2010-11-09\n---\n-42% $14.53$14.53\n\nDelivery Thursday, June 19\n\nShips from: Amazon Sold by: Bookstan\n\n$9.49$9.49\n\nDelivery Saturday, June 14\n\nShips from: Amazon Sold by: Zoom Books Company\n\nReturn this item for free\n\nFree returns are available for the shipping address you chose. You can return the item for any reason in new and unused condition: no return shipping charges.\n\nLearn more about free returns.- Go to your orders and start the return\n\n- Select your preferred free shipping option\n\n- Drop off and leave!\n\nSorry, there was a problem.\n\nThere was an error retrieving your Wish Lists. Please try again.Sorry, there was a problem.\n\nList unavailable.Download the free Kindle app and start reading Kindle books instantly on your smartphone, tablet, or computer - no Kindle device required.\n\nRead instantly on your browser with Kindle for Web.\n\nUsing your mobile phone camera - scan the code below and download the Kindle app.\n\nImage Unavailable\n\nColor:\n\n-\n\n-\n\n-\n\n- To view this video download Flash Player\n\n- VIDEO\n\nHow Lucky You Can Be: The Story of Coach Don Meyer Hardcover – November 9, 2010\n\nPurchase options and add-ons\n\nIn How Lucky You Can Be, acclaimed sports journalist Buster Olney tells the remarkable story of the successive tragedies that befell Coach Meyer but could not defeat him. "
+            },
+            {
+              "docid": "15314",
+              "url": "https://en.wikipedia.org/wiki/Universities_in_the_United_Kingdom",
+              "title": "Universities in the United Kingdom - Wikipedia",
+              "score": 27.40495033012737,
+              "snippet": "Universities in the United Kingdom - Wikipedia\n---\ntitle: Universities in the United Kingdom - Wikipedia\ndate: 2002-09-06\n---\nUniversities in the United Kingdom have generally been instituted by royal charter, papal bull, Act of Parliament, or an instrument of government under the Further and Higher Education Act 1992 or the Higher Education and Research Act 2017. Degree awarding powers and the 'university' title are protected by law, although the precise arrangements for gaining these vary between the constituent countries of the United Kingdom.\n\nInstitutions that hold degree awarding powers are termed recognised bodies, this list includes all universities, university colleges and colleges of the University of London, some higher education colleges, and the Archbishop of Canterbury. Degree courses may also be provided at listed bodies, leading to degrees validated by a recognised body. Undergraduate applications to almost all UK universities are managed by the Universities and Colleges Admissions Service (UCAS).\n\nWhile legally, 'university' refers to an institution that has been granted the right to use the title, in common usage it now normally includes colleges of the University of London, including in official documents such as the Dearing Report.\n\nThe representative bodies for higher education providers in the United Kingdom are Universities UK, GuildHE and Independent Higher Education. The responsible minister within the Department for Education is the Minister of State"
+            },
+            {
+              "docid": "34435",
+              "url": "https://www.gutenberg.org/files/46661/46661-h/46661-h.htm",
+              "title": "NORTH DAKOTA A GUIDE TO THE NORTHERN PRAIRIE STATE",
+              "score": 26.708028119168166,
+              "snippet": "NORTH DAKOTA A GUIDE TO THE NORTHERN PRAIRIE STATE\n---\ntitle: NORTH DAKOTA A GUIDE TO THE NORTHERN PRAIRIE STATE\n---\n*** START OF THE PROJECT GUTENBERG EBOOK 46661 ***\n\nThe cover image was created by the transcriber and is placed in the public domain.\n\nNORTH DAKOTA\n\nA GUIDE TO THE NORTHERN PRAIRIE STATE\n\nAMERICAN GUIDE SERIES\n\nA GUIDE TO THE NORTHERN PRAIRIE STATE\n\nWritten by Workers of the Federal Writers' Project of the Works Progress Administration for the State of North Dakota\n\nSponsored by the State Historical Society of North Dakota\n\nIllustrated\n\nKNIGHT PRINTING COMPANY\n\nFargo, North Dakota\n\n1938\n\nWORKS PROGRESS ADMINISTRATION\n\nHarry L. Hopkins, Administrator\n\nEllen S. Woodward, Assistant Administrator\n\nHenry G. Alsberg, Director, Federal Writers' Project\n\nAs Governor of the State of North Dakota, I am happy to write the foreword to the first comprehensive guidebook that has ever been written for this State. Compiled by North Dakota writers, the publication of this book has been made possible by means of Federal and State funds. The importance of this book lies, not only in calling the attention of tourists and other outsiders to the picturesque scenery and the places of historical significance in North Dakota; but in awakening the consciousness of North Dakota people to the historical, sociological, and cultural heritage which is theirs.\n\n(Signed) William Langer,\n\nGovernor of North Dakota.\n\nNorth Dakota: a Guide to the Northern Prairie State is something new in this pa"
+            },
+            {
+              "docid": "65663",
+              "url": "https://en.wikipedia.org/wiki/Ron_Rivett",
+              "title": "Ron Rivett - Wikipedia",
+              "score": 26.66785459860984,
+              "snippet": "Ron Rivett - Wikipedia\n---\ntitle: Ron Rivett - Wikipedia\ndate: 2016-12-27\n---\nRon Rivett (August 2, 1940 - December 9, 2023) was an American entrepreneur. He was best known for being founder of Super 8 Motels and My Place hotels. By 1993, Super 8 had 1,000 locations worldwide. Super 8 grew to be the largest budget hotel chain in the world. In 1993, Rivett sold Super 8 Motels to Hospitality Franchise Systems for $125 million. \n\nIn 2012, he founded My Place Hotels of America,Five questions: Ron Rivett, co-founder of My Place Hotels which is known for its brands My Place Hotels and Trend Hotels & Suites. Rivett served as the chairman for My Place Hotels of America. \n\nOn December 9, 2023, Rivett died at Baptist Medical Center in Miami, FL \n\nEducation\n\nRivett graduated from Northern State University with a degree in business in 1963 and received an honorary \"Doctorate of Humane Letters\" from NSU in 1990.Ronald J. Rivett - Utah Hospitality\n\nMy Place Hotels of America\n\nMy Place Hotels of America is a hospitality company in the United States headquartered in Aberdeen, South Dakota.\n\nThe company announced My Place Hotels alongside its franchising system in 2014. The brand was founded by Rivett and grandson Ryan (Rivett) in 2012. The hospitality company had 56 My Place Hotels open across 27 states as of June 2020.\n\nThe company announced a new brand, Trend Hotels & Suites, in June 2020.\n\nReferences\n\nCategory:1940 births\nCategory:2023 deaths\nCategory:American hoteliers\nCategory:Northern "
+            },
+            {
+              "docid": "77500",
+              "url": "https://www.esm.rochester.edu/news/2024/05/celebrating-the-eastman-school-of-musics-seventh-dean-jamal-j-rossi/",
+              "title": "Celebrating the Eastman School of Music's Seventh Dean: Jamal J. Rossi",
+              "score": 26.470041365327912,
+              "snippet": "Celebrating the Eastman School of Music's Seventh Dean: Jamal J. Rossi\n---\ntitle: Celebrating the Eastman School of Music's Seventh Dean: Jamal J. Rossi\ndate: 2024-05-10\n---\nOriginally published in the Spring 2024 issue of Eastman NOTES\n\nBy Anna Reguero\n\nIt's 4:34 p.m. on a Saturday afternoon in late September when Jamal Rossi, the Joan and Martin Messinger Dean of the Eastman School of Music and a 1987 alumnus of the school, presses send on an email informing the Eastman community about the passing of a recently retired and well-loved colleague. Not even an hour later, he arrives at Max of Eastman Place, the upscale restaurant on the first floor of the Miller Center building on Gibbs Street, to host a dinner party for new faculty. Such contrasts, even on a weekend, are common for the dean, who must lead the Eastman community in moments of exigency and celebration.\n\nThe hiring of new faculty is one of the legacies Rossi will leave as dean, a position he has held since 2013. Last summer, Rossi announced that he would not seek reappointment at the end of his current term, which concludes at the end of the 2023–24 academic year. Just this last academic year, Rossi hired 12 new faculty members, with four more vacancies to fill this current year. Over his tenure at Eastman, Dean Rossi will have hired more than 60 percent of the school's faculty members, leaving Eastman with a whole new generation of teachers to lead the century-old school into its next 100 years. With the help of "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tool_call",
+      "tool_name": "search",
+      "arguments": {
+        "query": [
+          "Northern State University founded 1892 Aberdeen South Dakota"
+        ]
+      },
+      "output": [
+        {
+          "query": "Northern State University founded 1892 Aberdeen South Dakota",
+          "results": [
+            {
+              "docid": "9580",
+              "url": "https://history.sd.gov/archives/womenshistory.aspx",
+              "title": "RESOURCES",
+              "score": 31.875807165298713,
+              "snippet": "RESOURCES\n---\ntitle: RESOURCES\ndate: 2000-01-01\n---\nWomen's History Collection\n\nLetters, diaries, reminiscences, photographs, and organizational records bring history alive through the voices of women who participated in events as they happened. Whether it be a description of day-to-day activities on a family farm or letters which chronicle the lives of a prominent family, each is a part of our history. Donors to the State Archives are aware of the significance of women and their contributions to the history of our state, which can be seen in the increasing volume of women's resources added to the archives collections in the past twenty years.\n\nIn addition to the collections cited here, the State Archives has many other resources in which women's voices are found. Church records, county, city, and family histories, census records, naturalization records, school census records, the biographical file, the general photograph collection, the South Dakota Authors file, and South Dakota newspapers are some of the sources available.\n\nStill more materials are found in other government record groups. Department of Education records documenting teacher certifications, Secretary of State photographs, Cosmetology Commission licensing records, County Mother's Pension records, Board of Nursing records, the WPA nursery project, and the Commission on the Status of Women records all provide insight into the lives of South Dakota women.\n\nIn addition, scholars have used archives collections for"
+            },
+            {
+              "docid": "5642",
+              "url": "https://en.wikipedia.org/wiki/Presentation_Sisters",
+              "title": "Presentation Sisters - Wikipedia",
+              "score": 30.051793932256164,
+              "snippet": "Presentation Sisters - Wikipedia\n---\ntitle: Presentation Sisters - Wikipedia\ndate: 2006-10-12\n---\nThe Presentation Sisters, officially the Sisters of the Presentation of the Blessed Virgin Mary, are a religious institute of Roman Catholic women founded in Cork, Ireland, by Honora \"Nano\" Nagle in 1775. The sisters of the congregation use the postnominal initials PBVM.\n\nThe Presentation Sisters' mission is to help the poor and needy around the world. Historically, the Sisters focused their energies on creating and staffing schools that would educate young people, especially young women. Most of these schools are still in operation and can be found across the globe.\n\nAs of 2024, the Presentation Sisters are active in 19 countries: Australia, Bolivia, Canada, Chile, Dominica, Ecuador, India, Ireland, Israel, New Zealand, Pakistan, Papua New Guinea, Peru, Philippines, Thailand, United Kingdom, United States, Zambia, and Zimbabwe.\n\nHistory\n\nBeginnings\n\nHonora (Nano) Nagle (1718–1784) was born in Ballygriffin, Cork, Ireland. Her wealthy Catholic family provided her the advantage of an education in France, at a time when Ireland's Education Act 1695 precluded the less advantaged from education. She quietly began teaching Irish children in the trading port of Cork City, and her reputation spread widely. In a 1769 letter, she wrote: \"I often think my schools will never bring me to heaven, as I only take delight and pleasure in them... I can assure you my schools are beginning to be of "
+            },
+            {
+              "docid": "82087",
+              "url": "https://en.wikipedia.org/wiki/L._Frank_Baum",
+              "title": "L. Frank Baum - Wikipedia",
+              "score": 29.646476561590458,
+              "snippet": "L. Frank Baum - Wikipedia\n---\ntitle: L. Frank Baum - Wikipedia\nauthor: Authority control databases\ndate: 2001-09-29\n---\nname: L. Frank Baum\npseudonym: George Brooks, Louis F. Baum, Laura Bancroft, Suzanne Metcalf, Capt. Hugh Fitzgerald, Schuyler Staunton, Edith Van Dyne, Floyd Akers, John Estes Cooke\nbirth_name: Lyman Frank Baum\nbirth_date: 15 05 1856\nbirth_place: Chittenango, New York, U.S.\ndeath_date: 06 05 1919\ndeath_place: Los Angeles, California, U.S.\nresting_place: Forest Lawn Memorial Park\noccupation: Author\ngenre: Fantasy, poetry, short stories\nspouse: Maud Gage Baum (m. November 9, 1882)\nchildren: 4, including Frank and Harry\nrelatives: Matilda Joslyn Gage (mother-in-law)Roger S. Baum (great-grandson)\nsignature: L Frank Baum Signature.svg\n\nLyman Frank Baum (; May 15, 1856 – May 6, 1919) was an American author best known for his children's fantasy books, particularly The Wonderful Wizard of Oz, part of a series. In addition to the 14 Oz books, Baum penned 41 other novels (not including four lost, unpublished novels), 83 short stories, over 200 poems, and at least 42 scripts. He made numerous attempts to bring his works to the stage and screen; the 1939 adaptation of the first Oz book became a landmark of 20th-century cinema.\n\nBorn and raised in Chittenango, New York, Baum moved west after an unsuccessful stint as a theater producer and playwright. He and his wife opened a store in South Dakota and he edited and published a newspaper. They then moved to Chicago, where "
+            },
+            {
+              "docid": "20497",
+              "url": "https://chroniclingamerica.loc.gov/newspapers/",
+              "title": "All Digitized Newspapers",
+              "score": 28.427889154397235,
+              "snippet": "All Digitized Newspapers\n---\ntitle: All Digitized Newspapers\ndate: 2008-08-04\n---\n| Alabama |\n\nThe age-herald. [volume] Birmingham, Ala., 1897-1902 |\n\n|\n\n1630 |\n\n1897-08-01 |\n\n1902-05-20 |\n\nYes |\n\n| Alabama |\n\nAlabama state intelligencer. [volume] Tuscaloosa, Ala., 1829-183? |\n\n|\n\n50 |\n\n1831-01-01 |\n\n1831-12-24 |\n\nYes |\n\n| Alabama |\n\nThe Birmingham age-herald. [volume] Birmingham, Ala., 1902-1950 |\n\n|\n\n8237 |\n\n1902-05-21 |\n\n1924-12-31 |\n\nYes |\n\n| Alabama |\n\nBirmingham age-herald. [volume] Birmingham, Ala., 1890-1895 |\n\n|\n\n423 |\n\n1894-07-01 |\n\n1895-10-03 |\n\nYes |\n\n| Alabama |\n\nBirmingham state herald. Birmingham, Ala., 1895-1897 |\n\n|\n\n570 |\n\n1895-10-04 |\n\n1897-07-31 |\n\nYes |\n\n| Alabama |\n\nThe Chattanooga Daily Rebel. [volume] Chattanooga, Tenn., 1862-1864 |\n\n|\n\n228 |\n\n1862-08-09 |\n\n1864-04-22 |\n\nYes |\n\n| Alabama |\n\nChattanooga daily rebel. [volume] Selma, Ala., 1865-1865 |\n\n|\n\n3 |\n\n1865-04-19 |\n\n1865-04-27 |\n\nYes |\n\n| Alabama |\n\nThe daily Chattanooga rebel. [volume] Griffin, Ga., 1864-1865 |\n\n|\n\n41 |\n\n1864-06-09 |\n\n1865-04-15 |\n\nYes |\n\n| Alabama |\n\nHuntsville gazette. [volume] Huntsville, Ala., 1879-1894 |\n\n|\n\n706 |\n\n1881-06-18 |\n\n1894-12-29 |\n\nYes |\n\n| Alabama |\n\nThe Huntsville star. [volume] Huntsville, Ala., 1900-19?? |\n\n|\n\n1 |\n\n1900-01-26 |\n\n1900-01-26 |\n\nYes |\n\n| Alabama |\n\nMemphis daily appeal. [volume] Memphis, Tenn., 1847-1886 |\n\n|\n\n8088 |\n\n1857-01-01 |\n\n1886-01-27 |\n\nYes |\n\n| Alabama |\n\nMobile daily commercial register and patriot. [volume] Mobile, Ala., 1834-1841 |\n\n"
+            },
+            {
+              "docid": "99484",
+              "url": "https://en.wikipedia.org/wiki/List_of_women%27s_universities_and_colleges_in_the_United_States",
+              "title": "List of women's universities and colleges in the United States - Wikipedia",
+              "score": 26.672513772251445,
+              "snippet": "List of women's universities and colleges in the United States - Wikipedia\n---\ntitle: List of women's universities and colleges in the United States - Wikipedia\ndate: 2007-01-22\n---\nThe following is a list of current and historical women's colleges in the United States, organized by state. These are institutions of higher education in the United States have student populations composed exclusively or almost exclusively of women. There are approximately thirty active women's colleges in the U.S., most of which are liberal arts colleges.\n\nCurrently active women's colleges are listed in bold text. Colleges that are closed are listed in italics. Former women's colleges that are now coeducational are listed in plain text.\n\nAlabama\n\n* Alabama Central Female College, Tuscaloosa, August 22, 1923; the main building burned down and became a park in the 1930s. There is no mention of the school after this date.\n* Alabama Conference Female College, Tuskegee (originally Tuskegee Female College) From 1854 to 1909, the college was in Tuskegee, Alabama and later moved to Montgomery, Alabama. Co-ed in 1934, the school was then renamed Huntingdon College in 1935. It is also known as Woman's College of Alabama.\n* Alabama Female Institute (1830–1888). Previously known as Sims' Academy and Tuscaloosa Female Academy.\n* Athens Female Academy, Athens (founded in 1822) Co-ed since 1931, later renamed Athens State University.\n* Auburn (Masonic) Female College, Auburn (operated 1852–1870)\n* Auburn Femal"
+            },
+            {
+              "docid": "65663",
+              "url": "https://en.wikipedia.org/wiki/Ron_Rivett",
+              "title": "Ron Rivett - Wikipedia",
+              "score": 26.667854598609836,
+              "snippet": "Ron Rivett - Wikipedia\n---\ntitle: Ron Rivett - Wikipedia\ndate: 2016-12-27\n---\nRon Rivett (August 2, 1940 - December 9, 2023) was an American entrepreneur. He was best known for being founder of Super 8 Motels and My Place hotels. By 1993, Super 8 had 1,000 locations worldwide. Super 8 grew to be the largest budget hotel chain in the world. In 1993, Rivett sold Super 8 Motels to Hospitality Franchise Systems for $125 million. \n\nIn 2012, he founded My Place Hotels of America,Five questions: Ron Rivett, co-founder of My Place Hotels which is known for its brands My Place Hotels and Trend Hotels & Suites. Rivett served as the chairman for My Place Hotels of America. \n\nOn December 9, 2023, Rivett died at Baptist Medical Center in Miami, FL \n\nEducation\n\nRivett graduated from Northern State University with a degree in business in 1963 and received an honorary \"Doctorate of Humane Letters\" from NSU in 1990.Ronald J. Rivett - Utah Hospitality\n\nMy Place Hotels of America\n\nMy Place Hotels of America is a hospitality company in the United States headquartered in Aberdeen, South Dakota.\n\nThe company announced My Place Hotels alongside its franchising system in 2014. The brand was founded by Rivett and grandson Ryan (Rivett) in 2012. The hospitality company had 56 My Place Hotels open across 27 states as of June 2020.\n\nThe company announced a new brand, Trend Hotels & Suites, in June 2020.\n\nReferences\n\nCategory:1940 births\nCategory:2023 deaths\nCategory:American hoteliers\nCategory:Northern "
+            },
+            {
+              "docid": "57634",
+              "url": "https://en.wikipedia.org/wiki/List_of_streetcar_systems_in_the_United_States",
+              "title": "List of streetcar systems in the United States - Wikipedia",
+              "score": 26.242535412724468,
+              "snippet": "List of streetcar systems in the United States - Wikipedia\n---\ntitle: List of streetcar systems in the United States - Wikipedia\ndate: 2008-03-30\n---\nThis is a list of past and present streetcar (tram), interurban, and light rail systems in the United States. System here refers to all streetcar infrastructure and rolling stock in a given metropolitan area. In many U.S. cities, the streetcar system was operated by a succession of private companies; this is not a list of streetcar operating companies.Middleton, William D. (1967). The Time of the Trolley, pp. 78–79. Milwaukee: Kalmbach Publishing. .\n\nLike other country-wide lists indexed at List of town tramway systems, this list includes past and present systems. For lists of active systems, see:\n* Light rail in the United States\n* List of United States light rail systems by ridership\n* List of rail transit systems in the United States, which also includes subway/metro and commuter rail systems.\nIn the state-by-state tables below:\n* A diamond (♦) symbol denotes a system that operates or operated in the same area as another independent system.\n* Names and cities of currently operating systems appear in bold on blue backgrounds.\n* Interurban and light rail systems are denoted in the Type column, which is left blank for the far-more-plentiful streetcar systems. (Some pre-1970s systems might have been called light rail if the term had existed at the time.)\n\nAlabama\n\n**Table 1**\n\n| Name | Location | Motive power | Type | Opened | Cl"
+            },
+            {
+              "docid": "81788",
+              "url": "https://en.wikipedia.org/wiki/List_of_land-grant_universities",
+              "title": "List of land-grant universities - Wikipedia",
+              "score": 26.099068185367997,
+              "snippet": "List of land-grant universities - Wikipedia\n---\ntitle: List of land-grant universities - Wikipedia\ndate: 2003-11-08\n---\nThis is a list of land-grant colleges and universities in the United States of America and its associated territories.Association of Public and Land-grant Universities (Listed mostly in historical order, by state)\n\nLand-grant institutions are often categorized as 1862, 1890, and 1994 institutions, based on the date of the legislation that designated most of them with land-grant status.\n\nOf the 106 land-grant institutions, all but two (the Community College of Micronesia and Northern Marianas College) are members of the Association of Public and Land-grant Universities (formerly the National Association of State Universities and Land-Grant Colleges).\n\nNote: Historically black colleges or universities on this list are listed in italics.\n\nNative American\n\nThe 31 tribal colleges of 1994 are represented as a system by the single membership of the American Indian Higher Education Consortium (AIHEC).\n\nThe AIHEC has its headquarters in Alexandria, Virginia for the benefits of ready access to the federal government in Washington, D.C. None of its member schools are located in Virginia. They are located from Michigan westward to Arizona, California and Alaska.\n\nBy state\n\nAlabama\n\n*Alabama A&M University\n*Auburn University (designated as a land-grant college in 1872 under the name Agricultural and Mechanical College of Alabama)\n*Tuskegee University (private)\n\nThough Al"
+            },
+            {
+              "docid": "41740",
+              "url": "https://archiveswest.orbiscascade.org/ark:80444/xv52062",
+              "title": "Archives West Finding Aid",
+              "score": 26.062872491220094,
+              "snippet": "Archives West Finding Aid\n---\ntitle: Archives West Finding Aid\ndate: 2008-12-01\n---\nArchives West Finding Aid\n\nTable of Contents\n\n- Overview of the Collection\n\n- Content Description\n\n- Use of the Collection\n\n- Administrative Information\n\n-\n\nDetailed Description of the Collection\n\n- A.1. Commercial Photo Service\n\n- Aaberg, John P.\n\n- Abel, H.V.\n\n- Abell, Frank G.\n\n- Abell, Frank G. & Son\n\n- Adams, Edward C.\n\n- Aiko Studio\n\n- Aldrich Photo Company\n\n- Alexander, Joseph W.\n\n- Alexander, William George\n\n- Allen, Henry Tureman\n\n- Allen and Perkins\n\n- Alvord, Charles A.\n\n- Amano, James M.\n\n- American View Co.\n\n- Amrhein, Joseph\n\n- Amstel Studio\n\n- Amsden, William O.\n\n- Anderson, Charles D.\n\n- Andrews, Edmund\n\n- Andrews, E.B.\n\n- Apeda\n\n- Ashman & Yeager\n\n- Asplund, John E.\n\n- Atkeson, Ray\n\n- Avery, Frank Fuller\n\n- Axtell Photo\n\n- Bachrach, Louis Fabian\n\n- Bailey, E. J.\n\n- Baird, John A. & Aldrich, Frank\n\n- Baker\n\n- Baker & Johnson\n\n- J.P. Ball & Sons\n\n- Banks, Clyde\n\n- Bardo & Mills\n\n- Barkalow Bros.\n\n- Barnard, Thomas Nathan\n\n- Barnes, Lafe W. & Evans, Frank M.\n\n- Barnes, Albert. H\n\n- Belcher Photos\n\n- Bertrand, E.E.\n\n- Best, W.H.\n\n- Bischoff y Spencer\n\n- Blair, Homer O.\n\n- Blankenberg, John M.\n\n- Blome, John Henry\n\n- Boland, Marvin D.\n\n- Bolton\n\n- Bone, C.C.\n\n- Booen, J. Orville\n\n- Booen & Ewing\n\n- Boorne & May\n\n- Boren, R.L.\n\n- Borgersen, Orville\n\n- Bowen, Chapin\n\n- Bowmer\n\n- Bradley, Levi\n\n- Edwin L. Brand\n\n- Brandt, Karl\n\n- Bratt, J.H.\n\n- Brodeck & Co.\n\n- Brown, B.B.\n\n- Brown, H"
+            },
+            {
+              "docid": "1372",
+              "url": "https://norcocollege.libguides.com/c.php?g=33030&p=209263",
+              "title": "Online Historical Newspapers : A - Z list of states",
+              "score": 25.493047590774527,
+              "snippet": "Online Historical Newspapers : A - Z list of states\n---\ntitle: Online Historical Newspapers : A - Z list of states\ndate: 2023-11-17\n---\n');\n\nSkip to Main Content- Assorted Birmingham Newspaper Clippings (1892-2004)Excerpts only. This seems to be a digitized selected 'clippings file' meant to support research into the history of Birmingham.\n\n- The Avondale Sun (1924-2006)Newspaper published by Avondale Mills (Birmingham) for its employees.\n\n- Birmingham Iron Age (1874-1901)This collection contains the Birmingham Iron Age, The Weekly Iron Age, The Weekly Age, and the Pratt City Herald newspapers spanning the years 1874-1901.\n\n- Chanticleer (1939-present)Jacksonville State University student newspaper.\n\n- Chronicling AmericaMemphis Appeal (1857-1876), more forthcoming.\n\n- Jacksonville Republican (1837-1895)Northeastern Alabama newspaper. Includes link to 143-page PDF file with an index of proper names found in the paper.\n\n- Small Town Newspapers (1996-2012)• Clay News, Pinson (not available)\n\n• The Democrat-Reporter, Linden (2009-12)\n\n• The Florala News, Florala (2009-12)\n\n• The Lamar Democrat and Sulligent News, Vernon (1998-2001, 2011-12)\n\n• The Pinson News & Jefferson Countain, Pinson (available soon)\n\n• Thomasville News, Thomasville (1996-98)\n\n• The Tuskegee News, Tuskegee (2009-12) - Southern Courier (1965-1968)Weekly newspaper founded to cover the Civil Rights Movement. Complete run.\n\n- Sitka Sentinel (1940-2010)• Daily Sitka Sentinel (1940-2010)\n\n• Sitka Sentinel (2008-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tool_call",
+      "tool_name": "visit",
+      "arguments": {
+        "url": [
+          "https://www.sdpb.org/news/2023-12-14/aberdeen-hotel-founder-ron-rivett-dies-at-age-83"
+        ],
+        "goal": "Find full details about Ron Rivett and any mention of Northern State University founding or Aberdeen's history\"\n]"
+      },
+      "output": [
+        {
+          "url": "https://www.sdpb.org/news/2023-12-14/aberdeen-hotel-founder-ron-rivett-dies-at-age-83",
+          "docid": "87304",
+          "goal": "Find full details about Ron Rivett and any mention of Northern State University founding or Aberdeen's history\"\n]",
+          "content": "Aberdeen hotel founder Ron Rivett dies at age 83\n---\ntitle: Aberdeen hotel founder Ron Rivett dies at age 83\nauthor: SDPB\ndate: 2023-12-14\n---\nAn Aberdeen businessman known for founding several major hotel chains has died.\n\nRon Rivett passed away over the weekend, according to his family.\n\nRivett founded both the Super 8 and My Place hotel chains. The first Super 8 opened in 1974 in Aberdeen. It now has over 2,000 locations worldwide, according to its parent company, Wyndham Hotels.\n\nAn Aberdeen native, Rivett graduated from Northern State University in 1963.\n\nHe was 83.",
+          "truncated": false,
+          "original_chars": 577
+        }
+      ]
+    },
+    {
+      "type": "tool_call",
+      "tool_name": "search",
+      "arguments": {
+        "query": [
+          "Northern State University \"founded\" OR \"established\" site:northernstate.edu"
+        ]
+      },
+      "output": [
+        {
+          "query": "Northern State University \"founded\" OR \"established\" site:northernstate.edu",
+          "results": [
+            {
+              "docid": "50851",
+              "url": "https://undergraduatecommons.com/open_to_submit.html",
+              "title": "Subject Areas",
+              "score": 26.380810532512925,
+              "snippet": "Subject Areas\n---\ntitle: Subject Areas\ndate: 2015-02-27\n---\nPublications and Conferences Open for Submissions\n\nThe following publications and conferences accept submissions from all undergraduates, or undergraduates from a specific school, group, or region. Look for the to find the submission policy for each, then visit the publication's site to start your submission.\n\nThough the Undergraduate Research Commons directs readers to publications accepting submissions, it does not participate in the submission process in any way. For details on an individual journal's submission policy, please refer to the journal's policy page and/or contact the editors.\n\nAugustana Center for the Study of Ethics Essay Contest\n\nAugustana College (Prizewinners)\n\nOpen to Augustana College Undergraduates.\n\nThe Augustana Center for the Study of Ethics administers an annual Ethics Essay Contest. Essays are judged on the basis of clarity, appropriate use of ethical ideas, theories and principles in addressing and clarifying the topic; depth, insight and creativity of analysis; thoughtfulness and plausibility of supporting arguments for position taken.\n\nBackstage Pass\n\nUniversity of the Pacific (Conservatory of Music)\n\nOpen to University of the Pacific Undergraduates.\n\nBest Integrated Writing\n\nWright State University\n\nOpen to Wright State University Undergraduates.\n\nCedarville Review\n\nCedarville University (Department of English, Literature, and Modern Languages)\n\nOpen to Cedarville University Undergradu"
+            },
+            {
+              "docid": "5896",
+              "url": "https://en.wikipedia.org/wiki/University_of_Illinois_Chicago_School_of_Law",
+              "title": "University of Illinois Chicago School of Law - Wikipedia",
+              "score": 26.35932782420616,
+              "snippet": "University of Illinois Chicago School of Law - Wikipedia\n---\ntitle: University of Illinois Chicago School of Law - Wikipedia\nauthor: Authority control databases International ISNI VIAF National United States Czech Republic Israel Catalonia Other IdRef\ndate: 2006-01-07\n---\nname: University of Illinois Chicago School of Law\nestablished: 1899\ntype: Public law school\nparent: University of Illinois Chicago\nhead: Nicky Boothe\ncity: Chicago\nstate: Illinois\ncountry: United States\ncoordinates: 41.8778 -87.6284 type:edu inline, title\nstudents: 987 (Fall 2023)\nfaculty: 48 full-time, 140 part-time (Fall 2022)\nranking: 169th (tie) (2025)U.S. News & World Report April 8, 2025\nbar pass rate: 59.19% (2023, first-time takers)Bar Passage Information law.uic.edu April 8, 2024\naba profile: Standard 509 Report\n\nThe University of Illinois Chicago School of Law (UIC Law) is the law school of the University of Illinois Chicago, a public research university in Chicago, Illinois. Founded in 1899, it became affiliated with the university in 2019. The school offers programs for both part-time and full-time students, with both day and night classes available, and offers January enrollment.\n\nHistory\n\nUIC Law was founded in 1899 as the John Marshall Law School and initially accredited by the American Bar Association in 1951. It merged with the University of Illinois at Chicago in 2019, becoming the University of Illinois Chicago John Marshall Law School. On May 20, 2021, following review by a university ta"
+            },
+            {
+              "docid": "78759",
+              "url": "https://europe.factsanddetails.com/article/entry-468.html",
+              "title": "Ancient Roman Frontier Defenses: Forts, Walls, and Their Purposes",
+              "score": 25.28893529049383,
+              "snippet": "Ancient Roman Frontier Defenses: Forts, Walls, and Their Purposes\n---\ntitle: Ancient Roman Frontier Defenses: Forts, Walls, and Their Purposes\ndate: 2025-01-01\n---\nHome | Category: Ethnic Groups and Regions / Military\n\nROMAN FRONTIER DEFENSES\n\nRome depended on a network of forts, walls and natural barriers to separate the empire from outsiders. Walls, military outposts and frontier cities were all types of fortifications that were employed. Seventy-three-mile-long Hadrian's Wall's in northern Britain is the most well-known of these fortification. The Antonine Wall, built of stone, turf and wood, was used to extend the frontier beyond Hadrian's Wall in A.D. 142. Lambaesis was established as military fort in 81. It later served as army headquartered in North Africa. Dura-Europos was built where the Romans seized a city on a cliff above the Euphrates from Parthians in the second century A.D. [Source: Andrew Curry, National Geographic, September 2012 ]\n\nOn the northern frontiers, Germanic tribes often invaded towns near the borders. The Romans set up a chain of observation posts on the Rhine to guard the frontiers of the Roman empire, protect shipping, and give an early warning in the event of an attack. They were made from wood and stone and stood about five meters high. Surrounded by low walls, moats and sharp wooden stakes, they were set up between a 500 and 1,500 meters apart, close enough that towers could alert others in the chain in the event of trouble.\n\nDiplomacy, trade "
+            },
+            {
+              "docid": "37373",
+              "url": "https://sites.udel.edu/britlitwiki/the-medieval-university/",
+              "title": "The Medieval University",
+              "score": 25.25627105276729,
+              "snippet": "The Medieval University\n---\ntitle: The Medieval University\ndate: 2013-12-05\n---\nHistory of the University in Europe\n\n| Medieval university classroom |\n\nBefore Charlemagne's reign, higher education was mostly limited to the clergy and a select few members of the ruling class, as the only sort of curriculum was translating and examining holy texts. These kinds of schools were referred to as cathedral schools. There were also palace schools, which educated the young men of the ruling class on military and court tactics. These palace schools also hired chaplains to teach the young nobles about theology and language. The change came about with Charlemagne, who understood that the only way to keep his empire flourishing was through education. He started with the palace schools, where he expanded the curriculum to include the liberal arts.\n\nHis right-hand man at instituting these sweeping reforms was Alcuin, who was an expect at all things liberal arts: the Trivium (grammar, rhetoric, dialectic) and the Quadrivium (music, arithmetic, geometry, and astronomy). He became the head of the palace school at Aachen, in present-day Germany, in 782. Countless other palace schools followed Alcuin's example, creating a real educational change by the start of the eighth century. Charlemagne instituted several enactments in the late 700s to continue furthering education in his kingdom. One in particular, referred to as the \"Charter of Modern Thought\", instructed members of the clergy to teach no"
+            },
+            {
+              "docid": "40256",
+              "url": "https://en.wikipedia.org/wiki/Virginia_Tech",
+              "title": "Virginia Tech - Wikipedia",
+              "score": 25.153129323974184,
+              "snippet": "Virginia Tech - Wikipedia\n---\ntitle: Virginia Tech - Wikipedia\nauthor: Authority control databases\ndate: 2003-06-04\n---\nname: Virginia Polytechnic Instituteand State University\nimage_upright: .7\nmotto: Ut Prosim (Latin)\nmottoeng: \"That I May Serve\"\nestablished: 20 June 1872\ntype: Public land-grant research senior military university\nacademic_affiliations: ORAU, SCHEV, URA, CUWMA, Sea-grant, Space-grant\nendowment: $1.7 billion (2022)As of June 30, 2022. Virginia Tech Foundation Financial Highlights May 23, 2024 April 17, 2024\nbudget: $2.06 billion (2023) Board of Visitors sets university budget, compensation plans for 2023-24 fiscal year news.vt.edu\npresident: Timothy D. SandsBoard of visitors appoints Timothy D. Sands as next president of Virginia Tech Hincker Lawrence December 6, 2013 Virginia Tech News Virginia Polytechnic Institute and State University live April 2, 2014 September 11, 2015\nprovost: Cyril ClarkeCyril Clarke named Virginia Tech executive vice president and provost 2019-01-07 Virginia Tech News January 8, 2019 January 7, 2019 live\nstudents: 36, 383University allocates CARES Act funding to support students vt.edu August 23, 2020 mdy-all December 8, 2020 liveRollcall irweb.ir.vt.edu live April 2, 2019 April 2, 2019\nundergrad: 29, 300\npostgrad: 7, 083\nfaculty: 1, 395Virginia Tech Spring 2014 Headcount Enrollments On and Off Campus In-state determined by Tuition at University Level Virginia Tech July 14, 2014 July 4, 2014\ncity: Blacksburg\nstate: Virginia\ncountry:"
+            },
+            {
+              "docid": "87992",
+              "url": "https://en.wikipedia.org/wiki/Purdue_University_system",
+              "title": "Purdue University system - Wikipedia",
+              "score": 24.228890629576952,
+              "snippet": "Purdue University system - Wikipedia\n---\ntitle: Purdue University system - Wikipedia\nauthor: Authority control databases ISNI\ndate: 2006-01-02\n---\nname: Purdue University system\nimage_name: Purdue University seal.svg\nimage_upright: 0.7\nestablished: 6 May 1869\nfounder: John Purdue\ntype: Public university system\naccreditation: HLC\nendowment: $4.1 billion (system-wide) (2024)\npresident: Mung Chiang\nstudents: 118, 686 system-wide\"System-wide Enrollment by Student Level\" May 19, 2011. 2010–11 Purdue University Data Digest. p. 150. Retrieved June 9, 2011.\nundergrad: 96, 422 system-wide\npostgrad: 22, 264 system-wide\nfaculty: 8, 733 system-wide\"System-wide Faculty and Staff Headcount \" May 19, 2011. 2010–11 Purdue University Data Digest. p. 156. Retrieved June 9, 2011.\ncampus: 18, 676 acres (7, 558 ha) among five campuses\"Land and Facilities\" May 19, 2011. 2010–11 Purdue University Data Digest. p. 85. Retrieved June 9, 2011.\ncity: West LafayetteIndianapolisFort WayneHammondWestville\ncolors: Old Gold and BlackVisual Language Guideline Purdue University Brand Style Guide Brand.Purdue.edu February 17, 2020Purdue Boilermakers\nlogo: Purdue University system logo.svg\nlogo_upright: 1.1\n\nThe Purdue University system is a public university system in the U.S. state of Indiana. A land-grant university with nearly 75,000 students across three institutions comprising five physical campuses, a statewide technology program, extension centers in each of Indiana's 92 counties, and continuing educatio"
+            },
+            {
+              "docid": "97807",
+              "url": "https://histicle.com/oldest-us-colleges-and-universities-list/",
+              "title": "The 51 Oldest U.S. Colleges: Discovering America's History Through Education",
+              "score": 24.050984376025795,
+              "snippet": "The 51 Oldest U.S. Colleges: Discovering America's History Through Education\n---\ntitle: The 51 Oldest U.S. Colleges: Discovering America's History Through Education\nauthor: J Herwick\ndate: 2023-05-03\n---\nThe rich tapestry of American higher education boasts many illustrious threads, with the oldest U.S. colleges and universities forming some of the most intriguing strands.\n\nThese venerable institutions, standing strong through centuries of change, are not only the bedrock of educational innovation but also witness the evolution of the nation's cultural, political, and social history.\n\nTheir antique campuses whisper tales of tradition and transformation, echoing the intellectual fervor of countless students who walked their hallowed halls.\n\nTheir founding dates range from the colonial era to the early years of the young United States, these colleges and universities have maintained their mission of disseminating knowledge against the backdrop of shifting academic paradigms.\n\nSome, such as Harvard and Yale, were established as religious seminaries but have metamorphosed into modern, secular research powerhouses.\n\nOthers, like the College of William & Mary, have weathered wars and social upheaval, resiliently preserving their purpose and dignity.\n\nThese 51 oldest U.S. colleges and universities represent an academic legacy and an architectural heritage, with campuses displaying a rich assortment of styles—from Georgian and Federalist to Gothic Revival.\n\nThe 51 Oldest U.S. College"
+            },
+            {
+              "docid": "27229",
+              "url": "https://www.montgomerycollege.edu/academics/transfer/agreements-and-information/by-institution.html",
+              "title": "Transfer Agreements and Information: By Institution",
+              "score": 23.885958563285,
+              "snippet": "Transfer Agreements and Information: By Institution\n---\ntitle: Transfer Agreements and Information: By Institution\ndate: 2025-01-01\n---\nTransfer Agreements and Information: By Institution\n\nEvery year, Montgomery College students transfer to schools all over the country. We have transfer agreements and partnerships in place with more than 40 institutions. This means you can make a seamless transition to a four-year school and earn your bachelor's degree.\n\nCredits you earn at Montgomery College can be transferred to virtually any four-year school. Not all credits will necessarily be accepted at every school, so work with a counselor or advisor at MC. Contact your preferred transfer institution to make sure your credits will transfer.\n\nSee transfer agreements and information by institution or by major/area of study:\n\nMontgomery College has at least one transfer agreement in place with each of the schools listed below. By following a transfer agreement, you can be sure that your credits will transfer seamlessly.\n\nYou may also transfer to these schools even if there is no formal transfer agreement in your major. Work with a counselor or advisor at MC and contact your destination school to make sure your credits will transfer.\n\n* Indicates a school with which MC has a special transfer partnership with additional benefits. These include guaranteed admissions/enrollment, honors programs, and/or scholarships.\n\nAmerican Public University System Websitenew window\n\nLearning Format: Onlin"
+            },
+            {
+              "docid": "1790",
+              "url": "https://today.uic.edu/trustees-approve-juris-doctor-degree-at-uic/",
+              "title": "Trustees approve juris doctor degree at UIC",
+              "score": 23.787034195066582,
+              "snippet": "Trustees approve juris doctor degree at UIC\n---\ntitle: Trustees approve juris doctor degree at UIC\nauthor: University Relations\ndate: 2025-06-13\n---\nTrustees approve juris doctor degree at UIC | UIC today\n===============\nSkip To Content (Alt+0)\nLandmark Regions\nHeadings\nUpdated: Jun 13, 2025 at 02:07 PM \n\nToday\nSubmit \n\nCampus News\n\nOfficial Communications\n\nAcademics & Research\n\nScience Sparks\n\nEvents\n\nResources\n\nCurrent Student Resources\nFaculty and Staff Resources\nOnline Learning Resources and Support\nPhotography/Video\nSocial Media Account Request Form\nUIC Social Media Guidelines and Best Practices\n\nUIC in the news\n\nExperts Guide\nThe Conversation\nPodcasts\n\nContact\n\nCommunicating On Campus\nSending Announcements / DDDH\nUIC Social Media Directory\n\nTrustees approve juris doctor degree at UIC\nJanuary 8, 2019\n\nThe University of Illinois Board of Trustees on Dec. 14 established a juris doctor degree for the new John Marshall Law School at UIC, which will offer the city of Chicago's first and only law degree at a public university when it welcomes its first class next fall.\nCreating the new degree program is another step in a process that began with the board's July approval of an agreement to make the now-private Chicago law school part of UIC.\nSince then, the acquisition has been approved by the American Bar Association and the Illinois Board of Higher Education. It also has been approved for continuing membership by the Association of American Law Schools. Now, the new law schoo"
+            },
+            {
+              "docid": "94255",
+              "url": "https://en.wikipedia.org/wiki/University_of_Texas%E2%80%93Pan_American",
+              "title": "University of Texas–Pan American - Wikipedia",
+              "score": 23.54961313589308,
+              "snippet": "University of Texas–Pan American - Wikipedia\n---\ntitle: University of Texas–Pan American - Wikipedia\nauthor: Authority control databases International ISNI VIAF National United States Israel Other IdRef\ndate: 2004-06-22\n---\nname: University of Texas–Pan American\nimage_size: 150px\nmotto: la Disciplina praesidium civitatis\nmottoeng: Education, the Guardian of Society\nestablished: 1927\nclosed: 2015 (merged)\ntype: Public university\nendowment: $65 million General information May 30, 2013 February 8, 2011 colleges.usnews.rankingsandreviews.com\npresident: Havidan Rodriguez (interim), final\ncity: Edinburg\nstate: Texas\ncountry: United States\ncoordinates: 26.306227 98.173249 source:dewiki_region:US-TX_type:edu dms inline, title\nstudents: 20, 053 (2013) Overview & Fast Facts - The University of Texas-Pan American Utpa.edu 2012-09-01 2013-12-24\nundergrad: 17, 602\npostgrad: 2, 451\nfaculty: 836 (2012)\ncampus: Rural, 238 acre km2\ncolors: Green and OrangeUniversity of Texas-Pan American UTPA Style Guide UTPA Styleguide 2015-07-06#006600 #FF6600\nsporting_affiliations: NCAA Division I – WAC\nnickname: Broncs\nmascot: Bucky the Bronc\nacademic_affiliations: University of Texas SystemCONAHEC\nwebsite: \nlogo: UPTA Logo.svg\nlogo_size: 250px\n\nforbes: 516\nwamo_mastersu: 19\nusnwr_reg: RNP (West)\n\nThe University of Texas–Pan American (UTPA) was a public university in Edinburg, Texas. Founded in 1927, it was a component institution of the University of Texas System. The university served the Rio Grande Val"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tool_call",
+      "tool_name": "search",
+      "arguments": {
+        "query": [
+          "Northern State University Wikipedia"
+        ]
+      },
+      "output": [
+        {
+          "query": "Northern State University Wikipedia",
+          "results": [
+            {
+              "docid": "18336",
+              "url": "https://clio-infra.eu/Indicators/UniversitiesFounded.html",
+              "title": "Abstract",
+              "score": 11.012772863431461,
+              "snippet": "Abstract\n---\ntitle: Abstract\ndate: 2014-04-12\n---\nAbstract\n\nAuthor(s)\n\nProduction date\n\nVariable(s)\n\nKeywords\n\nTime period\n\nGeographical coverage\n\nMethodologies used for data collection and processing\n\nPeriod of collection\n\nData collectors\n\nData quality\n\nGeneral references\n\nFor Europe the main sources are:\n\nde Ridder-Symoens , Hilde (ed.): A History of the University in Europe. Vol. II: Universities in Early Modern Europe (1500 - 1800), Cambridge University Press, 1996\n\nRüegg, Walter (ed.): A History of the University in Europe. Vol. III: Universities in the Nineteenth and Early Twentieth Centuries (1800 - 1945), Cambridge University Press, 2004\n\nRüegg, Walter (ed.): A History of the University in Europe. Vol. IV: Universities Since 1945, Cambridge University Press, 2011\n\nFor the rest of the world the main sources are the English language Wikipedia and the homepages of universities when the information at Wikipedia was not sufficient. Wikipedia was also used to update the data on European universities, since the above listed books underestimate the number of universities, especially in East- and Southern Europe. AS a principle, only public or accredited private universities are listed. Special universities like religious studies, fine art and music and military academies are omitted whenever it was possible.\n\nCattle per Capita 1500 [7456] 2010\n\nCropland per Capita 1500 [6226] 2010\n\nGoats per Capita 1500 [7037] 2010\n\nPasture per Capita 1500 [5963] 2010\n\nPigs per Capita 1500 [6"
+            },
+            {
+              "docid": "96584",
+              "url": "https://historyguild.org/west-african-empires/?srsltid=AfmBOoqhCK_9FYMOJ3GPiZhudCZvw1y7W-6FlB3lzGs7ugMBRNOrXi3o",
+              "title": "West African Empires",
+              "score": 10.886502438577827,
+              "snippet": "West African Empires\n---\ntitle: West African Empires\n---\nKey Points\n\n- The Ghana Empire, called the Wagadou (or Wagadu) Empire by its rulers, was located in what is now southeastern Mauritania, western Mali, and eastern Senegal. There is no consensus on when precisely it originated. Different traditions identify its beginnings between as early as 100 CE and the 9th century, with most scholars accepting the 8th or 9th century.\n\n- Ghana's economic development and eventual wealth was linked to the growth of regular and intensified trans-Saharan trade in gold, salt, and ivory, which allowed for the development of larger urban centers and encouraged territorial expansion to gain control over different trade routes.\n\n- The empire's capital is believed to have been at Koumbi Saleh on the rim of the Sahara desert. According to the description of the town left by Al-Bakri in 1067/1068, the capital was actually two cities, but \"between these two towns are continuous habitations,\" so they might have merged into one.\n\n- The Ghana Empire lay in the Sahel region to the north of the West African gold fields, and was able to profit by controlling the trans-Saharan gold trade, which turned Ghana into an empire of legendary wealth.\n\n- Ghana appears to have had a central core region and was surrounded by vassal states. One of the earliest sources notes that \"under the king's authority are a number of kings.\" These \"kings\" were presumably the rulers of the territorial units often called kafu in "
+            },
+            {
+              "docid": "59249",
+              "url": "https://libguides.unco.edu/apa/references",
+              "title": "APA Style 7th Edition",
+              "score": 10.874579346264062,
+              "snippet": "APA Style 7th Edition\n---\ntitle: APA Style 7th Edition\ndate: 2025-04-09\n---\n');\n\nSkip to Main ContentReference Citations\n\n♦♦♦♦♦♦♦♦\n\nBook\n\nAuthored Book\n\nEdited Book\n\nAnthology\n\nBook Edition\n\neBook with DOI\n\neBook from Library Database\n\nOther eBooks\n\nAuthored Book\n\nEdited Book\n\nAnthology\n\nBook Edition\n\neBook with DOI\n\neBook from Library Database\n\nOther eBooks\n\nFilm, Television, & Video\n\nFeature Film\n\nDocumentary Film\n\nEducational Film\n\nTelevision Series\n\nTelevision Episode\n\nTED Talk\n\nYouTube\n\nVimeo\n\nWebinar\n\nFeature Film\n\nDocumentary Film\n\nEducational Film\n\nTelevision Series\n\nTelevision Episode\n\nTED Talk\n\nYouTube\n\nVimeo\n\nWebinar\n\nJournal Article\n\nJournal Article with DOI\n\nJournal Article Print Version\n\nJournal Article with URL\n\nJournal Article in Library Database\n\nJournal Article with Article Number\n\nJournal Article with Page Numbers\n\nJournal Article, Advance Online Pub\n\nJournal Article in Press\n\nJournal Article with DOI\n\nJournal Article Print Version\n\nJournal Article with URL\n\nJournal Article in Library Database\n\nJournal Article with Article Number\n\nJournal Article with Page Numbers\n\nJournal Article, Advance Online Pub\n\nJournal Article in Press\n\nMagazine Article\n\nMagazine Article Print Version\n\nMagazine Article in Library Database\n\nMagazine Article on Open Web\n\nMagazine Article Print Version\n\nMagazine Article in Library Database\n\nMagazine Article on Open Web\n\nStudent Work\n\nAction Research Report\n\nCapstone\n\nDissertation\n\nMaster's Thesis\n\nUndergraduate Honors Thesis\n\nAction Res"
+            },
+            {
+              "docid": "81760",
+              "url": "https://academic.oup.com/ereh/article/27/4/506/7017742",
+              "title": "Women in European academia before 1800—religion, marriage, and human capital Open Access",
+              "score": 10.626372298416918,
+              "snippet": "Women in European academia before 1800—religion, marriage, and human capital Open Access\n---\ntitle: Women in European academia before 1800—religion, marriage, and human capital Open Access\ndate: 2023-11-04\n---\n- Split View\n\n-\n\nViews\n\n-\n\nCite\n\nCite\n\nDavid de la Croix, Mara Vitale, Women in European academia before 1800—religion, marriage, and human capital, European Review of Economic History, Volume 27, Issue 4, November 2023, Pages 506–532, \n\nClose - Share Icon Share\n\nAbstract\n\nWe document the participation of women in European academia from the first universities to the eve of the Industrial Revolution. A total of 108 women taught at universities or were members of academies of arts and sciences. Most of them were active in Catholic southern Europe—an unexpected result. We conjecture that Protestantism left less room for women at the top of the distribution of human capital to exercise their talent. The percentage of ever-married female scholars is 79%, but a large fraction of them remained childless. Comparing them with 58,995 male scholars, we find that they were on average better.\n\n1. Introduction\n\nIt is well established that most of the scholars and literati who were members of European universities or academies of sciences and arts during the Middle Ages and the early modern period were men. Nonetheless, these universities and academies numbered some women among their members. In this paper, we identify the women belonging to this group, who they were, whether they wer"
+            },
+            {
+              "docid": "1000",
+              "url": "https://legisource.net/2023/11/09/the-borders-of-colorado-from-kansas-territory-to-statehood-part-2/",
+              "title": "The Borders of Colorado: From Kansas Territory to Statehood – Part 2",
+              "score": 10.349887859931894,
+              "snippet": "The Borders of Colorado: From Kansas Territory to Statehood – Part 2\n---\ntitle: The Borders of Colorado: From Kansas Territory to Statehood – Part 2\nauthor: Olls\ndate: 2023-11-09\n---\nby Sarah Meisch\n\nColorado's State Lines\n\nIn Part 1 of this series, we explored how the US created its states, prioritizing geometric simplicity over geographical variance. Colorado stands uniquely symmetrical and rectangular among other states, and Part 2 of this series will examine how Colorado's shape and dimensions were placed – and why its borders have been so controversial.\n\nThroughout its history, Colorado has been under the control of France, Spain, Mexico, the Republic of Texas, and the US. The Rocky Mountains formed a natural barrier between the American-owned Louisiana Purchase lands and the area belonging to Spanish Mexico. What would become the western and southern parts of Colorado were acquired by the US government through the Treaty of Guadalupe Hidalgo. Before the Anglo population grew in Colorado, the land was occupied by several indigenous tribes, including the Ute, Jicarilla Apache, Arapaho, Anasazi, Navajo, Comanche, Cheyenne, Kiowa, Pueblo, and Shoshone. Many of these tribes were forced to consolidate or give up their land when white settlers moved into the region. When Kansas Territory was created in 1854, most of central Colorado and the eastern plains were absorbed into Kansas; the parts of Colorado that lay west of the Rocky Mountains had become part of Utah Territory in "
+            },
+            {
+              "docid": "20892",
+              "url": "https://courses.lumenlearning.com/suny-fmcc-boundless-worldhistory/chapter/the-princes-of-rus/",
+              "title": "World Civilizations I (HIS101) – Biel",
+              "score": 10.262292990319196,
+              "snippet": "World Civilizations I (HIS101) – Biel\n---\ntitle: World Civilizations I (HIS101) – Biel\nauthor: The Development\ndate: 2017-05-31\n---\nRurik and the Foundation of Rus'\n\nRurik was a Varangian chieftain who established the first ruling dynasty in Russian history called the Rurik Dynasty in 862 near Novgorod. This dynasty went on to to establish Kievan Rus'.\n\nLearning Objectives\n\nUnderstand the key aspects of Rurik's rise to power and the establishment of Kievan Rus'\n\nKey Takeaways\n\nKey Points\n\n- Rurik and his followers likely originated in Scandinavia and were related to Norse Vikings.\n\n- The Primary Chronicle is one of the few written documents available that tells us how Rurik came to power.\n\n- Local leaders most likely invited Rurik to establish order in the Ladoga region around 862, beginning a powerful legacy of Varangian leaders.\n\n- The capital of Kievan Rus' moved from Novgorod to Kiev after Rurik's successor, Oleg, captured this southern city.\n\nKey Terms\n\n- Primary Chronicle: A text written in the 12th century that relates a detailed history of Rurik's rise to power.\n\n- Varangians: Norse Vikings who established trade routes throughout Eurasia and eventually established a powerful dynasty in Russia.\n\n- Rurik Dynasty: The founders of Kievan Rus' who stayed in power until 1598 and established the first incarnation of a unified Russia.\n\nRurik\n\nRurik (also spelled Riurik) was a Varangian chieftain who arrived in the Ladoga region in modern-day Russia in 862. He built the Holmga"
+            },
+            {
+              "docid": "15868",
+              "url": "https://ai.meta.com/tools/kilt/",
+              "title": "KILT Benchmarking",
+              "score": 10.140925916360878,
+              "snippet": "KILT Benchmarking\n---\ntitle: KILT Benchmarking\ndate: 2009-02-10\n---\nKILT is a resource for training, evaluating and analyzing NLP models on Knowledge Intensive Language Tasks.\n\nKILT has been built from 11 datasets representing 5 types of tasks:\n\n· Fact-checking\n\n· Entity linking\n\n· Slot filling\n\n· Open domain QA\n\n· Dialog generation\n\nAll these datasets have been grounded in a single pre-processed wikipedia dump, allowing for fairer and more consistent evaluation as well as enabling new task setups such as multitask and transfer learning with minimal effort.\n\nKILT also provides tools to analyze and understand the predictions made by models, as well as the evidence they provide for their predictions.\n\nIf you are working on models which incorporate knowledge to solve NLP problems, KILT should be your go-to resource.\n\nIf using these datasets, please cite the paper associated with the KILT datasets original papers\n\nLabel | Dataset | Task | Input Format | Output Format |\n\n| FEV | FEVER | Fact Checking | Claim | Classification |\n\n| AY2 | AIDA CoNLL-YAGO | Entity Linking | Text Chunk | Entity |\n\n| WnWi | WNED-WIKI | Entity Linking | Text Chunk | Entity |\n\n| WnCw | WNED-CWEB | Entity Linking | Text Chunk | Entity |\n\n| T-REx | T-REx | Slot Filling | Structured | Entity |\n\n| zsRE | Zero Shot RE | Slot Filling | Structured | Entity |\n\n| NQ | Natural Questions | Open Domain QA | Question | Extractive |\n\n| HoPo | HotpotQA | Open Domain QA | Question | Short Abstractive |\n\n| TQA | TriviaQA "
+            },
+            {
+              "docid": "65663",
+              "url": "https://en.wikipedia.org/wiki/Ron_Rivett",
+              "title": "Ron Rivett - Wikipedia",
+              "score": 10.113307731626401,
+              "snippet": "Ron Rivett - Wikipedia\n---\ntitle: Ron Rivett - Wikipedia\ndate: 2016-12-27\n---\nRon Rivett (August 2, 1940 - December 9, 2023) was an American entrepreneur. He was best known for being founder of Super 8 Motels and My Place hotels. By 1993, Super 8 had 1,000 locations worldwide. Super 8 grew to be the largest budget hotel chain in the world. In 1993, Rivett sold Super 8 Motels to Hospitality Franchise Systems for $125 million. \n\nIn 2012, he founded My Place Hotels of America,Five questions: Ron Rivett, co-founder of My Place Hotels which is known for its brands My Place Hotels and Trend Hotels & Suites. Rivett served as the chairman for My Place Hotels of America. \n\nOn December 9, 2023, Rivett died at Baptist Medical Center in Miami, FL \n\nEducation\n\nRivett graduated from Northern State University with a degree in business in 1963 and received an honorary \"Doctorate of Humane Letters\" from NSU in 1990.Ronald J. Rivett - Utah Hospitality\n\nMy Place Hotels of America\n\nMy Place Hotels of America is a hospitality company in the United States headquartered in Aberdeen, South Dakota.\n\nThe company announced My Place Hotels alongside its franchising system in 2014. The brand was founded by Rivett and grandson Ryan (Rivett) in 2012. The hospitality company had 56 My Place Hotels open across 27 states as of June 2020.\n\nThe company announced a new brand, Trend Hotels & Suites, in June 2020.\n\nReferences\n\nCategory:1940 births\nCategory:2023 deaths\nCategory:American hoteliers\nCategory:Northern "
+            },
+            {
+              "docid": "93573",
+              "url": "https://en.wikipedia.org/wiki/Lee_Corso",
+              "title": "Lee Corso - Wikipedia",
+              "score": 10.042758317769804,
+              "snippet": "Lee Corso - Wikipedia\n---\ntitle: Lee Corso - Wikipedia\ndate: 2005-01-16\n---\nname: Lee Corso\nbirth_date: 7 08 1935\nbirth_place: Cicero, Illinois, U.S.\nplayer_years1: 1953–1957\nplayer_team1: Florida State\nplayer_positions: Quarterback, cornerback\ncoach_years1: 1958\ncoach_team1: Florida State (GA)\ncoach_years2: 1959–1965\ncoach_team2: Maryland (QB)\ncoach_years3: 1966–1968\ncoach_team3: Navy (DB)\ncoach_years4: 1969–1972\ncoach_team4: Louisville\ncoach_years5: 1973–1982\ncoach_team5: Indiana\ncoach_years6: 1984\ncoach_team6: Northern Illinois\ncoach_years7: 1985\ncoach_team7: Orlando Renegades\noverall_record: 73–85–6 (college)5–13 (USFL)\nbowl_record: 1–0–1\nchampionships: 2 MVC (1970, 1972)\n\nLee Richard Corso (born August 7, 1935) is an American sports broadcaster and college football analyst for ESPN and a former coach. He has been an analyst on ESPN's College GameDay program since its inception in 1987.\n\nCorso served as the head football coach at the University of Louisville from 1969 to 1972, at Indiana University Bloomington from 1973 to 1982, and at Northern Illinois University in 1984, compiling a career college football coaching record of 73–85–6. He was the head coach for the Orlando Renegades of the United States Football League in 1985, tallying a mark of 5–13.\n\nEarly life and playing career\n\nCorso's parents, Alessandro and Irma, were Italian immigrants. His father fled Italy during World War I at age 15. Alessandro, who had a second-grade education, was a lifelong laborer who lai"
+            },
+            {
+              "docid": "54874",
+              "url": "https://www.utc.edu/health-education-and-professional-studies/asia-program/2018-ncta-teaching-modules/song-dynasty",
+              "title": "The Song Dynasty: Technology, Commerce, and Prosperity",
+              "score": 9.955518126211413,
+              "snippet": "The Song Dynasty: Technology, Commerce, and Prosperity\n---\ntitle: The Song Dynasty: Technology, Commerce, and Prosperity\ndate: 2025-01-01\n---\nThe Song Dynasty: Technology, Commerce, and Prosperity\n\nThe Song Dynasty: Technology, Commerce, and Prosperity\n\nThis complete module with links to all materials may be downloaded as a PDF here.\n\nJane Hill\n\nOoltewah Middle School\n\nOoltewah, Tennessee\n\nSong dynasty founder, Emperor Taizu. Source: Wikipedia at \n\nThis module was developed and utilized for a seventh-grade world history and geography class. It is designed to teach the Tennessee state social studies standard 7.03—\"Summarize agricultural, commercial, and technological developments during the Song dynasties, and describe the role of Confucianism during the Song.\" However, the module is suitable for a variety of social studies classes (grades sixth through ninth) that include Chinese history.\n\nEstimated module length: Approximately three fifty-five-minute classes\n\nOverview\n\nThe reorganization of China under the Song dynasty (960–1279 CE) set the stage for economic growth that propelled Song China into becoming the richest country in the world during the early part of the eleventh century. Despite the fact that the dynasty lost northern China to non-Chinese invaders, prosperity continued during the Southern Song dynasty (1127–1279 CE). Technological advancements were significant and helped change China and the world. Just a few of these advancements included improvements in agricu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tool_call",
+      "tool_name": "finish",
+      "arguments": {
+        "answer": "The person is **Ron Rivett** (August 2, 1940 – December 9, 2023), an American entrepreneur from Aberdeen, South Dakota.\n\nKey matching traits:\n- **Born in the 1940s**: Born August 2, 1940, died December 9, 2023 at age 83\n- **Graduated college 1955–1975**: Graduated from Northern State University with a business degree in 1963\n- **Founded a business in the late 20th century**: Co-founded Super 8 Motels in 1974 with Dennis Brown\n- **Another business in the 2010s with 110–120 franchises across 30+ states**: Co-founded My Place Hotels of America in 2012 (with grandson Ryan Rivett), which had approximately 115 franchises across 36 states as of December 2023\n- **Lived entire life in a town founded in the late 1800s**: Lived his entire life in Aberdeen, South Dakota, which was founded on July 6, 1881",
+        "evidences": [
+          {
+            "evidence": "Ron Rivett (August 2, 1940 - December 9, 2023) was an American entrepreneur best known for founding Super 8 Motels and My Place hotels. He graduated from Northern State University with a degree in business in 1963.",
+            "url": "https://en.wikipedia.org/wiki/Ron_Rivett"
+          },
+          {
+            "evidence": "Rivett co-founded Super 8 Motels with his long-time friend Dennis Brown in 1974 in Aberdeen, S.D. In 2012, he established My Place Hotels of America with his grandson, Ryan Rivett. The brand has expanded significantly, now comprising approximately 115 franchises across 36 states.",
+            "url": "https://hotelsmag.com/news/ron-rivett-co-founder-of-my-place-super-8-dies/"
+          },
+          {
+            "evidence": "An Aberdeen native, Rivett graduated from Northern State University in 1963. He was 83 years old when he passed away.",
+            "url": "https://www.sdpb.org/news/2023-12-14/aberdeen-hotel-founder-ron-rivett-dies-at-age-83"
+          },
+          {
+            "evidence": "Aberdeen was founded on July 6, 1881, when the first train came to Aberdeen on the new tracks carrying lumber and supplies. Charles Prior named the town Aberdeen after his boss, Alexander Mitchell, who came from Aberdeen, Scotland.",
+            "url": "https://dacotahprairiemuseum.org/unit-1-how-aberdeen-was-founded/"
+          }
+        ],
+        "confidence": "97%"
+      },
+      "output": {
+        "status": "finished"
+      }
+    },
+    {
+      "type": "output_text",
+      "output": "The person is **Ron Rivett** (August 2, 1940 – December 9, 2023), an American entrepreneur from Aberdeen, South Dakota.\n\nKey matching traits:\n- **Born in the 1940s**: Born August 2, 1940, died December 9, 2023 at age 83\n- **Graduated college 1955–1975**: Graduated from Northern State University with a business degree in 1963\n- **Founded a business in the late 20th century**: Co-founded Super 8 Motels in 1974 with Dennis Brown\n- **Another business in the 2010s with 110–120 franchises across 30+ states**: Co-founded My Place Hotels of America in 2012 (with grandson Ryan Rivett), which had approximately 115 franchises across 36 states as of December 2023\n- **Lived entire life in a town founded in the late 1800s**: Lived his entire life in Aberdeen, South Dakota, which was founded on July 6, 1881\n\nConfidence: 97%"
+    }
+  ]
+}

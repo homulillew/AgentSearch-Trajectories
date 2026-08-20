@@ -1,0 +1,955 @@
+{
+  "metadata": {
+    "model": "AREX-Turbo",
+    "protocol": "AREX native XML adapted to BC-Plus fixed corpus",
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "top_k": 20,
+    "max_tokens_per_turn": 8192,
+    "turns": 11
+  },
+  "query_id": "464",
+  "tool_call_counts": {
+    "search": 3,
+    "visit": 5,
+    "update_context": 1,
+    "None": 1,
+    "finish": 1
+  },
+  "status": "completed",
+  "retrieved_docids": [
+    "10151",
+    "12484",
+    "17654",
+    "18550",
+    "19153",
+    "2089",
+    "22520",
+    "23120",
+    "23500",
+    "26360",
+    "26838",
+    "28437",
+    "32082",
+    "32783",
+    "3920",
+    "41354",
+    "44442",
+    "44794",
+    "45856",
+    "51752",
+    "5221",
+    "53654",
+    "58131",
+    "62846",
+    "63063",
+    "64234",
+    "67127",
+    "68175",
+    "69452",
+    "69955",
+    "71607",
+    "74000",
+    "76833",
+    "84162",
+    "86244",
+    "86337",
+    "88287",
+    "89915",
+    "90311",
+    "9089",
+    "93875",
+    "96339",
+    "96719"
+  ],
+  "visited_docids": [
+    "2089",
+    "22520",
+    "23120",
+    "26838",
+    "51752"
+  ],
+  "evidences": [
+    {
+      "evidence": "The School organized a football training session for its students on 16th September. 115 students participated in the session.",
+      "url": "https://dpssrinagar.com/news/celebrated-footballer-mehraj-ud-din-wadoo-organizes-football-training-session/"
+    },
+    {
+      "evidence": "Mehrajuddin Wadoo represented India in more than 30 international matches (31+ caps), played in I-League for over a decade, had ISL experience including with Chennaiyin FC (2015 ISL champions), and passed AFC PRO license coaching course as declared in AIFF official results.",
+      "url": "https://www.the-aiff.com/article/afc-pro-diploma-2022-23-course-results-declared"
+    }
+  ],
+  "evidence_validation": {
+    "visited_urls": [
+      "https://dpssrinagar.com/news/celebrated-footballer-mehraj-ud-din-wadoo-organizes-football-training-session/",
+      "https://i-league.org/bharat-fc-snap-up-mehrajuddin-wadoo/",
+      "https://www.hindustantimes.com/pune-news/indian-super-league-will-soon-see-an-indian-as-head-coach-says-wadoo/story-Lxc5Fcq8IF4iSGrRjQJSJM.html",
+      "https://www.the-aiff.com/article/afc-pro-diploma-2022-23-course-results-declared",
+      "https://www.transfermarkt.com/mehrajuddin-wadoo/erfolge/spieler/64624"
+    ],
+    "cited_urls": [
+      "https://dpssrinagar.com/news/celebrated-footballer-mehraj-ud-din-wadoo-organizes-football-training-session/",
+      "https://www.the-aiff.com/article/afc-pro-diploma-2022-23-course-results-declared"
+    ],
+    "unvisited_cited_urls": [],
+    "all_citations_visited": true
+  },
+  "result": [
+    {
+      "type": "tool_call",
+      "tool_name": "search",
+      "arguments": {
+        "query": [
+          "Indian football player ISL 2015 winner AFC PRO license",
+          "2015 ISL champion team Bengaluru FC players list",
+          "Indian footballer I-League decade AFC PRO coach school training September"
+        ]
+      },
+      "output": [
+        {
+          "query": "Indian football player ISL 2015 winner AFC PRO license",
+          "results": [
+            {
+              "docid": "44442",
+              "url": "https://khelnow.com/football/indian-super-league-iconic-isl-players-part-two",
+              "title": "Iconic Indian Super League players and where are they now",
+              "score": 47.26930088530376,
+              "snippet": "Iconic Indian Super League players and where are they now\n---\ntitle: Iconic Indian Super League players and where are they now\ndate: 2022-06-18\n---\nIconic Indian Super League players and where are they now\n\n(Courtesy : ISL Media)\n\nThese individuals took the league's popularity to a higher level than before.\n\nThe Indian Super League (ISL) has been a blessing to Indian football. Thanks to the inception of the tournament, there has been an increase in investment, focus and attention to developing the sport. This does not mean that there was no presence of a commitment towards the sport before. However, thanks to the ISL, Indian football enthusiasts got to witness some of the most iconic players play in the country. Seeing those world-class players live was a sensational experience.\n\nPlayers with the experience of playing in top European leagues like the Premier League, Serie A, and La Liga and international experience of playing at the World Cup, Euros and more became part of the ISL in the past. These superstars helped the league spread its roots across the corners of the nation.\n\nPart 1: Iconic Indian Super League players and where are they now\n\nIt is interesting to see how those individuals went on after their small stint with India got over. On that note, here are some iconic ISL players and where they are now:\n\nMarco Materazzi\n\nMarco Materazzi was a former FIFA World Cup, UEFA Champions League and multiple times Serie A winner before joining Chennaiyin FC in the ISL. The ce"
+            },
+            {
+              "docid": "96719",
+              "url": "https://www.sportmonks.com/football-api/super-league-api/",
+              "title": "Indian Super League",
+              "score": 45.31442744139653,
+              "snippet": "Indian Super League\n---\ntitle: Indian Super League\ndate: 2025-01-01\n---\nLive now!\n\nSportmonks' Football API covers detailed player stats, fixtures, odds, livescores and match events from the top tier of Indian Football, the Indian Super League.\n\nThe league currently comprises 11 clubs. Each season of the tournament generally runs from November to March. During the league stage of the competition, each club plays against all the other clubs in a round-robin style. At the end of the league stage, the team with the most points gets declared the Premiers. They are presented with a trophy named League Winners Shield. The top four clubs qualify for the play-offs. The season then culminates with the ISL Final to determine the Champions. They are presented with the ISL Trophy. The league stage winners participate directly in the AFC Champions League and the ISL Final winner participates in the AFC Cup qualifying playoffs.\n\nThe competition was founded on 21 October 2013. To grow the sport of football in India and increasing its exposure in the country. The league began in October 2014 with eight teams. During its first three seasons, the competition operated without official recognition from the Asian Football Confederation (AFC), the governing body for the sport in Asia. The competition was also structured along the same lines as the Indian Premier League, the country's premier Twenty20 franchise-based cricket competition. Each season lasted just 3 months, from October to December, a"
+            },
+            {
+              "docid": "19153",
+              "url": "https://en.wikipedia.org/wiki/List_of_Indian_football_champions",
+              "title": "List of Indian football champions - Wikipedia",
+              "score": 44.9497526871652,
+              "snippet": "List of Indian football champions - Wikipedia\n---\ntitle: List of Indian football champions - Wikipedia\ndate: 2011-07-16\n---\n**Table 1**\n\n| Indian Football League (1st tier) |\n|---|\n| National Football League (1996–2007)I-League (2007–2017)I-League & Indian Super League (2017–2022) Indian Super League (2022–present) |\n| Country |\n| India |\n| Founded |\n| 1996 |\n| Number of teams (from 2025-26) |\n| 14 |\n| Current champions |\n| Mohun Bagan |\n| Most successful club |\n| Mohun Bagan (7 titles) |\n\nThe Indian football champions are the winners of the highest league in Indian men's football, which is currently the Indian Super League.\n\nThough Indian football tournaments dates back to the eighteenth century, a proper league system, the National Football League (NFL) was established in 1996, playing it first season in 1996–97. Its champions were considered the national champions. After the 2006–07 season, the NFL was rebranded, becoming the I-League with its champions continuing to be considered national champions until 2017, when the Indian Super League (ISL) became the country's joint premier football league. In 2022, ISL became the only top tier football league of the country. ISL playoffs winners were considered as ISL champions until 2021–22 season. Later from 2022–23 season, ISL champions designation was awarded to the table toppers.\n\nThere are 12 clubs who have won either the National Football League or the I-League and championships and six clubs who have won the Indian Super Lea"
+            },
+            {
+              "docid": "86244",
+              "url": "https://www.transfermarkt.com/after-afc-pro-license-clifford-miranda-in-demand/view/news/358688",
+              "title": "After AFC Pro License - Clifford Miranda in demand",
+              "score": 44.88512920932042,
+              "snippet": "After AFC Pro License - Clifford Miranda in demand\n---\ntitle: After AFC Pro License - Clifford Miranda in demand\nauthor: TM India\ndate: 2020-04-15\n---\nAfter AFC Pro License - Clifford Miranda in demand\n\nIt's been a good year for former India international Clifford Miranda. Firstly, Miranda guided FC Goa to top of the Indian Super League points table after the Gaurs parted ways with Sergio Lobera. The top finish ensured that FC Goa becomes the first Indian club to qualify for the AFC Champions League group stage.\n\nSecondly, Miranda completed his AFC Pro Diploma coaching course last month which was conducted by Uzbekistan Football Association. Out of twenty-one participants, only four managed to clear the course, Clifford being one of them. Only fifteen Indian coaches have cleared the two-year pro licence course before Clifford. It's also a matter of pride for the winger as he is also the first among his peers to achieve the Pro license.\n\n\"For me it is very important as I wanted to complete my coaching licenses, Miranda told Times of India. \"Coaching is a process and it is never ending, but for me to get the right licenses and coaching without interruption was very important,\" the 37-year-old added.\n\nSoon after passing the Pro License, Miranda has been flooded with offers from I-League clubs. But just as he used to be on the field, he is not in a hurry. Rather, he wants his decision to be precise, just like his inch-perfect crosses. His contract with FC Goa runs out this June b"
+            },
+            {
+              "docid": "41354",
+              "url": "https://thesetpieces.com/latest-posts/isl-vs-i-league-the-battle-for-the-soul-and-the-future-of-indian-football/",
+              "title": "ISL vs I-League: The battle for the soul and the future of Indian football",
+              "score": 43.41154674559175,
+              "snippet": "ISL vs I-League: The battle for the soul and the future of Indian football\n---\ntitle: ISL vs I-League: The battle for the soul and the future of Indian football\nauthor: Saikat Chakrobarty\ndate: 2015-11-01\n---\nWith a population of almost 1.4 billion, it's fair to say that India are one of the biggest underachievers in world football. There are many reasons for the country's inability to punch its weight on the global stage, but one of the principal faults is the shoddy organisation of domestic football in this vast Asian nation.\n\nIndia currently has two national football leagues, with each vying to be the country's premier competition. The fifth edition of the Indian Super League (ISL) began on September 29. From its origins as an unofficial division with seasons which lasted just two months in 2015, it has grown to become the driving force that's reshaping Indian football. It's now officially recognised by the bodies which govern the sport in Asia and the world, and each campaign now takes place over a six-month period in which the league competes with its more illustrious European counterparts for prime-time viewership.\n\nThe ISL isn't the only show in town, however. The competition currently runs in conjunction with the I-League, which became India's sole professional league in 2007. The latest I-League season begins on Saturday, but the older, more traditional competition is struggling to compete with the ISL's structural and financial weight.\n\nThe ISL is a highly commercia"
+            },
+            {
+              "docid": "32082",
+              "url": "https://www.the-aiff.com/competitions/isl",
+              "title": "Indian Super League",
+              "score": 42.21030748626855,
+              "snippet": "Indian Super League\n---\ntitle: Indian Super League\ndate: 2024-05-01\n---\nThe Indian Super League (ISL), kicked off on October 12, 2014 and was recognised as India's top tier domestic league by FIFA and AFC in October 2019. The league is co-promoted by Reliance, Star India and supported by the All India Football Federation (AIFF).\n\nIndia's leading industrialists and celebrities from sports as well as the Indian film industry have heavily invested in the league's 13 clubs based in the following cities: Bhubaneswar, Chennai, Delhi, Goa, Guwahati, Kochi, Kolkata, Mumbai, Hyderabad, Bengaluru and Jamshedpur.\n\nTo know more about the 13 ISL clubs, please click here\n\nThe league is committed to investing in stadium refurbishment in the eleven identified venues and also in a strong grassroots development programme that will create a platform to groom football talent in the country. With a mission to revolutionise the sport, the ISL is positioned as a high quality and dynamic league that will elevate Indian football to an international level.\n\n[Courtesy: ISL Media Team]\n\n| Team | Points | Played | Won | Draw | Lost | GF | GA | |\n\n|---|---|---|---|---|---|---|---|---|\n\n| {{team.team_name}} | {{team.points}} | {{team.played}} | {{team.won}} | {{team.draw}} | {{team.lost}} | {{team.goal_for}} | {{team.goal_against}} |\n\n| Rank | Name | Goals | |\n\n|---|---|---|---|\n\n| {{index+1}} |\n\n|\n\n{{player.player_name}} {{player.team_name}} | {{player.total_goals}} |\n\n| Season | Venue | Winner | Runner u"
+            },
+            {
+              "docid": "84162",
+              "url": "https://www.the-aiff.com/history",
+              "title": "History",
+              "score": 41.552293157444694,
+              "snippet": "History\n---\ntitle: History\ndate: 2012-03-15\n---\n1872\n\nNagendra Prasad Sarbadhakari, known as the Father of Indian Football\n\nThe game was introduced to the Calcuttans (then the capital of India) by the British soldiers in the nineteenth century. Very few would know that Nagendra Prasad Sarbadhakari, known as the Father of Indian Football forced his classmates into playing the game in his school compound. Attracted by the enthusiasm of the boys in the school, the European teachers of the school and adjacent colleges encouraged Nagendra Prasad and his companions to promote the game among the students surrounding Calcutta.\n\n1872\n\nCalcutta FC the first club to be established in 1872\n\nReports suggest that they were initially a rugby club and switched their attentions to football as late as 1894.\n\n1888\n\nThe Durand Cup, first held in Shimla\n\nIt is the first Indian football competition and incidentally the third oldest surviving competition in the World. It was started by Sir Mortimer Durand.\n\n1888\n\nDurand Cup winners receive 3 trophies\n\nThe tournament is also unique wherein the winning team walks away with three trophies. The Durand Cup and Shimla Trophy are Rolling Trophies while The President's Cup first presented by Dr. Rajendra Prasad is given to the team permanently.\n\n1889\n\nMohun Bagan set up (oldest existing club)\n\nMohun Bagan Athletic Club was set up in what is now West Bengal, in the year 1889.\n\n1892\n\nSovabazar Club win the Trades Cup\n\nThe first Indian team to achieve success"
+            },
+            {
+              "docid": "67127",
+              "url": "https://www.olympics.com/en/news/indian-football-team-national-history-coach-isl-i-league-fifa-afc",
+              "title": "A decade of growth sets up Indian football to score more goals",
+              "score": 41.37784224202369,
+              "snippet": "A decade of growth sets up Indian football to score more goals\n---\ntitle: A decade of growth sets up Indian football to score more goals\ndate: 2023-04-20\n---\nA decade of growth sets up Indian football to score more goals\n\nThe birth of a professional tournament, women's development and fresh legs were part of a vision to take Indian football forward.\n\nFor the Indian football team, the past decade or so has been nothing short of a roller-coaster ride.\n\nIt's not an easy task to wake up a sleeping giant but when there is a vision and there is intention, the odds are not insurmountable. That's been the story of Indian football as it continues to draw worldwide attention by not only hosting a glitzy professional league but by embracing the beautiful game across age groups and gender.\n\nHere's an extensive look back at what the past decade had in store for Indian football.\n\nTwo British coaches and a Chhetri\n\nThe Blue Tigers, perhaps, enjoyed their golden years from the late 1940s to the end of the '60s - a period which saw them participate in four separate Olympics and win two Asian Games gold medals.\n\nFrom 1970 onwards, there was a steady decline and eventual limbo, until the turn of the new millennium.\n\nPrimarily driven by the two British head coaches - Stephen Constantine and Bob Houghton – there was a sustained toil to modernise the tactical aspects of the senior national team and the hard-work eventually bore fruit in 2008 with the AFC Challenge Cup victory.\n\nThe Indian football"
+            },
+            {
+              "docid": "26838",
+              "url": "https://www.hindustantimes.com/pune-news/indian-super-league-will-soon-see-an-indian-as-head-coach-says-wadoo/story-Lxc5Fcq8IF4iSGrRjQJSJM.html",
+              "title": "Indian Super League will soon see an Indian as head coach, says Wadoo",
+              "score": 40.656058913806184,
+              "snippet": "Indian Super League will soon see an Indian as head coach, says Wadoo\n---\ntitle: Indian Super League will soon see an Indian as head coach, says Wadoo\nauthor: HT Correspondent\ndate: 2018-10-19\n---\nIndian Super League will soon see an Indian as head coach, says Wadoo\n\nFCPC u-18 coach Mehrajuddin Wadoo says Indian coaches are good in their skills\n\nPune: After 32 international caps and over 50 ISL appearances, former FC Pune City (FCPC) defender Mehrajuddin Wadoo has reunited with the club by joining the Stallions as the head coach of the under-18 team. After enjoying a fine stint with the Maharashtra outfit in the debut season of the ISL, the 34-year-old will be hoping to develop rising superstars from the famed FC Pune City academy.\n\nThe former Indian international took out time from his busy schedule to speak to Hindustan Times to explain his plans on reuniting with the club. After expressing his delight to re-sign with Pune City, Wadoo said, \"While the ISL season is going on, my team will be playing in the under-18 I-league and the super division of the Mumbai League. We're also looking to enter more tournaments because as long as you don't take part in more competitions and only train then they won't grow very fast. So, ideally I'm looking for them to play 60 matches in a season.\"\n\nOnce a professional hangs up their boots in the sport of football, there are many opportunities to continue to be a part of the sport. Often players in Europe turn to punditry to offer their expe"
+            },
+            {
+              "docid": "76833",
+              "url": "https://khelnow.com/football/top-indian-footballers-foreign-clubs-abroad-players",
+              "title": "Top 10 Indian footballers who played for foreign clubs",
+              "score": 40.11970486640074,
+              "snippet": "Top 10 Indian footballers who played for foreign clubs\n---\ntitle: Top 10 Indian footballers who played for foreign clubs\ndate: 2022-07-05\n---\nTop 10 Indian footballers who played for foreign clubs\n\n(Courtesy : Instagram)\n\nEach of these players scripted history at some point in their career with moves abroad.\n\nThe ultimate dream of an aspiring Indian footballer is undoubtedly to play for the national team. However, a parallel desire every footballer from the country craves for is to play outside the nation. Indeed, the ability to break free from the corners of Indian football and play in a different environment indicates a real taste of success.\n\nOver the years, there have been a handful of Indian footballers to have played for foreign clubs. A number of players have gone to train with foreign clubs. But not all have actually signed a professional deal with them. Be it a male or female footballer, it isn't easy at all for an Indian player to get recognized by a prominent foreign club.\n\n[KH_ADWORDS type=\"4\" align=\"center\"][/KH_ADWORDS]\n\nIndian Women's team stars Dangmei Grace and Manisha Kalyan are the latest Indian footballers to sign for foreign clubs. Grace has joined Uzbekistan side FC Nasaf, while Manisha has penned a two-year contract with Cyprus champions Apollon Ladies. The latter could also become the first-ever Indian to play in the UEFA Women's Champions League, with Apollon in action in round 1 of the UWCL qualifiers.\n\nThe pair join an exclusive class of Indian foot"
+            }
+          ]
+        },
+        {
+          "query": "2015 ISL champion team Bengaluru FC players list",
+          "results": [
+            {
+              "docid": "10151",
+              "url": "https://www.indiansuperleague.com/features/keeping-the-best-for-last-a-look-back-at-closing-goals-from-every-isl-season",
+              "title": "Indian Super League: List of club-wise departures, extensions and incomings",
+              "score": 50.17153126013827,
+              "snippet": "Indian Super League: List of club-wise departures, extensions and incomings\n---\ntitle: Indian Super League: List of club-wise departures, extensions and incomings\ndate: 2024-07-17\n---\nKeeping the best for last: A look back at closing goals from every ISL season\n\nMany of these last goals of the campaign have profoundly changed match results and influenced the fortunes of numerous teams.\n\nThe Indian Super League (ISL) has witnessed numerous iconic moments over the last decade, particularly memorable late goals that epitomise the drama, skill, and passion of Indian football.\n\nThese pivotal goals have decisively altered game outcomes and shaped the fortunes of many teams. Players have consistently risen to the occasion at the season's end, showcasing their talent and determination on Indian football's grandest stage.\n\nThese goals not only decided clubs' destinies but also resonated deeply with supporters nationwide, becoming unforgettable moments etched in the collective memory of Indian football fans.\n\nAs we reflect, we recall the final goals scored in each season thus far.\n\nISL 2014: Mohammad Rafique (ATK FC)\n\nDuring the 2014 ISL season, Mohammad Rafique's last-minute goal became a significant and historic moment. In front of 60,000 spectators at Mumbai's DY Patil Stadium, the first-ever ISL final unfolded in an exhilarating atmosphere.\n\nRafique's goal, scored in the 95th minute deep into injury time, came from a near-post header off a corner. This decisive strike was the only "
+            },
+            {
+              "docid": "45856",
+              "url": "https://www.sportsadda.com/football/features-football/all-every-isl-teams-indian-super-league-clubs-history/",
+              "title": "ISL teams: All the clubs who have played the league",
+              "score": 49.26109898268568,
+              "snippet": "ISL teams: All the clubs who have played the league\n---\ntitle: ISL teams: All the clubs who have played the league\ndate: 2020-12-30\n---\nSince the inception of the Indian Super League (ISL) in 2014 as an eight-team competition, India's premier football tournament has seen as many as 14 ISL teams featuring in it.\n\nWhile some are defunct today, others are still struggling to climb the table, and then there are a few who have won the championship multiple times.\n\nThe latest ISL features 11 teams, but that will soon change with I-League winners allowed to gain promotion to the top-tier league in 2022 and 2023. Furthermore, ISL will also include a relegation system from the 2024-25 season.\n\nBefore the next few seasons see more changes, here are all the ISL clubs that have featured in the premier Indian football league in the seven seasons so far.\n\nATK FC (formerly Atletico de Kolkata)\n\nFormerly known as Atletico de Kolkata, ATK FC was the first ISL team to be announced as a participant in the Indian Super League. With current BCCI president Sourav Ganguly as co-owner, the Kolkata-based club is the most successful ISL team with three titles to their name in just six seasons.\n\nATK had reached the ISL playoffs stage in all but two editions (2017 and 2018) and their biggest success have come under the tutelage of two-time winning coach Antonio López Habas, across two separate stints.\n\nAntonio Lopez Habas is the first head coach to win the #HeroISL twice and the only one to do it with t"
+            },
+            {
+              "docid": "90311",
+              "url": "https://deshpee.com/famous-indian-football-players/",
+              "title": "Business owner or founder? Explore Socinova's Growth package:",
+              "score": 48.811812020618156,
+              "snippet": "Business owner or founder? Explore Socinova's Growth package:\n---\ntitle: Business owner or founder? Explore Socinova's Growth package:\ndate: 2023-08-03\n---\nAre you a budding footballer? Do you have a craze for Indian football? Are you one of the blue pilgrims?\n\nI am writing this blog to showcase the greatest Indian footballers of all time. Stay tuned to witness some of the best Indian football players in history, as I reveal the list of your favorite Indian footballers who have secured a spot in my list of top 15 Indian players of football.\n\nFootball's rising popularity among the young generation in India has made Indian footballers inspiring figures for many aspiring players. The Indian national football team is under the administration of the All India Football Federation.\n\nBelow is a list of the 15 most famous Indian football players in India, well-known for their exceptional play, skills, moves, and records.\n\n1. Sunil Chhetri (2002- Present)\n\nAre you asking me who is the top scorer in Indian football? He is none other than Sunil Chhetri, the captain of the Indian football team and for team Bengaluru FC in the Indian Super League (ISL). Chhetri is one of the best Indian footballers of all time.\n\nDuring the 2019 Asian Cup, he achieved a significant milestone by scoring twice in the opening match against Thailand (in a 4-1 victory), propelling him to become India's all-time top scorer with an impressive tally of 67 goals for the national team. Additionally, he holds the reco"
+            },
+            {
+              "docid": "86337",
+              "url": "https://www.sportsadda.com/football/features-football/i-league-winners-list-champions-indian-football-second-division/",
+              "title": "I-League winners list: Dempo SC, Churchill Brothers, Mohun Bagan, Bengaluru FC dominate",
+              "score": 48.70736633559278,
+              "snippet": "I-League winners list: Dempo SC, Churchill Brothers, Mohun Bagan, Bengaluru FC dominate\n---\ntitle: I-League winners list: Dempo SC, Churchill Brothers, Mohun Bagan, Bengaluru FC dominate\ndate: 2007-08-01\n---\nThe I-League is the men's second division of the Indian football league system.\n\nEstablished in 2007, the I-League was founded as the successor to the National Football League (NFL). The inaugural season began in November that year.\n\nOrganised by the All India Football Federation (AIFF), the league was launched as the country's first ever top-tier professional football league with the objective to increase the player pool for the India national football team.\n\nDempo SC won the inaugural edition of I-League in 2007-08. Since then, as many as 10 clubs have been crowned champions.\n\nSince its inception, Dempo SC are the most successful team in the competition with three titles.\n\nThe likes of Churchill Brothers, Mohun Bagan, Bengaluru FC and Gokulam Kerala have won it twice each.\n\nSalgaocar, Minerva Punjab, Aizawl, Chennai City and RoundGlass Punjab have clinched the I-League once each.\n\nFrom the 2022-23 season, I-League operates on a system of promotion and relegation with the I-League 2 and at first only promotion system with the Indian Super League (ISL) - the top tier of Indian football.\n\nRoundGlass Punjab (currently known as Punjab FC) won the previous edition of I-League in the 2022-23 season. They pipped second-placed Sreenidi Deccan by 10 points to clinch their maiden "
+            },
+            {
+              "docid": "53654",
+              "url": "https://scroll.in/field/877001/indian-football-team-of-the-season-the-outrageously-consistent-bengaluru-fc",
+              "title": "Indian football team of the season: The outrageously consistent Bengaluru FC",
+              "score": 47.14385298693626,
+              "snippet": "Indian football team of the season: The outrageously consistent Bengaluru FC\n---\ntitle: Indian football team of the season: The outrageously consistent Bengaluru FC\nauthor: Arka Bhattacharya\ndate: 2018-04-27\n---\nBengaluru FC were once again the most dominant team in the Indian football community, as they fell short at the last hurdle of the Indian Super League but won the Super Cup to make it another season with a trophy.\n\nThe Super Cup win now makes it five trophies in five years for the JSW-owned club, a remarkable achievement considering the ever-changing dynamic of the Indian football scenario.\n\nEven for a club used to winning trophies, their 2017-'18 season was an exceptional one, with Chennaiyin FC possibly the only one to get the better of the Bengaluru-based club, beating them twice, once in the league stage and in the ISL final.\n\nIndian clubs by trophies in the last 5 seasons\n\n| Club | Title/Trophy wins | Runners-up |\n\n|---|---|---|\n\n| Bengaluru FC | I-League (2013-'14, 2015-'16), Federation Cup (2014-'15, 2016-'17), Super Cup (2017-'18) | I-League (2014-'15), Indian Super League (2017-'18) |\n\n| Mohun Bagan | I-League (2014-'15), Federation Cup (2015-'16) | I-League (2015-'16, 2016-'17), Federation Cup (2016-'17) |\n\n| Chennaiyin | Indian Super League (2015-'16, 2017-'18) | |\n\n| ATK | Indian Super League (2014-'15, 2016-'17) | |\n\n| Aizawl | I-League (2016-'17) | Federation Cup (2015-'16) |\n\n| Minerva Punjab | I-League (2017-'18) | |\n\n| Churchill Brothers | Federation "
+            },
+            {
+              "docid": "19153",
+              "url": "https://en.wikipedia.org/wiki/List_of_Indian_football_champions",
+              "title": "List of Indian football champions - Wikipedia",
+              "score": 46.822855959850166,
+              "snippet": "List of Indian football champions - Wikipedia\n---\ntitle: List of Indian football champions - Wikipedia\ndate: 2011-07-16\n---\n**Table 1**\n\n| Indian Football League (1st tier) |\n|---|\n| National Football League (1996–2007)I-League (2007–2017)I-League & Indian Super League (2017–2022) Indian Super League (2022–present) |\n| Country |\n| India |\n| Founded |\n| 1996 |\n| Number of teams (from 2025-26) |\n| 14 |\n| Current champions |\n| Mohun Bagan |\n| Most successful club |\n| Mohun Bagan (7 titles) |\n\nThe Indian football champions are the winners of the highest league in Indian men's football, which is currently the Indian Super League.\n\nThough Indian football tournaments dates back to the eighteenth century, a proper league system, the National Football League (NFL) was established in 1996, playing it first season in 1996–97. Its champions were considered the national champions. After the 2006–07 season, the NFL was rebranded, becoming the I-League with its champions continuing to be considered national champions until 2017, when the Indian Super League (ISL) became the country's joint premier football league. In 2022, ISL became the only top tier football league of the country. ISL playoffs winners were considered as ISL champions until 2021–22 season. Later from 2022–23 season, ISL champions designation was awarded to the table toppers.\n\nThere are 12 clubs who have won either the National Football League or the I-League and championships and six clubs who have won the Indian Super Lea"
+            },
+            {
+              "docid": "32783",
+              "url": "https://en.wikipedia.org/wiki/List_of_foreign_football_players_in_India",
+              "title": "List of foreign football players in India - Wikipedia",
+              "score": 45.25871649471325,
+              "snippet": "List of foreign football players in India - Wikipedia\n---\ntitle: List of foreign football players in India - Wikipedia\ndate: 2014-04-03\n---\nThis list of foreign football players in India consists of players who are currently playing or have played in India, either in top division leagues like Indian Super League, I-League (), I-League 2, I-League 3 or in regional competitions such as Calcutta Football League, Goa Professional League, etc. alongside domestic knock-out tournaments such as the IFA Shield and Durand Cup.\n\n* All these players have joined or played or contracted as foreign recruit or footballer for the football clubs all over India. \n* The following players must meet both of the following criteria:\n# A player who joined any Indian football club (irrespective of whether he made an appearance for the team or not).\n# A player is considered foreign if he is not eligible to play for the India national team.\n* Bold denotes players who have appeared or included in the squad in any edition of the FIFA World Cup.\n\nNaturalized player(s)\n\nEast Pakistan\n\n* Tarapada Ray – East Bengal FC (1954–1955)\n* Balai Dey – East Bengal FC (1965–1967)\n\nJapan\n\n* Arata Izumi – East Bengal FC (2006–2007) Mahindra United (2007–2009) Pune FC (2009–2015) Atlético de Kolkata (2015) Mumbai FC (2016) FC Pune City (2016) NEROCA FC (2017) Kerala Blasters FC (2017–2018)\n\nAfghanistan\n\n* Ahmad Hatifi – Mumbai F.C. (2013–2014)\n* Balal Arezou – Churchill Brothers SC (2013)\n* Djelaludin Sharityar – Mumbai F"
+            },
+            {
+              "docid": "68175",
+              "url": "https://thebridge.in/football/isl-standout-foreign-players-season-11-50470",
+              "title": "isl standout foreign players season 11 50470",
+              "score": 44.895612064471095,
+              "snippet": "isl standout foreign players season 11 50470\n---\nauthor: The Bridge Desk\ndate: 2024-11-03\n---\nX\n\nA quarter of the way into the 2024-25 Indian Super League (ISL) season, the standings have already delivered some surprises.\n\nFour of last year's playoff teams are currently out of the top six, while clubs like Jamshedpur FC and NorthEast United FC are playing some of their best football in years.\n\nWith 16 points, Bengaluru FC has matched its best-ever start, reminiscent of its league-topping 2018-19 season.\n\nCentral to these shifts are the international stars, including both new signings and experienced players who've changed clubs.\n\nLet's take a closer look at ten of the top-performing overseas players who are making waves this season.\n\n1. Alaaeddine Ajaraie (NorthEast United FC)\n\nAlaaeddine Ajaraie has quickly become a sensation for NorthEast United FC, racking up 10 goal contributions (7 goals, 3 assists) in just 460 minutes – the most by any player this season.\n\nHis average goal contribution every 46 minutes is the second-best rate in ISL history among players with at least 300 minutes played.\n\nAjaraie is only the second player in ISL history to score in his first six games, joining Elano.\n\n2. Noah Sadaoui (Kerala Blasters FC)\n\nNoah Sadaoui has made a strong impression for Kerala Blasters with five-goal contributions (3 goals, 2 assists) in his first five games, tying Mohammed Rafi's record for most in the club's history for this period.\n\nSadaoui leads the league with 59 pena"
+            },
+            {
+              "docid": "44794",
+              "url": "https://vocal.media/gamers/sunil-chhetri-the-best-football-player-in-india",
+              "title": "Sunil Chhetri: The Best Football Player In India",
+              "score": 44.64030005656836,
+              "snippet": "Sunil Chhetri: The Best Football Player In India\n---\ntitle: Sunil Chhetri: The Best Football Player In India\ndate: 2025-01-01\n---\nSunil Chhetri: The Best Football Player In India\n\nBest football player in India: Sunil Chhetri\n\nSunil Chhetri is regarded as one of the best Indian football players. When you talk about Indian football history, you can't skip the name of Indian Football captain Sunil Chhetri. Famously called \"Skip\", Chhetri has been the best football player in India for over 20 years. Over the years, Sunil Chhetri began his illustrious career in the National Football League and has witnessed the evolution of Indian football and the Indian Super League. He has been a standout player in the Indian football team, leading them to numerous victories and accomplishments over the past few decades. Here are three reasons why Sunil Chhetri is the best Indian football player.\n\nThree Reasons Why Sunil Chhetri Is The Best Indian Football Player\n\n1. Sunil Chhetri is the highest goal-scorer in Indian football\n\nIn an era of dominance at the club football level, scoring goals at the international stage and wearing the national colours are still experiences that every footballer dreams of. While wearing the blues, Sunil Chhetri helped the Blue Tigers win the Nehru Cup in 2007, 2009 and 2012. India won the South Asian Football Federation (SAFF) Championship in 2011, 2015 and 2021. With 94 goals in 150 international appearances, Indian Football captain Sunil Chhetri is currently the "
+            },
+            {
+              "docid": "41354",
+              "url": "https://thesetpieces.com/latest-posts/isl-vs-i-league-the-battle-for-the-soul-and-the-future-of-indian-football/",
+              "title": "ISL vs I-League: The battle for the soul and the future of Indian football",
+              "score": 43.74771971769992,
+              "snippet": "ISL vs I-League: The battle for the soul and the future of Indian football\n---\ntitle: ISL vs I-League: The battle for the soul and the future of Indian football\nauthor: Saikat Chakrobarty\ndate: 2015-11-01\n---\nWith a population of almost 1.4 billion, it's fair to say that India are one of the biggest underachievers in world football. There are many reasons for the country's inability to punch its weight on the global stage, but one of the principal faults is the shoddy organisation of domestic football in this vast Asian nation.\n\nIndia currently has two national football leagues, with each vying to be the country's premier competition. The fifth edition of the Indian Super League (ISL) began on September 29. From its origins as an unofficial division with seasons which lasted just two months in 2015, it has grown to become the driving force that's reshaping Indian football. It's now officially recognised by the bodies which govern the sport in Asia and the world, and each campaign now takes place over a six-month period in which the league competes with its more illustrious European counterparts for prime-time viewership.\n\nThe ISL isn't the only show in town, however. The competition currently runs in conjunction with the I-League, which became India's sole professional league in 2007. The latest I-League season begins on Saturday, but the older, more traditional competition is struggling to compete with the ISL's structural and financial weight.\n\nThe ISL is a highly commercia"
+            }
+          ]
+        },
+        {
+          "query": "Indian footballer I-League decade AFC PRO coach school training September",
+          "results": [
+            {
+              "docid": "71607",
+              "url": "https://en.wikipedia.org/wiki/Bino_George",
+              "title": "Bino George - Wikipedia",
+              "score": 48.83661811766262,
+              "snippet": "Bino George - Wikipedia\n---\ntitle: Bino George - Wikipedia\ndate: 2017-03-22\n---\nname: Bino George\nfullname: Bino George Chiramal Padinjarathala\nbirth_date: 22 November 1976\nbirth_place: Thrissur, Kerala, India\ncurrentclub: East Bengal FC Reserves (head coach)\nyears1: 1997\nclubs1: MPT Goa\nyears2: 1998–1999\nclubs2: Mohammedan\nyears3: 2000–2001\nclubs3: UB Club Bangalore\nyears4: 2002\nclubs4: Kochin\nmanageryears1: 2006–2010\nmanagerclubs1: Viva Kerala (assistant)\nmanageryears2: 2010–2011\nmanagerclubs2: Chirag United (assistant)\nmanageryears3: 2012\nmanagerclubs3: Quartz SC\nmanageryears4: 2013–2015\nmanagerclubs4: Kerala Sports council\nmanageryears5: 2015–2016\nmanagerclubs5: United SC\nmanageryears6: 2017–2019\nmanagerclubs6: Gokulam Kerala\nmanageryears7: 2019–2022\nmanagerclubs7: Kerala\nmanageryears8: 2019–2021\nmanagerclubs8: Gokulam Kerala (technical director)\nmanageryears9: 2021–2022\nmanagerclubs9: Kerala United\nmanageryears10: 2022–\nmanagerclubs10: East Bengal FC Reserves/U–21 (head coach)\n\nBino George Chiramal Padinjarathala (born 22 November 1976) is an Indian professional manager (coach) and former footballer. He was the East Bengal assistant coach to Stephen Constantine for the Indian Super League. He is currently coaching the reserve teams and also the current interim coach of senior East Bengal team.\n\nHe passed the AFC Professional Coaching Diploma and became the first pro licence holder from Kerala.\n\nPlaying career\n\nNon-league\n\nBino started playing at the age of 14, when he wa"
+            },
+            {
+              "docid": "5221",
+              "url": "https://www.footballcounter.com/2021/profiling-akhil-kothari-afcs-youngest-ever-a-license-coach-in-india/",
+              "title": "Profiling Akhil Kothari: AFC's youngest ever A license coach in India",
+              "score": 48.766101427015414,
+              "snippet": "Profiling Akhil Kothari: AFC's youngest ever A license coach in India\n---\ntitle: Profiling Akhil Kothari: AFC's youngest ever A license coach in India\nauthor: Shlomoh Divekar\ndate: 2021-04-29\n---\nAIFF / Interview / I-League / Interviews / Sports Education / Sports Management / Untold Stories of Mumbai Football / football counter\n\nProfiling Akhil Kothari: AFC's youngest ever A license coach in India\n\n\"I like to take on a challenge,\" Akhil tells me on the phone. \"Only once you take up a challenge, you will learn a lot.\"\n\nAkhil became one of the youngest ever coach at 23 to complete and obtain an AFC 'A' Diploma in 2019. With an A license, the AIFF grants permission to coach top-tier professional teams. Candidates need to appear in three practical, two theoretical examinations, one dissertation and other continuous assignments over a six month period.\n\nAkhil Kothari began his coaching career at Kenkre FC by assisting Floyd Pinto, the former head coach of the Indian Arrows and the India U-19 team. He then went on to coach the Maharashtra State U-14 Boys team in 2016 and 2018. The team went on to qualify for the final round of the Sub Jr. Nationals. The Mumbai-based coach has also been Head of Grassroots Development and Youth Team Coach at Iron Born FC, who play in the Youth I-League and the MDFA league (Mumbai District Football Association).\n\nA chance encounter with Adib Kenkre\n\n\"While studying at St. Marys, I played various sports but football stuck with me'', says Akhil. St.Mar"
+            },
+            {
+              "docid": "26838",
+              "url": "https://www.hindustantimes.com/pune-news/indian-super-league-will-soon-see-an-indian-as-head-coach-says-wadoo/story-Lxc5Fcq8IF4iSGrRjQJSJM.html",
+              "title": "Indian Super League will soon see an Indian as head coach, says Wadoo",
+              "score": 45.07279160815419,
+              "snippet": "Indian Super League will soon see an Indian as head coach, says Wadoo\n---\ntitle: Indian Super League will soon see an Indian as head coach, says Wadoo\nauthor: HT Correspondent\ndate: 2018-10-19\n---\nIndian Super League will soon see an Indian as head coach, says Wadoo\n\nFCPC u-18 coach Mehrajuddin Wadoo says Indian coaches are good in their skills\n\nPune: After 32 international caps and over 50 ISL appearances, former FC Pune City (FCPC) defender Mehrajuddin Wadoo has reunited with the club by joining the Stallions as the head coach of the under-18 team. After enjoying a fine stint with the Maharashtra outfit in the debut season of the ISL, the 34-year-old will be hoping to develop rising superstars from the famed FC Pune City academy.\n\nThe former Indian international took out time from his busy schedule to speak to Hindustan Times to explain his plans on reuniting with the club. After expressing his delight to re-sign with Pune City, Wadoo said, \"While the ISL season is going on, my team will be playing in the under-18 I-league and the super division of the Mumbai League. We're also looking to enter more tournaments because as long as you don't take part in more competitions and only train then they won't grow very fast. So, ideally I'm looking for them to play 60 matches in a season.\"\n\nOnce a professional hangs up their boots in the sport of football, there are many opportunities to continue to be a part of the sport. Often players in Europe turn to punditry to offer their expe"
+            },
+            {
+              "docid": "9089",
+              "url": "https://en.wikipedia.org/wiki/Don_Shula",
+              "title": "Don Shula - Wikipedia",
+              "score": 44.45329247568366,
+              "snippet": "Don Shula - Wikipedia\n---\ntitle: Don Shula - Wikipedia\nauthor: Authority control databases\ndate: 2004-05-06\n---\nnumber: 96, 44, 25, 26\nposition: Defensive back\nbirth_date: 4 January 1930\nbirth_place: Grand River, Ohio, U.S.\ndeath_date: 04 05 2020\ndeath_place: Indian Creek, Florida, U.S.\nheight_ft: 5\nheight_in: 11\nweight_lbs: 190\nhigh_school: Harvey (Painesville, Ohio)\ncollege: John Carroll\ndraftyear: 1951\ndraftround: 9\ndraftpick: 110\npastteams: * Cleveland Browns (1951–1952), * Baltimore Colts (1953–1956), * Washington Redskins (1957)\npastcoaching: * Virginia (1958) Defensive backs coach, * Kentucky (1959) Defensive backs coach, * Detroit Lions (1960) Defensive backs coach, * Detroit Lions (1961–1962) Defensive coordinator, * Baltimore Colts (1963–1969) Head coach, * Miami Dolphins (1970–1995) Head coach\nhighlights: * NFL champion (1968), * 2× Super Bowl champion (VII, VIII), * 4× AP NFL Coach of the Year (1964, 1967, 1968, 1972), * Sports Illustrated Sportsman of the Year (1993), * Lamar Hunt Award (2013), * NFL 1970s All-Decade Team, * NFL 100th Anniversary All-Time Team, * Miami Dolphins Honor Roll, * Dolphins Walk of Fame, , NFL records, * Most regular season wins as a head coach (328), * Most total wins as a head coach (347), * Coached only undefeated season through regular season and playoffs\nstatleague: NFL\nstatlabel1: Games played\nstatvalue1: 73\nstatlabel2: Interceptions\nstatvalue2: 21\nregular_record: 328 156\nplayoff_record: 19 17\noverall_record: 347 173\npfr: ShulDo20"
+            },
+            {
+              "docid": "28437",
+              "url": "https://en.wikipedia.org/wiki/Asamoah_Gyan",
+              "title": "Asamoah Gyan - Wikipedia",
+              "score": 44.30726583768081,
+              "snippet": "Asamoah Gyan - Wikipedia\n---\ntitle: Asamoah Gyan - Wikipedia\nauthor: Authority control databases International VIAF National Germany United States\ndate: 2005-01-11\n---\nfullname: Asamoah Gyan2014 FIFA World Cup Brazil: List of Players FIFA 17 11 June 2014 11 June 2014 4 April 2019\nbirth_date: 22 November 1985\nbirth_place: Accra, Greater Accra, Ghana\nheight: 1.86 m624\nposition: Striker\nyears1: 2003\nclubs1: Liberty Professionals\ncaps1: 16\ngoals1: 10\nyears2: 2003–2008\nclubs2: Udinese\ncaps2: 39\ngoals2: 11\nyears3: 2004–2006\nclubs3: → Modena (loan)\ncaps3: 53\ngoals3: 15\nyears4: 2008–2010\nclubs4: Rennes\ncaps4: 48\ngoals4: 14\nyears5: 2010–2012\nclubs5: Sunderland\ncaps5: 34\ngoals5: 10\nyears6: 2011–2012\nclubs6: → Al Ain (loan)\ncaps6: 18\ngoals6: 22\nyears7: 2012–2015\nclubs7: Al Ain\ncaps7: 65\ngoals7: 73\nyears8: 2015–2017\nclubs8: Shanghai SIPG\ncaps8: 20\ngoals8: 7\nyears9: 2016–2017\nclubs9: → Shabab Al Ahli (loan)\ncaps9: 14\ngoals9: 6\nyears10: 2017–2019\nclubs10: Kayserispor\ncaps10: 26\ngoals10: 5\nyears11: 2019–2020\nclubs11: NorthEast United\ncaps11: 8\ngoals11: 4\nyears12: 2020–2021\nclubs12: Legon Cities\ncaps12: 6\ngoals12: 0\ntotalcaps: 347\ntotalgoals: 177\nnationalyears1: 2003–2019\nnationalteam1: Ghana\nnationalcaps1: 109\nnationalgoals1: 51\nmedaltemplates: Sport Football RU Africa Cup of Nations 2010, RU Africa Cup of Nations 2015, 3rd Africa Cup of Nations 2008\n\nAsamoah Gyan ( ; born 22 November 1985) is a Ghanaian former professional footballer who played as a striker. He is a former captain of the G"
+            },
+            {
+              "docid": "23500",
+              "url": "https://en.wikipedia.org/wiki/Riyad_Mahrez",
+              "title": "Riyad Mahrez - Wikipedia",
+              "score": 42.536748591491516,
+              "snippet": "Riyad Mahrez - Wikipedia\n---\ntitle: Riyad Mahrez - Wikipedia\nauthor: Authority control databases International VIAF National Norway\ndate: 2014-01-08\n---\nname: Riyad Mahrez\nfull_name: Riyad Karim Mahrez2017 Africa Cup of Nations Squad List – Algeria Confederation of African Football 10 January 2017 10 January 2017\nbirth_date: 21 February 1991\nbirth_place: Sarcelles, France\nheight: 1.79 m\nposition: Right winger\ncurrentclub: Al-Ahli\nclubnumber: 7\nyouthyears1: 2004–2009\nyouthclubs1: AAS Sarcelles\nyears1: 2009–2010\nclubs1: Quimper\ncaps1: 27\ngoals1: 1\nyears2: 2010–2013\nclubs2: Le Havre II\ncaps2: 60\ngoals2: 24\nyears3: 2011–2014\nclubs3: Le Havre\ncaps3: 60\ngoals3: 6\nyears4: 2014–2018\nclubs4: Leicester City\ncaps4: 158\ngoals4: 42\nyears5: 2018–2023\nclubs5: Manchester City\ncaps5: 145\ngoals5: 43\nyears6: 2023–\nclubs6: Al-Ahli\ncaps6: 63\ngoals6: 19\nnationalyears1: 2014–\nnationalteam1: Algeria\nnationalcaps1: 103\nnationalgoals1: 32\nmedaltemplates: Men's football Africa Cup of Nations, 2019\nclub-update: 22 May 2025\nnationalteam-update: 10 June 2025\n\nRiyad Karim Mahrez (born 21 February 1991) is a professional footballer who plays as a right winger for Saudi Pro League club Al-Ahli and captains the Algeria national team. He is regarded as one of the best African players of all time.\n\nMahrez began his career as a youth player for French club AAS Sarcelles. He turned professional in 2009 with Quimper, where he played for only one season before moving to Le Havre, spending a total of three years wit"
+            },
+            {
+              "docid": "69452",
+              "url": "https://en.wikipedia.org/wiki/Fabio_Cannavaro",
+              "title": "Fabio Cannavaro - Wikipedia",
+              "score": 42.497839571777234,
+              "snippet": "Fabio Cannavaro - Wikipedia\n---\ntitle: Fabio Cannavaro - Wikipedia\nauthor: Authority control databases\ndate: 2004-10-18\n---\nname: Fabio Cannavaro\nfull_name: Fabio Cannavaro FIFA World Cup South Africa 2010: List of Players: Italy FIFA 15 4 June 2010 18 April 2020\nbirth_date: 13 September 1973\nbirth_place: Naples, Italy\nheight: 1.76 mFabio Cannavaro Juventus FC 18 March 2020 17 December 2009\nposition: Centre-back\nyouthyears1: 1988–1992\nyouthclubs1: Napoli\nyears1: 1991–1995\nclubs1: Napoli\ncaps1: 58\ngoals1: 1\nyears2: 1995–2002\nclubs2: Parma\ncaps2: 212\ngoals2: 5\nyears3: 2002–2004\nclubs3: Inter Milan\ncaps3: 50\ngoals3: 2\nyears4: 2004–2006\nclubs4: Juventus\ncaps4: 74\ngoals4: 6\nyears5: 2006–2009\nclubs5: Real Madrid\ncaps5: 94\ngoals5: 0\nyears6: 2009–2010\nclubs6: Juventus\ncaps6: 27\ngoals6: 0\nyears7: 2010–2011\nclubs7: Al Ahli Dubai\ncaps7: 16\ngoals7: 2\ntotalcaps: 531\ntotalgoals: 16\nmanageryears1: 2014–2015\nmanagerclubs1: Guangzhou Evergrande\nmanageryears2: 2015–2016\nmanagerclubs2: Al Nassr\nmanageryears3: 2016–2017\nmanagerclubs3: Tianjin Quanjian\nmanageryears4: 2017–2021\nmanagerclubs4: Guangzhou Evergrande\nmanageryears5: 2019\nmanagerclubs5: China\nmanageryears6: 2022–2023\nmanagerclubs6: Benevento\nmanageryears7: 2024\nmanagerclubs7: Udinese\nmanageryears8: 2025\nmanagerclubs8: Dinamo Zagreb\nnationalyears1: 1993–1996\nnationalteam1: Italy U21\nnationalcaps1: 21\nnationalgoals1: 0\nnationalyears2: 1997–2010\nnationalteam2: Italy\nnationalcaps2: 136\nnationalgoals2: 2\nmedaltemplates: Men's football FIFA W"
+            },
+            {
+              "docid": "84162",
+              "url": "https://www.the-aiff.com/history",
+              "title": "History",
+              "score": 42.10894445913931,
+              "snippet": "History\n---\ntitle: History\ndate: 2012-03-15\n---\n1872\n\nNagendra Prasad Sarbadhakari, known as the Father of Indian Football\n\nThe game was introduced to the Calcuttans (then the capital of India) by the British soldiers in the nineteenth century. Very few would know that Nagendra Prasad Sarbadhakari, known as the Father of Indian Football forced his classmates into playing the game in his school compound. Attracted by the enthusiasm of the boys in the school, the European teachers of the school and adjacent colleges encouraged Nagendra Prasad and his companions to promote the game among the students surrounding Calcutta.\n\n1872\n\nCalcutta FC the first club to be established in 1872\n\nReports suggest that they were initially a rugby club and switched their attentions to football as late as 1894.\n\n1888\n\nThe Durand Cup, first held in Shimla\n\nIt is the first Indian football competition and incidentally the third oldest surviving competition in the World. It was started by Sir Mortimer Durand.\n\n1888\n\nDurand Cup winners receive 3 trophies\n\nThe tournament is also unique wherein the winning team walks away with three trophies. The Durand Cup and Shimla Trophy are Rolling Trophies while The President's Cup first presented by Dr. Rajendra Prasad is given to the team permanently.\n\n1889\n\nMohun Bagan set up (oldest existing club)\n\nMohun Bagan Athletic Club was set up in what is now West Bengal, in the year 1889.\n\n1892\n\nSovabazar Club win the Trades Cup\n\nThe first Indian team to achieve success"
+            },
+            {
+              "docid": "64234",
+              "url": "https://www.olympics.com/en/news/history-of-indian-football",
+              "title": "History of Indian football - glorious highs, persistent lows and one big missed opportunity",
+              "score": 41.66160324567925,
+              "snippet": "History of Indian football - glorious highs, persistent lows and one big missed opportunity\n---\ntitle: History of Indian football - glorious highs, persistent lows and one big missed opportunity\ndate: 2024-03-05\n---\nHistory of Indian football - glorious highs, persistent lows and one big missed opportunity\n\nThe Indian football team qualified for the FIFA World Cup in 1950 but opted not to participate.\n\nThe history of Indian football, in a nutshell, is a roller-coaster ride with some memorable highs, persistent lows and a missed opportunity to play at a FIFA World Cup.\n\nHere's a chronological rundown of the major events and timelines that shaped Indian football over the years.\n\nOrigin of Indian football: 1800-1900\n\nFootball made its landfall in India along with British colonisers early in the mid-19th century. However, in the early days, the sport was strictly restricted to the British army and naval officers stationed in India.\n\nThe 1870s saw the lines blur. While Calcutta FC, India's first football club, is said to have been established in 1872, various accounts suggest that it originally started as a rugby club before switching to football in 1894.\n\nHowever, it was not until Nagendra Prasad Sarbadhikari's arrival that Indian football found its true pioneer.\n\nThe legendary football administrator was responsible for setting up several football clubs across Kolkata (erstwhile Calcutta) and Bengal, which gave the game's popularity a huge lift. Calcutta and Bengal, hence, became"
+            },
+            {
+              "docid": "12484",
+              "url": "https://en.wikipedia.org/wiki/History_of_football_in_India",
+              "title": "History of football in India - Wikipedia",
+              "score": 41.58826695324961,
+              "snippet": "History of football in India - Wikipedia\n---\ntitle: History of football in India - Wikipedia\ndate: 2011-09-11\n---\nThe history of football in India has been going ever since the mid 1800's. It was the national sport of india at one point. India is home to some of the oldest football clubs in the world, and the world's third oldest competition, the Durand Cup. Football in India was highly celebrated at its peak. The Indian football outfit was called the \"Brazilians of Asia\".\n\n1800s\n\nFootball was introduced to India by British soldiers in the mid-nineteenth century. It spread because of the efforts of Nagendra Prasad Sarbadhikari. In 1888 the Durand Cup was founded by then India's Foreign Secretary, Mortimer Durand at Shimla, India. The Durand Cup is the third oldest football competition behind the FA Cup and the Scottish Cup. It was initiated, as a recreation for British troops stationed in India. Royal Scots Fusiliers won the first edition of the cup by beating Highland Light Infantry 2–1 in the final. In 1893, the IFA Shield was founded as the fourth oldest trophy in the world. Calcutta, then capital of British India, soon became the hub of Indian football. Sarada FC was the oldest Indian football club.\n\nCalcutta FC was the first club to be established in 1872. Other early clubs include Dalhousie Club, Traders Club and Naval Volunteers Club.\n\nIn 1889 India's oldest current team Mohun Bagan A.C. was founded as \"Mohun Bagan Sporting Club\". This was the first club to be under th"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tool_call",
+      "tool_name": "search",
+      "arguments": {
+        "query": [
+          "ISL 2015 winner championship Bengaluru FC Mumbai FC",
+          "Indian footballer AFC PRO license I-League ISL 30 caps",
+          "Indian footballer school football training session September students"
+        ]
+      },
+      "output": [
+        {
+          "query": "ISL 2015 winner championship Bengaluru FC Mumbai FC",
+          "results": [
+            {
+              "docid": "10151",
+              "url": "https://www.indiansuperleague.com/features/keeping-the-best-for-last-a-look-back-at-closing-goals-from-every-isl-season",
+              "title": "Indian Super League: List of club-wise departures, extensions and incomings",
+              "score": 67.42560604505255,
+              "snippet": "Indian Super League: List of club-wise departures, extensions and incomings\n---\ntitle: Indian Super League: List of club-wise departures, extensions and incomings\ndate: 2024-07-17\n---\nKeeping the best for last: A look back at closing goals from every ISL season\n\nMany of these last goals of the campaign have profoundly changed match results and influenced the fortunes of numerous teams.\n\nThe Indian Super League (ISL) has witnessed numerous iconic moments over the last decade, particularly memorable late goals that epitomise the drama, skill, and passion of Indian football.\n\nThese pivotal goals have decisively altered game outcomes and shaped the fortunes of many teams. Players have consistently risen to the occasion at the season's end, showcasing their talent and determination on Indian football's grandest stage.\n\nThese goals not only decided clubs' destinies but also resonated deeply with supporters nationwide, becoming unforgettable moments etched in the collective memory of Indian football fans.\n\nAs we reflect, we recall the final goals scored in each season thus far.\n\nISL 2014: Mohammad Rafique (ATK FC)\n\nDuring the 2014 ISL season, Mohammad Rafique's last-minute goal became a significant and historic moment. In front of 60,000 spectators at Mumbai's DY Patil Stadium, the first-ever ISL final unfolded in an exhilarating atmosphere.\n\nRafique's goal, scored in the 95th minute deep into injury time, came from a near-post header off a corner. This decisive strike was the only "
+            },
+            {
+              "docid": "45856",
+              "url": "https://www.sportsadda.com/football/features-football/all-every-isl-teams-indian-super-league-clubs-history/",
+              "title": "ISL teams: All the clubs who have played the league",
+              "score": 66.79852522831308,
+              "snippet": "ISL teams: All the clubs who have played the league\n---\ntitle: ISL teams: All the clubs who have played the league\ndate: 2020-12-30\n---\nSince the inception of the Indian Super League (ISL) in 2014 as an eight-team competition, India's premier football tournament has seen as many as 14 ISL teams featuring in it.\n\nWhile some are defunct today, others are still struggling to climb the table, and then there are a few who have won the championship multiple times.\n\nThe latest ISL features 11 teams, but that will soon change with I-League winners allowed to gain promotion to the top-tier league in 2022 and 2023. Furthermore, ISL will also include a relegation system from the 2024-25 season.\n\nBefore the next few seasons see more changes, here are all the ISL clubs that have featured in the premier Indian football league in the seven seasons so far.\n\nATK FC (formerly Atletico de Kolkata)\n\nFormerly known as Atletico de Kolkata, ATK FC was the first ISL team to be announced as a participant in the Indian Super League. With current BCCI president Sourav Ganguly as co-owner, the Kolkata-based club is the most successful ISL team with three titles to their name in just six seasons.\n\nATK had reached the ISL playoffs stage in all but two editions (2017 and 2018) and their biggest success have come under the tutelage of two-time winning coach Antonio López Habas, across two separate stints.\n\nAntonio Lopez Habas is the first head coach to win the #HeroISL twice and the only one to do it with t"
+            },
+            {
+              "docid": "19153",
+              "url": "https://en.wikipedia.org/wiki/List_of_Indian_football_champions",
+              "title": "List of Indian football champions - Wikipedia",
+              "score": 61.87715588506566,
+              "snippet": "List of Indian football champions - Wikipedia\n---\ntitle: List of Indian football champions - Wikipedia\ndate: 2011-07-16\n---\n**Table 1**\n\n| Indian Football League (1st tier) |\n|---|\n| National Football League (1996–2007)I-League (2007–2017)I-League & Indian Super League (2017–2022) Indian Super League (2022–present) |\n| Country |\n| India |\n| Founded |\n| 1996 |\n| Number of teams (from 2025-26) |\n| 14 |\n| Current champions |\n| Mohun Bagan |\n| Most successful club |\n| Mohun Bagan (7 titles) |\n\nThe Indian football champions are the winners of the highest league in Indian men's football, which is currently the Indian Super League.\n\nThough Indian football tournaments dates back to the eighteenth century, a proper league system, the National Football League (NFL) was established in 1996, playing it first season in 1996–97. Its champions were considered the national champions. After the 2006–07 season, the NFL was rebranded, becoming the I-League with its champions continuing to be considered national champions until 2017, when the Indian Super League (ISL) became the country's joint premier football league. In 2022, ISL became the only top tier football league of the country. ISL playoffs winners were considered as ISL champions until 2021–22 season. Later from 2022–23 season, ISL champions designation was awarded to the table toppers.\n\nThere are 12 clubs who have won either the National Football League or the I-League and championships and six clubs who have won the Indian Super Lea"
+            },
+            {
+              "docid": "32783",
+              "url": "https://en.wikipedia.org/wiki/List_of_foreign_football_players_in_India",
+              "title": "List of foreign football players in India - Wikipedia",
+              "score": 59.35327166140591,
+              "snippet": "List of foreign football players in India - Wikipedia\n---\ntitle: List of foreign football players in India - Wikipedia\ndate: 2014-04-03\n---\nThis list of foreign football players in India consists of players who are currently playing or have played in India, either in top division leagues like Indian Super League, I-League (), I-League 2, I-League 3 or in regional competitions such as Calcutta Football League, Goa Professional League, etc. alongside domestic knock-out tournaments such as the IFA Shield and Durand Cup.\n\n* All these players have joined or played or contracted as foreign recruit or footballer for the football clubs all over India. \n* The following players must meet both of the following criteria:\n# A player who joined any Indian football club (irrespective of whether he made an appearance for the team or not).\n# A player is considered foreign if he is not eligible to play for the India national team.\n* Bold denotes players who have appeared or included in the squad in any edition of the FIFA World Cup.\n\nNaturalized player(s)\n\nEast Pakistan\n\n* Tarapada Ray – East Bengal FC (1954–1955)\n* Balai Dey – East Bengal FC (1965–1967)\n\nJapan\n\n* Arata Izumi – East Bengal FC (2006–2007) Mahindra United (2007–2009) Pune FC (2009–2015) Atlético de Kolkata (2015) Mumbai FC (2016) FC Pune City (2016) NEROCA FC (2017) Kerala Blasters FC (2017–2018)\n\nAfghanistan\n\n* Ahmad Hatifi – Mumbai F.C. (2013–2014)\n* Balal Arezou – Churchill Brothers SC (2013)\n* Djelaludin Sharityar – Mumbai F"
+            },
+            {
+              "docid": "44794",
+              "url": "https://vocal.media/gamers/sunil-chhetri-the-best-football-player-in-india",
+              "title": "Sunil Chhetri: The Best Football Player In India",
+              "score": 58.217438263409235,
+              "snippet": "Sunil Chhetri: The Best Football Player In India\n---\ntitle: Sunil Chhetri: The Best Football Player In India\ndate: 2025-01-01\n---\nSunil Chhetri: The Best Football Player In India\n\nBest football player in India: Sunil Chhetri\n\nSunil Chhetri is regarded as one of the best Indian football players. When you talk about Indian football history, you can't skip the name of Indian Football captain Sunil Chhetri. Famously called \"Skip\", Chhetri has been the best football player in India for over 20 years. Over the years, Sunil Chhetri began his illustrious career in the National Football League and has witnessed the evolution of Indian football and the Indian Super League. He has been a standout player in the Indian football team, leading them to numerous victories and accomplishments over the past few decades. Here are three reasons why Sunil Chhetri is the best Indian football player.\n\nThree Reasons Why Sunil Chhetri Is The Best Indian Football Player\n\n1. Sunil Chhetri is the highest goal-scorer in Indian football\n\nIn an era of dominance at the club football level, scoring goals at the international stage and wearing the national colours are still experiences that every footballer dreams of. While wearing the blues, Sunil Chhetri helped the Blue Tigers win the Nehru Cup in 2007, 2009 and 2012. India won the South Asian Football Federation (SAFF) Championship in 2011, 2015 and 2021. With 94 goals in 150 international appearances, Indian Football captain Sunil Chhetri is currently the "
+            },
+            {
+              "docid": "68175",
+              "url": "https://thebridge.in/football/isl-standout-foreign-players-season-11-50470",
+              "title": "isl standout foreign players season 11 50470",
+              "score": 57.54508325734156,
+              "snippet": "isl standout foreign players season 11 50470\n---\nauthor: The Bridge Desk\ndate: 2024-11-03\n---\nX\n\nA quarter of the way into the 2024-25 Indian Super League (ISL) season, the standings have already delivered some surprises.\n\nFour of last year's playoff teams are currently out of the top six, while clubs like Jamshedpur FC and NorthEast United FC are playing some of their best football in years.\n\nWith 16 points, Bengaluru FC has matched its best-ever start, reminiscent of its league-topping 2018-19 season.\n\nCentral to these shifts are the international stars, including both new signings and experienced players who've changed clubs.\n\nLet's take a closer look at ten of the top-performing overseas players who are making waves this season.\n\n1. Alaaeddine Ajaraie (NorthEast United FC)\n\nAlaaeddine Ajaraie has quickly become a sensation for NorthEast United FC, racking up 10 goal contributions (7 goals, 3 assists) in just 460 minutes – the most by any player this season.\n\nHis average goal contribution every 46 minutes is the second-best rate in ISL history among players with at least 300 minutes played.\n\nAjaraie is only the second player in ISL history to score in his first six games, joining Elano.\n\n2. Noah Sadaoui (Kerala Blasters FC)\n\nNoah Sadaoui has made a strong impression for Kerala Blasters with five-goal contributions (3 goals, 2 assists) in his first five games, tying Mohammed Rafi's record for most in the club's history for this period.\n\nSadaoui leads the league with 59 pena"
+            },
+            {
+              "docid": "90311",
+              "url": "https://deshpee.com/famous-indian-football-players/",
+              "title": "Business owner or founder? Explore Socinova's Growth package:",
+              "score": 56.71794652605548,
+              "snippet": "Business owner or founder? Explore Socinova's Growth package:\n---\ntitle: Business owner or founder? Explore Socinova's Growth package:\ndate: 2023-08-03\n---\nAre you a budding footballer? Do you have a craze for Indian football? Are you one of the blue pilgrims?\n\nI am writing this blog to showcase the greatest Indian footballers of all time. Stay tuned to witness some of the best Indian football players in history, as I reveal the list of your favorite Indian footballers who have secured a spot in my list of top 15 Indian players of football.\n\nFootball's rising popularity among the young generation in India has made Indian footballers inspiring figures for many aspiring players. The Indian national football team is under the administration of the All India Football Federation.\n\nBelow is a list of the 15 most famous Indian football players in India, well-known for their exceptional play, skills, moves, and records.\n\n1. Sunil Chhetri (2002- Present)\n\nAre you asking me who is the top scorer in Indian football? He is none other than Sunil Chhetri, the captain of the Indian football team and for team Bengaluru FC in the Indian Super League (ISL). Chhetri is one of the best Indian footballers of all time.\n\nDuring the 2019 Asian Cup, he achieved a significant milestone by scoring twice in the opening match against Thailand (in a 4-1 victory), propelling him to become India's all-time top scorer with an impressive tally of 67 goals for the national team. Additionally, he holds the reco"
+            },
+            {
+              "docid": "88287",
+              "url": "https://www.olympics.com/en/news/fifa-world-cup-players-isl-indian-super-league",
+              "title": "David Villa joins Odisha FC, latest World Cup winner to add sparkle to ISL",
+              "score": 55.84378200175196,
+              "snippet": "David Villa joins Odisha FC, latest World Cup winner to add sparkle to ISL\n---\ntitle: David Villa joins Odisha FC, latest World Cup winner to add sparkle to ISL\ndate: 2021-05-07\n---\nDavid Villa joins Odisha FC, latest World Cup winner to add sparkle to ISL\n\nThe Spaniard joins a long list of World Cup veterans who have been part of the Indian Super League.\n\nFormer Spanish footballer David Villa has joined Indian Super League (ISL) club Odisha FC as their head of global football operations.\n\nThe talismanic striker will also join the Bhubaneswar-based side's technical football committee, along with former OFC head coach Josep Gombau and Victor Onate.\n\n\"In all of the projects that we are involved in, I try to give all of my experience that I have in soccer,\" David Villa said.\n\n\"Obviously, I didn't play in India but I played soccer for 20 years as a professional and before that in the academy.\"\n\nThe appointment of the FIFA World Cup-winning Villa is not the first time a big name has graced ISL. Since its inaugural edition in 2014, several World Cup veterans and even winners have been a part of India's top football league.\n\nFIFA World Cup players in ISL\n\nWhile some of the legends dazzled on the field, others used their experience to take up managerial roles. Let's glance through the icons who flaunted their skills in the Indian Super League.\n\n1. Alessandro Del Piero - Delhi Dynamos\n\nFormer Italian striker Alessandro Del Piero is one of the most famous names to play in the Indian Su"
+            },
+            {
+              "docid": "64234",
+              "url": "https://www.olympics.com/en/news/history-of-indian-football",
+              "title": "History of Indian football - glorious highs, persistent lows and one big missed opportunity",
+              "score": 51.65915949170455,
+              "snippet": "History of Indian football - glorious highs, persistent lows and one big missed opportunity\n---\ntitle: History of Indian football - glorious highs, persistent lows and one big missed opportunity\ndate: 2024-03-05\n---\nHistory of Indian football - glorious highs, persistent lows and one big missed opportunity\n\nThe Indian football team qualified for the FIFA World Cup in 1950 but opted not to participate.\n\nThe history of Indian football, in a nutshell, is a roller-coaster ride with some memorable highs, persistent lows and a missed opportunity to play at a FIFA World Cup.\n\nHere's a chronological rundown of the major events and timelines that shaped Indian football over the years.\n\nOrigin of Indian football: 1800-1900\n\nFootball made its landfall in India along with British colonisers early in the mid-19th century. However, in the early days, the sport was strictly restricted to the British army and naval officers stationed in India.\n\nThe 1870s saw the lines blur. While Calcutta FC, India's first football club, is said to have been established in 1872, various accounts suggest that it originally started as a rugby club before switching to football in 1894.\n\nHowever, it was not until Nagendra Prasad Sarbadhikari's arrival that Indian football found its true pioneer.\n\nThe legendary football administrator was responsible for setting up several football clubs across Kolkata (erstwhile Calcutta) and Bengal, which gave the game's popularity a huge lift. Calcutta and Bengal, hence, became"
+            },
+            {
+              "docid": "53654",
+              "url": "https://scroll.in/field/877001/indian-football-team-of-the-season-the-outrageously-consistent-bengaluru-fc",
+              "title": "Indian football team of the season: The outrageously consistent Bengaluru FC",
+              "score": 51.47540629320455,
+              "snippet": "Indian football team of the season: The outrageously consistent Bengaluru FC\n---\ntitle: Indian football team of the season: The outrageously consistent Bengaluru FC\nauthor: Arka Bhattacharya\ndate: 2018-04-27\n---\nBengaluru FC were once again the most dominant team in the Indian football community, as they fell short at the last hurdle of the Indian Super League but won the Super Cup to make it another season with a trophy.\n\nThe Super Cup win now makes it five trophies in five years for the JSW-owned club, a remarkable achievement considering the ever-changing dynamic of the Indian football scenario.\n\nEven for a club used to winning trophies, their 2017-'18 season was an exceptional one, with Chennaiyin FC possibly the only one to get the better of the Bengaluru-based club, beating them twice, once in the league stage and in the ISL final.\n\nIndian clubs by trophies in the last 5 seasons\n\n| Club | Title/Trophy wins | Runners-up |\n\n|---|---|---|\n\n| Bengaluru FC | I-League (2013-'14, 2015-'16), Federation Cup (2014-'15, 2016-'17), Super Cup (2017-'18) | I-League (2014-'15), Indian Super League (2017-'18) |\n\n| Mohun Bagan | I-League (2014-'15), Federation Cup (2015-'16) | I-League (2015-'16, 2016-'17), Federation Cup (2016-'17) |\n\n| Chennaiyin | Indian Super League (2015-'16, 2017-'18) | |\n\n| ATK | Indian Super League (2014-'15, 2016-'17) | |\n\n| Aizawl | I-League (2016-'17) | Federation Cup (2015-'16) |\n\n| Minerva Punjab | I-League (2017-'18) | |\n\n| Churchill Brothers | Federation "
+            }
+          ]
+        },
+        {
+          "query": "Indian footballer AFC PRO license I-League ISL 30 caps",
+          "results": [
+            {
+              "docid": "26838",
+              "url": "https://www.hindustantimes.com/pune-news/indian-super-league-will-soon-see-an-indian-as-head-coach-says-wadoo/story-Lxc5Fcq8IF4iSGrRjQJSJM.html",
+              "title": "Indian Super League will soon see an Indian as head coach, says Wadoo",
+              "score": 60.57368057291581,
+              "snippet": "Indian Super League will soon see an Indian as head coach, says Wadoo\n---\ntitle: Indian Super League will soon see an Indian as head coach, says Wadoo\nauthor: HT Correspondent\ndate: 2018-10-19\n---\nIndian Super League will soon see an Indian as head coach, says Wadoo\n\nFCPC u-18 coach Mehrajuddin Wadoo says Indian coaches are good in their skills\n\nPune: After 32 international caps and over 50 ISL appearances, former FC Pune City (FCPC) defender Mehrajuddin Wadoo has reunited with the club by joining the Stallions as the head coach of the under-18 team. After enjoying a fine stint with the Maharashtra outfit in the debut season of the ISL, the 34-year-old will be hoping to develop rising superstars from the famed FC Pune City academy.\n\nThe former Indian international took out time from his busy schedule to speak to Hindustan Times to explain his plans on reuniting with the club. After expressing his delight to re-sign with Pune City, Wadoo said, \"While the ISL season is going on, my team will be playing in the under-18 I-league and the super division of the Mumbai League. We're also looking to enter more tournaments because as long as you don't take part in more competitions and only train then they won't grow very fast. So, ideally I'm looking for them to play 60 matches in a season.\"\n\nOnce a professional hangs up their boots in the sport of football, there are many opportunities to continue to be a part of the sport. Often players in Europe turn to punditry to offer their expe"
+            },
+            {
+              "docid": "86244",
+              "url": "https://www.transfermarkt.com/after-afc-pro-license-clifford-miranda-in-demand/view/news/358688",
+              "title": "After AFC Pro License - Clifford Miranda in demand",
+              "score": 58.831034617003816,
+              "snippet": "After AFC Pro License - Clifford Miranda in demand\n---\ntitle: After AFC Pro License - Clifford Miranda in demand\nauthor: TM India\ndate: 2020-04-15\n---\nAfter AFC Pro License - Clifford Miranda in demand\n\nIt's been a good year for former India international Clifford Miranda. Firstly, Miranda guided FC Goa to top of the Indian Super League points table after the Gaurs parted ways with Sergio Lobera. The top finish ensured that FC Goa becomes the first Indian club to qualify for the AFC Champions League group stage.\n\nSecondly, Miranda completed his AFC Pro Diploma coaching course last month which was conducted by Uzbekistan Football Association. Out of twenty-one participants, only four managed to clear the course, Clifford being one of them. Only fifteen Indian coaches have cleared the two-year pro licence course before Clifford. It's also a matter of pride for the winger as he is also the first among his peers to achieve the Pro license.\n\n\"For me it is very important as I wanted to complete my coaching licenses, Miranda told Times of India. \"Coaching is a process and it is never ending, but for me to get the right licenses and coaching without interruption was very important,\" the 37-year-old added.\n\nSoon after passing the Pro License, Miranda has been flooded with offers from I-League clubs. But just as he used to be on the field, he is not in a hurry. Rather, he wants his decision to be precise, just like his inch-perfect crosses. His contract with FC Goa runs out this June b"
+            },
+            {
+              "docid": "28437",
+              "url": "https://en.wikipedia.org/wiki/Asamoah_Gyan",
+              "title": "Asamoah Gyan - Wikipedia",
+              "score": 45.5893161109505,
+              "snippet": "Asamoah Gyan - Wikipedia\n---\ntitle: Asamoah Gyan - Wikipedia\nauthor: Authority control databases International VIAF National Germany United States\ndate: 2005-01-11\n---\nfullname: Asamoah Gyan2014 FIFA World Cup Brazil: List of Players FIFA 17 11 June 2014 11 June 2014 4 April 2019\nbirth_date: 22 November 1985\nbirth_place: Accra, Greater Accra, Ghana\nheight: 1.86 m624\nposition: Striker\nyears1: 2003\nclubs1: Liberty Professionals\ncaps1: 16\ngoals1: 10\nyears2: 2003–2008\nclubs2: Udinese\ncaps2: 39\ngoals2: 11\nyears3: 2004–2006\nclubs3: → Modena (loan)\ncaps3: 53\ngoals3: 15\nyears4: 2008–2010\nclubs4: Rennes\ncaps4: 48\ngoals4: 14\nyears5: 2010–2012\nclubs5: Sunderland\ncaps5: 34\ngoals5: 10\nyears6: 2011–2012\nclubs6: → Al Ain (loan)\ncaps6: 18\ngoals6: 22\nyears7: 2012–2015\nclubs7: Al Ain\ncaps7: 65\ngoals7: 73\nyears8: 2015–2017\nclubs8: Shanghai SIPG\ncaps8: 20\ngoals8: 7\nyears9: 2016–2017\nclubs9: → Shabab Al Ahli (loan)\ncaps9: 14\ngoals9: 6\nyears10: 2017–2019\nclubs10: Kayserispor\ncaps10: 26\ngoals10: 5\nyears11: 2019–2020\nclubs11: NorthEast United\ncaps11: 8\ngoals11: 4\nyears12: 2020–2021\nclubs12: Legon Cities\ncaps12: 6\ngoals12: 0\ntotalcaps: 347\ntotalgoals: 177\nnationalyears1: 2003–2019\nnationalteam1: Ghana\nnationalcaps1: 109\nnationalgoals1: 51\nmedaltemplates: Sport Football RU Africa Cup of Nations 2010, RU Africa Cup of Nations 2015, 3rd Africa Cup of Nations 2008\n\nAsamoah Gyan ( ; born 22 November 1985) is a Ghanaian former professional footballer who played as a striker. He is a former captain of the G"
+            },
+            {
+              "docid": "64234",
+              "url": "https://www.olympics.com/en/news/history-of-indian-football",
+              "title": "History of Indian football - glorious highs, persistent lows and one big missed opportunity",
+              "score": 45.19278038490679,
+              "snippet": "History of Indian football - glorious highs, persistent lows and one big missed opportunity\n---\ntitle: History of Indian football - glorious highs, persistent lows and one big missed opportunity\ndate: 2024-03-05\n---\nHistory of Indian football - glorious highs, persistent lows and one big missed opportunity\n\nThe Indian football team qualified for the FIFA World Cup in 1950 but opted not to participate.\n\nThe history of Indian football, in a nutshell, is a roller-coaster ride with some memorable highs, persistent lows and a missed opportunity to play at a FIFA World Cup.\n\nHere's a chronological rundown of the major events and timelines that shaped Indian football over the years.\n\nOrigin of Indian football: 1800-1900\n\nFootball made its landfall in India along with British colonisers early in the mid-19th century. However, in the early days, the sport was strictly restricted to the British army and naval officers stationed in India.\n\nThe 1870s saw the lines blur. While Calcutta FC, India's first football club, is said to have been established in 1872, various accounts suggest that it originally started as a rugby club before switching to football in 1894.\n\nHowever, it was not until Nagendra Prasad Sarbadhikari's arrival that Indian football found its true pioneer.\n\nThe legendary football administrator was responsible for setting up several football clubs across Kolkata (erstwhile Calcutta) and Bengal, which gave the game's popularity a huge lift. Calcutta and Bengal, hence, became"
+            },
+            {
+              "docid": "76833",
+              "url": "https://khelnow.com/football/top-indian-footballers-foreign-clubs-abroad-players",
+              "title": "Top 10 Indian footballers who played for foreign clubs",
+              "score": 44.750647670895574,
+              "snippet": "Top 10 Indian footballers who played for foreign clubs\n---\ntitle: Top 10 Indian footballers who played for foreign clubs\ndate: 2022-07-05\n---\nTop 10 Indian footballers who played for foreign clubs\n\n(Courtesy : Instagram)\n\nEach of these players scripted history at some point in their career with moves abroad.\n\nThe ultimate dream of an aspiring Indian footballer is undoubtedly to play for the national team. However, a parallel desire every footballer from the country craves for is to play outside the nation. Indeed, the ability to break free from the corners of Indian football and play in a different environment indicates a real taste of success.\n\nOver the years, there have been a handful of Indian footballers to have played for foreign clubs. A number of players have gone to train with foreign clubs. But not all have actually signed a professional deal with them. Be it a male or female footballer, it isn't easy at all for an Indian player to get recognized by a prominent foreign club.\n\n[KH_ADWORDS type=\"4\" align=\"center\"][/KH_ADWORDS]\n\nIndian Women's team stars Dangmei Grace and Manisha Kalyan are the latest Indian footballers to sign for foreign clubs. Grace has joined Uzbekistan side FC Nasaf, while Manisha has penned a two-year contract with Cyprus champions Apollon Ladies. The latter could also become the first-ever Indian to play in the UEFA Women's Champions League, with Apollon in action in round 1 of the UWCL qualifiers.\n\nThe pair join an exclusive class of Indian foot"
+            },
+            {
+              "docid": "84162",
+              "url": "https://www.the-aiff.com/history",
+              "title": "History",
+              "score": 44.740756504300236,
+              "snippet": "History\n---\ntitle: History\ndate: 2012-03-15\n---\n1872\n\nNagendra Prasad Sarbadhakari, known as the Father of Indian Football\n\nThe game was introduced to the Calcuttans (then the capital of India) by the British soldiers in the nineteenth century. Very few would know that Nagendra Prasad Sarbadhakari, known as the Father of Indian Football forced his classmates into playing the game in his school compound. Attracted by the enthusiasm of the boys in the school, the European teachers of the school and adjacent colleges encouraged Nagendra Prasad and his companions to promote the game among the students surrounding Calcutta.\n\n1872\n\nCalcutta FC the first club to be established in 1872\n\nReports suggest that they were initially a rugby club and switched their attentions to football as late as 1894.\n\n1888\n\nThe Durand Cup, first held in Shimla\n\nIt is the first Indian football competition and incidentally the third oldest surviving competition in the World. It was started by Sir Mortimer Durand.\n\n1888\n\nDurand Cup winners receive 3 trophies\n\nThe tournament is also unique wherein the winning team walks away with three trophies. The Durand Cup and Shimla Trophy are Rolling Trophies while The President's Cup first presented by Dr. Rajendra Prasad is given to the team permanently.\n\n1889\n\nMohun Bagan set up (oldest existing club)\n\nMohun Bagan Athletic Club was set up in what is now West Bengal, in the year 1889.\n\n1892\n\nSovabazar Club win the Trades Cup\n\nThe first Indian team to achieve success"
+            },
+            {
+              "docid": "41354",
+              "url": "https://thesetpieces.com/latest-posts/isl-vs-i-league-the-battle-for-the-soul-and-the-future-of-indian-football/",
+              "title": "ISL vs I-League: The battle for the soul and the future of Indian football",
+              "score": 44.46958322677962,
+              "snippet": "ISL vs I-League: The battle for the soul and the future of Indian football\n---\ntitle: ISL vs I-League: The battle for the soul and the future of Indian football\nauthor: Saikat Chakrobarty\ndate: 2015-11-01\n---\nWith a population of almost 1.4 billion, it's fair to say that India are one of the biggest underachievers in world football. There are many reasons for the country's inability to punch its weight on the global stage, but one of the principal faults is the shoddy organisation of domestic football in this vast Asian nation.\n\nIndia currently has two national football leagues, with each vying to be the country's premier competition. The fifth edition of the Indian Super League (ISL) began on September 29. From its origins as an unofficial division with seasons which lasted just two months in 2015, it has grown to become the driving force that's reshaping Indian football. It's now officially recognised by the bodies which govern the sport in Asia and the world, and each campaign now takes place over a six-month period in which the league competes with its more illustrious European counterparts for prime-time viewership.\n\nThe ISL isn't the only show in town, however. The competition currently runs in conjunction with the I-League, which became India's sole professional league in 2007. The latest I-League season begins on Saturday, but the older, more traditional competition is struggling to compete with the ISL's structural and financial weight.\n\nThe ISL is a highly commercia"
+            },
+            {
+              "docid": "19153",
+              "url": "https://en.wikipedia.org/wiki/List_of_Indian_football_champions",
+              "title": "List of Indian football champions - Wikipedia",
+              "score": 44.33838688617371,
+              "snippet": "List of Indian football champions - Wikipedia\n---\ntitle: List of Indian football champions - Wikipedia\ndate: 2011-07-16\n---\n**Table 1**\n\n| Indian Football League (1st tier) |\n|---|\n| National Football League (1996–2007)I-League (2007–2017)I-League & Indian Super League (2017–2022) Indian Super League (2022–present) |\n| Country |\n| India |\n| Founded |\n| 1996 |\n| Number of teams (from 2025-26) |\n| 14 |\n| Current champions |\n| Mohun Bagan |\n| Most successful club |\n| Mohun Bagan (7 titles) |\n\nThe Indian football champions are the winners of the highest league in Indian men's football, which is currently the Indian Super League.\n\nThough Indian football tournaments dates back to the eighteenth century, a proper league system, the National Football League (NFL) was established in 1996, playing it first season in 1996–97. Its champions were considered the national champions. After the 2006–07 season, the NFL was rebranded, becoming the I-League with its champions continuing to be considered national champions until 2017, when the Indian Super League (ISL) became the country's joint premier football league. In 2022, ISL became the only top tier football league of the country. ISL playoffs winners were considered as ISL champions until 2021–22 season. Later from 2022–23 season, ISL champions designation was awarded to the table toppers.\n\nThere are 12 clubs who have won either the National Football League or the I-League and championships and six clubs who have won the Indian Super Lea"
+            },
+            {
+              "docid": "74000",
+              "url": "https://timesofindia.indiatimes.com/sports/football/indian-super-league/top-stories/mehraj-ud-din-wadoo-kashmirs-football-hero/articleshow/50119083.cms",
+              "title": "Mehraj-ud-din Wadoo, Kashmir's football hero",
+              "score": 43.882020846214445,
+              "snippet": "Mehraj-ud-din Wadoo, Kashmir's football hero\n---\ntitle: Mehraj-ud-din Wadoo, Kashmir's football hero\nauthor: Tahir Ibn Manzoor; TNN; Updated Dec\ndate: 2015-12-10\n---\n- News\n\n- Sports News\n\n- Football\n\n- Indian Super League\n\n- Mehraj-ud-din Wadoo, Kashmir's football hero\n\nTrending\n\nThis story is from December 10, 2015\n\nThe seasoned muscular defender, 31-year-old footballer Mehraj-ud-din Wadoo, who ran thousands of miles in his career, is making a dream run in football for Kashmir.\n\nThe seasoned muscular defender, 31-year-old footballer Mehraj-ud-din Wadoo, who ran thousands of miles in his career, is making a dream run in football for Kashmir.\n\nThe seasoned muscular defender, 31-year-old footballer Mehraj-ud-din Wadoo, who ran thousands of miles in his career, is making a dream run in football for Kashmir.\n\nWadoo's net worth is around Rs 2.2 crore, after he joined the Indian Super League (ISL) for Pune FC in the tournament's first season, after he was noticed from the club scene. In this year's ISL, Wadoo has had 12 appearances for his new franchise Chennaiyan FC.\n\nWadoo is living his dream, for what he had endured in his young days was challenging. The incredible rise in Wadoo's varied career took a leap when he started at the tender age of nine, playing day-long football under the watchful eye of his father, Mohammad Sultan Wadoo, who had represented J&K in the Santosh Trophy and coached him to learn the nuances of the game at his courtyard. His father had decided to throw a"
+            },
+            {
+              "docid": "12484",
+              "url": "https://en.wikipedia.org/wiki/History_of_football_in_India",
+              "title": "History of football in India - Wikipedia",
+              "score": 42.449312895988115,
+              "snippet": "History of football in India - Wikipedia\n---\ntitle: History of football in India - Wikipedia\ndate: 2011-09-11\n---\nThe history of football in India has been going ever since the mid 1800's. It was the national sport of india at one point. India is home to some of the oldest football clubs in the world, and the world's third oldest competition, the Durand Cup. Football in India was highly celebrated at its peak. The Indian football outfit was called the \"Brazilians of Asia\".\n\n1800s\n\nFootball was introduced to India by British soldiers in the mid-nineteenth century. It spread because of the efforts of Nagendra Prasad Sarbadhikari. In 1888 the Durand Cup was founded by then India's Foreign Secretary, Mortimer Durand at Shimla, India. The Durand Cup is the third oldest football competition behind the FA Cup and the Scottish Cup. It was initiated, as a recreation for British troops stationed in India. Royal Scots Fusiliers won the first edition of the cup by beating Highland Light Infantry 2–1 in the final. In 1893, the IFA Shield was founded as the fourth oldest trophy in the world. Calcutta, then capital of British India, soon became the hub of Indian football. Sarada FC was the oldest Indian football club.\n\nCalcutta FC was the first club to be established in 1872. Other early clubs include Dalhousie Club, Traders Club and Naval Volunteers Club.\n\nIn 1889 India's oldest current team Mohun Bagan A.C. was founded as \"Mohun Bagan Sporting Club\". This was the first club to be under th"
+            }
+          ]
+        },
+        {
+          "query": "Indian footballer school football training session September students",
+          "results": [
+            {
+              "docid": "2089",
+              "url": "https://dpssrinagar.com/news/celebrated-footballer-mehraj-ud-din-wadoo-organizes-football-training-session/",
+              "title": "Celebrated footballer Mehraj-ud-Din Wadoo organizes football training session",
+              "score": 31.214518859121153,
+              "snippet": "Celebrated footballer Mehraj-ud-Din Wadoo organizes football training session\n---\ntitle: Celebrated footballer Mehraj-ud-Din Wadoo organizes football training session\ndate: 2017-09-16\n---\nCelebrated footballer Mehraj-ud-Din Wadoo organizes football training session\n\nThe School organized a football training session for its students on 16th September. 115 students participated in the session. The highlight of the session was an interaction with the celebrated Kashmiri footballer Mehrajudin Wadoo. He shared his experiences with the students and provided valuable tips as well. The students were quite delighted and benefited much from this interaction."
+            },
+            {
+              "docid": "3920",
+              "url": "https://www.espn.com/espn/feature/story/_/id/18169798/the-far-side-indian-football",
+              "title": "ESPN",
+              "score": 28.298680484152086,
+              "snippet": "ESPN\n---\ntitle: ESPN\ndate: 2016-02-12\n---\nI\n\nndia's richest mine of footballing talent lies in its north-east. More than 30 percent of India's top-flight players from a region with little over three percent of its population.\n\nESPN India's exploration of football in India's north-east which began with revisiting the life of the country's first football captain Talimeren Ao, found that his home state, Nagaland -- multi-layered, mysterious, complex -- remains one of the most under-represented in Indian football. Only one player from Nagaland has featured in the I-League, the country's top-flight competition to date.\n\nA journey to a village south-east of the capital Kohima aimed to look at Nagaland football in a microcosm and understand how the sport survives. Without manicured grounds or a sustained regular league or a string of role models but with the commitment of a few determined to drive change and a purity of love that endures among its people.\n\nPhek district in southeast Nagaland, is postcard country, picturesque villages surrounded by terraced paddy fields a land rich in biodiversity and often marked by conflict. The heart of Chizami village, 85 km east from Kohima, beats for football in more ways than one.\n\nChizami, with its 600 households and population of around 3000, is a typical Naga village with church, school and tight sense of community. It is best known for Chizami Weaves, a unique livelihood project with local women weavers, but the man running a unique footba"
+            },
+            {
+              "docid": "89915",
+              "url": "https://en.wikipedia.org/wiki/Syed_Abdul_Rahim",
+              "title": "Syed Abdul Rahim - Wikipedia",
+              "score": 26.682285752276016,
+              "snippet": "Syed Abdul Rahim - Wikipedia\n---\ntitle: Syed Abdul Rahim - Wikipedia\ndate: 2011-03-26\n---\nname: Syed Abdul Rahim\nfull_name: Syed Abdul Rahim Rahim, Amal Dutta, P.K. and Nayeem: The Coaches Who Shaped Indian Football la84foundation.org 10 August 2010\nbirth_date: 17 08 1909\nbirth_place: Hyderabad, Hyderabad State, British India\ndeath_date: 11 06 1963\ndeath_place: Hyderabad, Andhra Pradesh, India\nyouthyears1: 1927–1931\nyouthclubs1: Osmania University\nyears1: 1943\nyears2: 1950\nclubs1: Qamar Club\nclubs2: HSV Hoek\nmanageryears1: 1950–1963\nmanageryears2: 1950–1963\nmanagerclubs1: Hyderabad City Police(head coach & secretary)\nmanagerclubs2: India\nmanagerclubs3: Hyderabad\nmanageryears3: 1958–1959\n\nSyed Abdul Rahim (17 August 1909 – 11 June 1963), popularly known as Rahim Saab, was an Indian football coach and manager of the India national team from 1950 until his death in 1963, and a former player. He is regarded as the architect of modern Indian football. A teacher by profession, he was a strong motivator and his tenure as a coach is regarded as the \"golden age\" of football in India.\n\nUnder his stewardship, the India national team earned superiority in both technical qualities and tactical innovations, and got the nickname \"Brazil of Asia\". They went on to win gold medals in Asian Games of—(1951-Delhi and 1962-Jakarta), played semi-finals of the Summer Olympics—(1956-Melbourne) making India the first ever Asian country to achieve this place, win the titles of Asian Quadrangular Footba"
+            },
+            {
+              "docid": "26360",
+              "url": "https://en.wikipedia.org/wiki/List_of_people_who_died_in_traffic_collisions",
+              "title": "List of people who died in traffic collisions - Wikipedia",
+              "score": 26.119495741841963,
+              "snippet": "List of people who died in traffic collisions - Wikipedia\n---\ntitle: List of people who died in traffic collisions - Wikipedia\ndate: 2003-11-21\n---\nThis list contains notable people who have been killed in traffic collisions. This list does not include those who were killed competing on closed-road events whether in motorsport or in competitive cycling events. Passengers of a vehicle are indicated in parentheses on the \"mode of transport\" field.\n\nA\n\n**Table 1**\n\n| Name | Born | Died | Aged | Nationality | Notability | Mode of transport | Vehicle | Location | Details |\n|---|---|---|---|---|---|---|---|---|---|\n| Magomed Abdulaev | 1961 | 2023 | 61 years | Russian | lawyer and politician | pedestrian | | Makhachkala, Russia | Abdulaev was hit by a car and killed while crossing the street outside the crosswalk. |\n| Norifumi Abe | 1975 | 2007 | 32 years | Japanese | motorcycle racer | scooter | Yamaha XP 500 TMAX | Kawasaki, Kanagawa, Japan | Collision with a truck, which made an illegal U-turn in front of him, when he was riding his motorcycle. |\n| Anand Abhyankar | 1965 | 2012 | 47 years | Indian | actor | car | Suzuki Wagon R | Pune, Maharashtra, India | |\n| Danielle Adams | 1982 | 2021 | 39 years | Canadian | politician | car | | Thompson, Manitoba, Canada | |\n| Frank Adams | 1930 | 1989 | 58 years | British | mathematician | car | | Brampton, Cambridgeshire, England, United Kingdom | |\n| Olubayo Adefemi | 1985 | 2011 | 25 years | Nigerian | footballer | car | | Kavala, Greec"
+            },
+            {
+              "docid": "69452",
+              "url": "https://en.wikipedia.org/wiki/Fabio_Cannavaro",
+              "title": "Fabio Cannavaro - Wikipedia",
+              "score": 25.772667410288946,
+              "snippet": "Fabio Cannavaro - Wikipedia\n---\ntitle: Fabio Cannavaro - Wikipedia\nauthor: Authority control databases\ndate: 2004-10-18\n---\nname: Fabio Cannavaro\nfull_name: Fabio Cannavaro FIFA World Cup South Africa 2010: List of Players: Italy FIFA 15 4 June 2010 18 April 2020\nbirth_date: 13 September 1973\nbirth_place: Naples, Italy\nheight: 1.76 mFabio Cannavaro Juventus FC 18 March 2020 17 December 2009\nposition: Centre-back\nyouthyears1: 1988–1992\nyouthclubs1: Napoli\nyears1: 1991–1995\nclubs1: Napoli\ncaps1: 58\ngoals1: 1\nyears2: 1995–2002\nclubs2: Parma\ncaps2: 212\ngoals2: 5\nyears3: 2002–2004\nclubs3: Inter Milan\ncaps3: 50\ngoals3: 2\nyears4: 2004–2006\nclubs4: Juventus\ncaps4: 74\ngoals4: 6\nyears5: 2006–2009\nclubs5: Real Madrid\ncaps5: 94\ngoals5: 0\nyears6: 2009–2010\nclubs6: Juventus\ncaps6: 27\ngoals6: 0\nyears7: 2010–2011\nclubs7: Al Ahli Dubai\ncaps7: 16\ngoals7: 2\ntotalcaps: 531\ntotalgoals: 16\nmanageryears1: 2014–2015\nmanagerclubs1: Guangzhou Evergrande\nmanageryears2: 2015–2016\nmanagerclubs2: Al Nassr\nmanageryears3: 2016–2017\nmanagerclubs3: Tianjin Quanjian\nmanageryears4: 2017–2021\nmanagerclubs4: Guangzhou Evergrande\nmanageryears5: 2019\nmanagerclubs5: China\nmanageryears6: 2022–2023\nmanagerclubs6: Benevento\nmanageryears7: 2024\nmanagerclubs7: Udinese\nmanageryears8: 2025\nmanagerclubs8: Dinamo Zagreb\nnationalyears1: 1993–1996\nnationalteam1: Italy U21\nnationalcaps1: 21\nnationalgoals1: 0\nnationalyears2: 1997–2010\nnationalteam2: Italy\nnationalcaps2: 136\nnationalgoals2: 2\nmedaltemplates: Men's football FIFA W"
+            },
+            {
+              "docid": "58131",
+              "url": "https://en.wikipedia.org/wiki/1954",
+              "title": "1954 - Wikipedia",
+              "score": 24.528389267873504,
+              "snippet": "1954 - Wikipedia\n---\ntitle: 1954 - Wikipedia\nauthor: Authority control databases National United States Israel\ndate: 2001-10-23\n---\nEvents\n\nJanuary\n\n* January 3 – The Italian broadcaster RAI officially begins transmitting.\n* January 7 – Georgetown–IBM experiment: The first public demonstration of a machine translation system is held in New York, at the head office of IBM.\n* January 10 – BOAC Flight 781, a de Havilland Comet jet plane, disintegrates in mid-air due to metal fatigue, and crashes in the Mediterranean near Elba; all 35 people on board are killed.\n* January 12 – Avalanches in Austria kill more than 200.\n* January 15 – Mau Mau leader Waruhiu Itote is captured in Kenya.\n* January 17 – In Yugoslavia, Milovan Đilas, one of the leading members of the League of Communists of Yugoslavia, is relieved of his duties.\n* January 20 – The US-based National Negro Network is established, with 46 member radio stations.\n* January 21 – The first nuclear-powered submarine, the , is launched in Groton, Connecticut, by First Lady of the United States Mamie Eisenhower.\n* January 25 – The foreign ministers of the United States, Britain, France and the Soviet Union meet at the Berlin Conference.\n\nFebruary\n\n* February 10 – After authorizing $385 million over the $400 million already budgeted for military aid to Vietnam, President of the United States Dwight D. Eisenhower warns against his country's intervention in Vietnam.\n* February 19 – 1954 transfer of Crimea: The Soviet Politburo of th"
+            },
+            {
+              "docid": "93875",
+              "url": "https://www.exeter.ac.uk/alumnisupporters/networks/exeter-sport/football/",
+              "title": "Football Club Alumni",
+              "score": 24.35487723473256,
+              "snippet": "Football Club Alumni\n---\ntitle: Football Club Alumni\ndate: 2000-01-01\n---\nFootball Club Alumni\n\nOver many years the Exeter University Football Club has provided thousands of football playing students with memorable playing and social experiences. Many teams and individual students have achieved at national and local level, and many players have gone on to have impressive post-Exeter football careers in playing, coaching, management and administration.\n\nThe football club alumni section has been set up with three main aims:\n\n- To celebrate Exeter University football past and present\n\n- To organise, promote and implement an annual reunion\n\n- To discuss possible support for the current football programme\n\nA very successful 2nd EUAFC reunion weekend was held in November 2021 with just under 100 attendees. Optional Friday golf was followed by era get togethers on Friday evening (including the Black Horse for old times sake!). On Saturday there were tours of the main campus and Luke's, watching the current 1st X1 beat Newtown FC in the cup, and finishing with the reunion dinner and EUAFC celebrations in the evening. Sunday morning offered walking football and an alumni/current students match, concluding a great weekend that was thoroughly enjoyed by all. The 3rd annual reunion took place in March 2023.\n\nWe now have decade co-ordinators for the 1960s - John Gilbert / Alan Young, 1970s - Charlie Hawker, 1980s - John Palmer, 1990s - John Deadman and recent graduates 2020 - 2029 - Jimmy"
+            },
+            {
+              "docid": "76833",
+              "url": "https://khelnow.com/football/top-indian-footballers-foreign-clubs-abroad-players",
+              "title": "Top 10 Indian footballers who played for foreign clubs",
+              "score": 24.287064107303628,
+              "snippet": "Top 10 Indian footballers who played for foreign clubs\n---\ntitle: Top 10 Indian footballers who played for foreign clubs\ndate: 2022-07-05\n---\nTop 10 Indian footballers who played for foreign clubs\n\n(Courtesy : Instagram)\n\nEach of these players scripted history at some point in their career with moves abroad.\n\nThe ultimate dream of an aspiring Indian footballer is undoubtedly to play for the national team. However, a parallel desire every footballer from the country craves for is to play outside the nation. Indeed, the ability to break free from the corners of Indian football and play in a different environment indicates a real taste of success.\n\nOver the years, there have been a handful of Indian footballers to have played for foreign clubs. A number of players have gone to train with foreign clubs. But not all have actually signed a professional deal with them. Be it a male or female footballer, it isn't easy at all for an Indian player to get recognized by a prominent foreign club.\n\n[KH_ADWORDS type=\"4\" align=\"center\"][/KH_ADWORDS]\n\nIndian Women's team stars Dangmei Grace and Manisha Kalyan are the latest Indian footballers to sign for foreign clubs. Grace has joined Uzbekistan side FC Nasaf, while Manisha has penned a two-year contract with Cyprus champions Apollon Ladies. The latter could also become the first-ever Indian to play in the UEFA Women's Champions League, with Apollon in action in round 1 of the UWCL qualifiers.\n\nThe pair join an exclusive class of Indian foot"
+            },
+            {
+              "docid": "84162",
+              "url": "https://www.the-aiff.com/history",
+              "title": "History",
+              "score": 24.199816150826077,
+              "snippet": "History\n---\ntitle: History\ndate: 2012-03-15\n---\n1872\n\nNagendra Prasad Sarbadhakari, known as the Father of Indian Football\n\nThe game was introduced to the Calcuttans (then the capital of India) by the British soldiers in the nineteenth century. Very few would know that Nagendra Prasad Sarbadhakari, known as the Father of Indian Football forced his classmates into playing the game in his school compound. Attracted by the enthusiasm of the boys in the school, the European teachers of the school and adjacent colleges encouraged Nagendra Prasad and his companions to promote the game among the students surrounding Calcutta.\n\n1872\n\nCalcutta FC the first club to be established in 1872\n\nReports suggest that they were initially a rugby club and switched their attentions to football as late as 1894.\n\n1888\n\nThe Durand Cup, first held in Shimla\n\nIt is the first Indian football competition and incidentally the third oldest surviving competition in the World. It was started by Sir Mortimer Durand.\n\n1888\n\nDurand Cup winners receive 3 trophies\n\nThe tournament is also unique wherein the winning team walks away with three trophies. The Durand Cup and Shimla Trophy are Rolling Trophies while The President's Cup first presented by Dr. Rajendra Prasad is given to the team permanently.\n\n1889\n\nMohun Bagan set up (oldest existing club)\n\nMohun Bagan Athletic Club was set up in what is now West Bengal, in the year 1889.\n\n1892\n\nSovabazar Club win the Trades Cup\n\nThe first Indian team to achieve success"
+            },
+            {
+              "docid": "69955",
+              "url": "https://en.wikipedia.org/wiki/Deaths_in_January_2021",
+              "title": "Deaths in January 2021 - Wikipedia",
+              "score": 23.771168841535907,
+              "snippet": "Deaths in January 2021 - Wikipedia\n---\ntitle: Deaths in January 2021 - Wikipedia\ndate: 2020-12-01\n---\nJanuary 2021\n\n1\n\n*Abdul Hakim Al-Taher, 71, Sudanese director and actor, COVID-19.بسبب كورونا .. وفاة الفنان السودانى عبد الحكيم الطاهر \n*George Ancona, 91, American photo essayist and illustrator.Obituary: George Ancona\n*Barry Austin, 52, British record holder, nation's heaviest man, heart attack.Tributes paid to Birmingham City fan Barry Austin known as 'Britain's fattest man' after tragic death\n*Jan de Bie, 74, Dutch painter and photographer.Jan de Bie (1946-2021) schilderde vanuit het gevoel steeds te mislukken \n*Dame Margaret Booth, 87, British judge, judge of the High Court of Justice (1979–1994), chair of the Family and Parenting Institute (1999–2004).Dame Margaret Booth obituary \n*Clint Boulton, 72, English footballer (Port Vale, Torquay United).Shock death of Torquay United legend Clint Boulton\n*Colin J. Bushnell, 73, British mathematician.The Latest\n*Carlos do Carmo, 81, Portuguese fado singer (\"Uma flor de verde pinho\"), ruptured aneurysm.Morreu o fadista Carlos do Carmo \n*Ben Chafin, 60, American politician, member of the Virginia House of Delegates (2014) and Senate (since 2014), complications from COVID-19.Governor Northam Statement on the Passing of Senator A. Benton Chafin, Jr. (R-SD38), Who Died From \"Complications From COVID-19\"\n*Emanuele Chiapasco, 90, Italian baseball player (Milano Baseball Club), sporting director, and entrepreneur.Baseball: addio a Eman"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tool_call",
+      "tool_name": "visit",
+      "arguments": {
+        "url": [
+          "https://dpssrinagar.com/news/celebrated-footballer-mehraj-ud-din-wadoo-organizes-football-training-session/"
+        ],
+        "goal": "Find the exact number of students who participated in the football training session organized by Mehraj-ud-din Wadoo on September 16th"
+      },
+      "output": [
+        {
+          "url": "https://dpssrinagar.com/news/celebrated-footballer-mehraj-ud-din-wadoo-organizes-football-training-session/",
+          "docid": "2089",
+          "goal": "Find the exact number of students who participated in the football training session organized by Mehraj-ud-din Wadoo on September 16th",
+          "content": "Celebrated footballer Mehraj-ud-Din Wadoo organizes football training session\n---\ntitle: Celebrated footballer Mehraj-ud-Din Wadoo organizes football training session\ndate: 2017-09-16\n---\nCelebrated footballer Mehraj-ud-Din Wadoo organizes football training session\n\nThe School organized a football training session for its students on 16th September. 115 students participated in the session. The highlight of the session was an interaction with the celebrated Kashmiri footballer Mehrajudin Wadoo. He shared his experiences with the students and provided valuable tips as well. The students were quite delighted and benefited much from this interaction.",
+          "truncated": false,
+          "original_chars": 655
+        }
+      ]
+    },
+    {
+      "type": "tool_call",
+      "tool_name": "search",
+      "arguments": {
+        "query": [
+          "Mehrajuddin Wadoo AFC PRO license coaching",
+          "Mehrajuddin Wadoo ISL 2015 champion ATK Chennaiyin",
+          "Mehrajuddin Wadoo India national team caps international"
+        ]
+      },
+      "output": [
+        {
+          "query": "Mehrajuddin Wadoo AFC PRO license coaching",
+          "results": [
+            {
+              "docid": "26838",
+              "url": "https://www.hindustantimes.com/pune-news/indian-super-league-will-soon-see-an-indian-as-head-coach-says-wadoo/story-Lxc5Fcq8IF4iSGrRjQJSJM.html",
+              "title": "Indian Super League will soon see an Indian as head coach, says Wadoo",
+              "score": 62.00648799973807,
+              "snippet": "Indian Super League will soon see an Indian as head coach, says Wadoo\n---\ntitle: Indian Super League will soon see an Indian as head coach, says Wadoo\nauthor: HT Correspondent\ndate: 2018-10-19\n---\nIndian Super League will soon see an Indian as head coach, says Wadoo\n\nFCPC u-18 coach Mehrajuddin Wadoo says Indian coaches are good in their skills\n\nPune: After 32 international caps and over 50 ISL appearances, former FC Pune City (FCPC) defender Mehrajuddin Wadoo has reunited with the club by joining the Stallions as the head coach of the under-18 team. After enjoying a fine stint with the Maharashtra outfit in the debut season of the ISL, the 34-year-old will be hoping to develop rising superstars from the famed FC Pune City academy.\n\nThe former Indian international took out time from his busy schedule to speak to Hindustan Times to explain his plans on reuniting with the club. After expressing his delight to re-sign with Pune City, Wadoo said, \"While the ISL season is going on, my team will be playing in the under-18 I-league and the super division of the Mumbai League. We're also looking to enter more tournaments because as long as you don't take part in more competitions and only train then they won't grow very fast. So, ideally I'm looking for them to play 60 matches in a season.\"\n\nOnce a professional hangs up their boots in the sport of football, there are many opportunities to continue to be a part of the sport. Often players in Europe turn to punditry to offer their expe"
+            },
+            {
+              "docid": "22520",
+              "url": "https://i-league.org/bharat-fc-snap-up-mehrajuddin-wadoo/",
+              "title": "Points Table",
+              "score": 51.83235319146265,
+              "snippet": "Points Table\n---\ntitle: Points Table\ndate: 2014-12-30\n---\nI-LEAGUE Media Team\n\nNEW DELHI: Bharat FC took another important step towards fortifying their backline, adding experienced Indian defender Mehrajuddin Wadoo to the squad; the Club informed on December 29. Wadoo who has already joined Bharat FC's pre-season training camp is on loan from Indian Super League side FC Pune City for the 2014-15 season. .\n\n30-year-old Wadoo, who can play across the backline but was used as a right-back by his ISL side comes to Bharat FC off the back of a successful season. He made 10 appearances for FC Pune City, earning praise for his work-rate and willingness to push up the field to help out in the attacking third.\n\nWadoo, who hails from Srinagar, the capital of Jammu and Kashmir, is also credited with popularizing football in the valley. One of the first footballers from the state to earn a professional contract, Wadoo has plied his trade with some of the most reputed Indian clubs. Having begun his career with Hindustan Aeronautics Limited (HAL) Bangalore in the 2002-2003 season, Wadoo wasted no time in carving out a credible reputation for himself. He moved to Indian Telephone Institute the next season but left to join Sporting Clube de Goa after just six months at ITI.\n\nAt the beginning of the 2004 season, he joined Kolkata giants Mohun Bagan AC, spending three seasons with the Mariners. He then switched to Mohun Bagan's fierce rivals East Bengal, playing for them from 2007 to 2011. The"
+            },
+            {
+              "docid": "51752",
+              "url": "https://www.transfermarkt.com/mehrajuddin-wadoo/erfolge/spieler/64624",
+              "title": "Mehrajuddin Wadoo",
+              "score": 50.15248887150061,
+              "snippet": "Mehrajuddin Wadoo\n---\ntitle: Mehrajuddin Wadoo\ndate: 2018-07-01\n---\nMehrajuddin Wadoo\n\nCurrently working as:\n\nAssistant Manager\n\nClub:\n\nMohammedan\n\n1x AFC Challenge Cup Winner\n\n| 2008 | India |\n\n1x Indian Super League Champion\n\n| 2015 | Chennaiyin FC |\n\n1x South Asian Champion\n\n| 2005 | India |\n\nTransfermarkt Videos\n\nAll titles\n\n| Titles and season | ||\n\n|---|---|---|\n\n| 1x Indian Super League Champion | ||\n\n| 2015 | Chennaiyin FC | |\n\n| 1x AFC Challenge Cup Winner | ||\n\n| 2008 | ||\n\n| 2x AFC Cup Participant | ||\n\n| 10/11 | Kingfisher East Bengal | |\n\n| 09/10 | Kingfisher East Bengal | |\n\n| 1x South Asian Champion | ||\n\n| 2005 |"
+            },
+            {
+              "docid": "23120",
+              "url": "https://www.the-aiff.com/article/afc-pro-diploma-2022-23-course-results-declared",
+              "title": "AIFF announces Academy Accreditation 2025-26 Rules...",
+              "score": 46.58389032683523,
+              "snippet": "AIFF announces Academy Accreditation 2025-26 Rules...\n---\ntitle: AIFF announces Academy Accreditation 2025-26 Rules...\ndate: 2023-07-27\n---\nAIFF Media Team\n\nNEW DELHI: Fourteen candidates have successfully cleared the AFC Pro Diploma 2022-23 course, the results of which were announced on Thursday, July 27, 2023. The course was conducted by FIFA Coach Educator Mr. Kim Poulson. The five-module course, which started in May 2022, finally concluded with the fifth module in June 2023.\n\nThe following are the successful candidates: Renedy Singh; Ishfaq Ahmed, Vivek Nagul, Jeddy Almeida, Shakti Chauhan, Surinder Singh, Anthony Fernandes, Mehrajuddin Wadoo, Richard Hood, Pradhyum Reddy, Gavin Araujo, Noel Wilson, Venkatesh Shanmugam and Sanjoy Sen.\n\nRelated news"
+            },
+            {
+              "docid": "84162",
+              "url": "https://www.the-aiff.com/history",
+              "title": "History",
+              "score": 36.90154166041256,
+              "snippet": "History\n---\ntitle: History\ndate: 2012-03-15\n---\n1872\n\nNagendra Prasad Sarbadhakari, known as the Father of Indian Football\n\nThe game was introduced to the Calcuttans (then the capital of India) by the British soldiers in the nineteenth century. Very few would know that Nagendra Prasad Sarbadhakari, known as the Father of Indian Football forced his classmates into playing the game in his school compound. Attracted by the enthusiasm of the boys in the school, the European teachers of the school and adjacent colleges encouraged Nagendra Prasad and his companions to promote the game among the students surrounding Calcutta.\n\n1872\n\nCalcutta FC the first club to be established in 1872\n\nReports suggest that they were initially a rugby club and switched their attentions to football as late as 1894.\n\n1888\n\nThe Durand Cup, first held in Shimla\n\nIt is the first Indian football competition and incidentally the third oldest surviving competition in the World. It was started by Sir Mortimer Durand.\n\n1888\n\nDurand Cup winners receive 3 trophies\n\nThe tournament is also unique wherein the winning team walks away with three trophies. The Durand Cup and Shimla Trophy are Rolling Trophies while The President's Cup first presented by Dr. Rajendra Prasad is given to the team permanently.\n\n1889\n\nMohun Bagan set up (oldest existing club)\n\nMohun Bagan Athletic Club was set up in what is now West Bengal, in the year 1889.\n\n1892\n\nSovabazar Club win the Trades Cup\n\nThe first Indian team to achieve success"
+            },
+            {
+              "docid": "74000",
+              "url": "https://timesofindia.indiatimes.com/sports/football/indian-super-league/top-stories/mehraj-ud-din-wadoo-kashmirs-football-hero/articleshow/50119083.cms",
+              "title": "Mehraj-ud-din Wadoo, Kashmir's football hero",
+              "score": 36.7053939109119,
+              "snippet": "Mehraj-ud-din Wadoo, Kashmir's football hero\n---\ntitle: Mehraj-ud-din Wadoo, Kashmir's football hero\nauthor: Tahir Ibn Manzoor; TNN; Updated Dec\ndate: 2015-12-10\n---\n- News\n\n- Sports News\n\n- Football\n\n- Indian Super League\n\n- Mehraj-ud-din Wadoo, Kashmir's football hero\n\nTrending\n\nThis story is from December 10, 2015\n\nThe seasoned muscular defender, 31-year-old footballer Mehraj-ud-din Wadoo, who ran thousands of miles in his career, is making a dream run in football for Kashmir.\n\nThe seasoned muscular defender, 31-year-old footballer Mehraj-ud-din Wadoo, who ran thousands of miles in his career, is making a dream run in football for Kashmir.\n\nThe seasoned muscular defender, 31-year-old footballer Mehraj-ud-din Wadoo, who ran thousands of miles in his career, is making a dream run in football for Kashmir.\n\nWadoo's net worth is around Rs 2.2 crore, after he joined the Indian Super League (ISL) for Pune FC in the tournament's first season, after he was noticed from the club scene. In this year's ISL, Wadoo has had 12 appearances for his new franchise Chennaiyan FC.\n\nWadoo is living his dream, for what he had endured in his young days was challenging. The incredible rise in Wadoo's varied career took a leap when he started at the tender age of nine, playing day-long football under the watchful eye of his father, Mohammad Sultan Wadoo, who had represented J&K in the Santosh Trophy and coached him to learn the nuances of the game at his courtyard. His father had decided to throw a"
+            },
+            {
+              "docid": "62846",
+              "url": "https://www.firstpost.com/sports/indian-super-xi-from-jeje-to-izumi-and-chhetri-heres-the-isls-indian-team-of-the-year-2555958.html",
+              "title": "ISL 2015 wrap-up: From Jeje to Izumi and Chhetri, here is an Indian Super XI",
+              "score": 32.04040556949218,
+              "snippet": "ISL 2015 wrap-up: From Jeje to Izumi and Chhetri, here is an Indian Super XI\n---\ntitle: ISL 2015 wrap-up: From Jeje to Izumi and Chhetri, here is an Indian Super XI\ndate: 2015-12-23\n---\nIt took a mere half an hour for Jeje Lalpekhlua to become the first Indian to get on the scoresheet in the second edition of the Indian Super League. In a season which has been dominated by foreign stars all across the pitch – from the likes of Apoula Bete in goal, Leo Moura in midfield to Iain Hume and Stiven Mendoza up front, there have been a handful of Indian players who impressed spectators with their skillful displays – with Jeje winning the coveted Emerging Player of the Year award.\n\nLet us take a look at the Indian Team of the season, lining up in a 4-2-3-1 formation.\n\nAmrinder Singh: The 22-year-old Atletico de Kolkata custodian has been a revelation below the bars this season. The Indian U-23 international had the best 'minutes-to-goals-conceded' ratio among the Indian keepers, conceding a goal every 73 minutes.\n\nIt was not just his quick reflexes, but also his command of the box which made him such a safe pair of hands, even when Atletico struggled to contain opposition shots. Although he kept only a solitary clean sheet through the course of the season, Amrinder was one of the most consistent performers in Antonio Habas' side.\n\nMehrajuddin Wadoo: Locks down the right fullback position with impressive defensive numbers. With forty tackles and ten aerial duels in fourteen appearances"
+            },
+            {
+              "docid": "18550",
+              "url": "https://khelnow.com/football/indian-football-12-coaches-complete-afc-pro-license-202411",
+              "title": "12 Indian coaches complete AFC Pro License; Boosting football coaching standards",
+              "score": 32.00218154205473,
+              "snippet": "12 Indian coaches complete AFC Pro License; Boosting football coaching standards\n---\ntitle: 12 Indian coaches complete AFC Pro License; Boosting football coaching standards\ndate: 2024-11-14\n---\n12 Indian coaches complete AFC Pro License; Boosting football coaching standards\n\n(Courtesy : AIFF Media)\n\nFormer players like Arata Izumi and Gouramangi Singh are the eye-catching names who completed the course successfully.\n\nIt is a proud moment and a remarkable achievement for Indian Football, as 12 Indian coaches have successfully completed the Asian Football Confederation (AFC) Pro License Diploma Course. This is a significant milestone in the coaching careers of these 12 individuals, who will be ready to make the big leap.\n\nThe coaches' course requires at least 220 hours of coursework and an AFC A Diploma. AFC has proposed this mandatory qualification for aspiring coaches in the AFC Cup, AFC Champions League, and national professional leagues. The final and fifth module of the rigorous course was held in Riyadh, Saudi Arabia, where these coaches demonstrated their commitment, expertise, and passion for the game.\n\nAFC Pro License/Diploma key details\n\nAssessment\n\n- Module 1 to 3: No assessments\n\n- Module 4: 1 practical assessment\n\n- Module 5: 2 practical assessments, 2 theory exams, 1 dissertation\n\n- Prepare log book during the course\n\n- Session planning task\n\n- Annual planning task\n\nLicensing Criteria\n\n- National team\n\n- Professional clubs\n\nCost\n\nAIFF License fees 300000/- + organ"
+            },
+            {
+              "docid": "17654",
+              "url": "https://www.firstpost.com/sports/isl-final-chennaiyin-fc-snatch-victory-from-the-jaws-of-defeat-to-beat-goa-3-2-in-thriller-2553270.html",
+              "title": "ISL Final: Chennaiyin FC snatch victory from the jaws of defeat to beat FC Goa 3-2 in thriller",
+              "score": 30.633929228056235,
+              "snippet": "ISL Final: Chennaiyin FC snatch victory from the jaws of defeat to beat FC Goa 3-2 in thriller\n---\ntitle: ISL Final: Chennaiyin FC snatch victory from the jaws of defeat to beat FC Goa 3-2 in thriller\ndate: 2015-12-21\n---\nMargao: An incredible five minutes at the death produced three goals in a scintillating Indian Super League 2015 final – with Chennaiyin FC snatching victory from the jaws of defeat with Colombian striker Stiven Mendoza scoring the winner in a 3-2 win.\n\nThe scoreline was 1-1 when Spanish midfielder Joffre Mateu scored a freekick to put Goa in the lead from behind, going on to celebrate shirtless on his teammates' shoulders. But, minutes later, Mehrajuddin Wadoo's long ball scooted off goalkeeper Laxmikant Kattimani's gloves and looped into the net in the 90th minute to make the score 2-2.\n\nSeconds later, Mendoza had his shirt off – as he latched onto substitute Jayesh Rane's long ball, powered past centrebacks Gregory Arnolin and Lucio, to slip a left-footed finish past Kattimani to win it in added time for Chennaiyin.\n\nIt was Mendoza's 13th goal of the season and came after he had missed a penalty in the second half in a madcap of a final which easily trumped last year's cagey 1-0 win for Atletico de Kolkata over Kerala Blasters.\n\nKattimani had taunted the Colombian throughout the night after he took multiple tumbles in and around the box in what seemed to be an attempt to win dangerous set-pieces.\n\nThe two times he was felled in the box (by Pranoy Halder a"
+            },
+            {
+              "docid": "86244",
+              "url": "https://www.transfermarkt.com/after-afc-pro-license-clifford-miranda-in-demand/view/news/358688",
+              "title": "After AFC Pro License - Clifford Miranda in demand",
+              "score": 30.4320516472663,
+              "snippet": "After AFC Pro License - Clifford Miranda in demand\n---\ntitle: After AFC Pro License - Clifford Miranda in demand\nauthor: TM India\ndate: 2020-04-15\n---\nAfter AFC Pro License - Clifford Miranda in demand\n\nIt's been a good year for former India international Clifford Miranda. Firstly, Miranda guided FC Goa to top of the Indian Super League points table after the Gaurs parted ways with Sergio Lobera. The top finish ensured that FC Goa becomes the first Indian club to qualify for the AFC Champions League group stage.\n\nSecondly, Miranda completed his AFC Pro Diploma coaching course last month which was conducted by Uzbekistan Football Association. Out of twenty-one participants, only four managed to clear the course, Clifford being one of them. Only fifteen Indian coaches have cleared the two-year pro licence course before Clifford. It's also a matter of pride for the winger as he is also the first among his peers to achieve the Pro license.\n\n\"For me it is very important as I wanted to complete my coaching licenses, Miranda told Times of India. \"Coaching is a process and it is never ending, but for me to get the right licenses and coaching without interruption was very important,\" the 37-year-old added.\n\nSoon after passing the Pro License, Miranda has been flooded with offers from I-League clubs. But just as he used to be on the field, he is not in a hurry. Rather, he wants his decision to be precise, just like his inch-perfect crosses. His contract with FC Goa runs out this June b"
+            }
+          ]
+        },
+        {
+          "query": "Mehrajuddin Wadoo ISL 2015 champion ATK Chennaiyin",
+          "results": [
+            {
+              "docid": "62846",
+              "url": "https://www.firstpost.com/sports/indian-super-xi-from-jeje-to-izumi-and-chhetri-heres-the-isls-indian-team-of-the-year-2555958.html",
+              "title": "ISL 2015 wrap-up: From Jeje to Izumi and Chhetri, here is an Indian Super XI",
+              "score": 74.84558597133017,
+              "snippet": "ISL 2015 wrap-up: From Jeje to Izumi and Chhetri, here is an Indian Super XI\n---\ntitle: ISL 2015 wrap-up: From Jeje to Izumi and Chhetri, here is an Indian Super XI\ndate: 2015-12-23\n---\nIt took a mere half an hour for Jeje Lalpekhlua to become the first Indian to get on the scoresheet in the second edition of the Indian Super League. In a season which has been dominated by foreign stars all across the pitch – from the likes of Apoula Bete in goal, Leo Moura in midfield to Iain Hume and Stiven Mendoza up front, there have been a handful of Indian players who impressed spectators with their skillful displays – with Jeje winning the coveted Emerging Player of the Year award.\n\nLet us take a look at the Indian Team of the season, lining up in a 4-2-3-1 formation.\n\nAmrinder Singh: The 22-year-old Atletico de Kolkata custodian has been a revelation below the bars this season. The Indian U-23 international had the best 'minutes-to-goals-conceded' ratio among the Indian keepers, conceding a goal every 73 minutes.\n\nIt was not just his quick reflexes, but also his command of the box which made him such a safe pair of hands, even when Atletico struggled to contain opposition shots. Although he kept only a solitary clean sheet through the course of the season, Amrinder was one of the most consistent performers in Antonio Habas' side.\n\nMehrajuddin Wadoo: Locks down the right fullback position with impressive defensive numbers. With forty tackles and ten aerial duels in fourteen appearances"
+            },
+            {
+              "docid": "51752",
+              "url": "https://www.transfermarkt.com/mehrajuddin-wadoo/erfolge/spieler/64624",
+              "title": "Mehrajuddin Wadoo",
+              "score": 64.65337845876527,
+              "snippet": "Mehrajuddin Wadoo\n---\ntitle: Mehrajuddin Wadoo\ndate: 2018-07-01\n---\nMehrajuddin Wadoo\n\nCurrently working as:\n\nAssistant Manager\n\nClub:\n\nMohammedan\n\n1x AFC Challenge Cup Winner\n\n| 2008 | India |\n\n1x Indian Super League Champion\n\n| 2015 | Chennaiyin FC |\n\n1x South Asian Champion\n\n| 2005 | India |\n\nTransfermarkt Videos\n\nAll titles\n\n| Titles and season | ||\n\n|---|---|---|\n\n| 1x Indian Super League Champion | ||\n\n| 2015 | Chennaiyin FC | |\n\n| 1x AFC Challenge Cup Winner | ||\n\n| 2008 | ||\n\n| 2x AFC Cup Participant | ||\n\n| 10/11 | Kingfisher East Bengal | |\n\n| 09/10 | Kingfisher East Bengal | |\n\n| 1x South Asian Champion | ||\n\n| 2005 |"
+            },
+            {
+              "docid": "17654",
+              "url": "https://www.firstpost.com/sports/isl-final-chennaiyin-fc-snatch-victory-from-the-jaws-of-defeat-to-beat-goa-3-2-in-thriller-2553270.html",
+              "title": "ISL Final: Chennaiyin FC snatch victory from the jaws of defeat to beat FC Goa 3-2 in thriller",
+              "score": 63.09176601541234,
+              "snippet": "ISL Final: Chennaiyin FC snatch victory from the jaws of defeat to beat FC Goa 3-2 in thriller\n---\ntitle: ISL Final: Chennaiyin FC snatch victory from the jaws of defeat to beat FC Goa 3-2 in thriller\ndate: 2015-12-21\n---\nMargao: An incredible five minutes at the death produced three goals in a scintillating Indian Super League 2015 final – with Chennaiyin FC snatching victory from the jaws of defeat with Colombian striker Stiven Mendoza scoring the winner in a 3-2 win.\n\nThe scoreline was 1-1 when Spanish midfielder Joffre Mateu scored a freekick to put Goa in the lead from behind, going on to celebrate shirtless on his teammates' shoulders. But, minutes later, Mehrajuddin Wadoo's long ball scooted off goalkeeper Laxmikant Kattimani's gloves and looped into the net in the 90th minute to make the score 2-2.\n\nSeconds later, Mendoza had his shirt off – as he latched onto substitute Jayesh Rane's long ball, powered past centrebacks Gregory Arnolin and Lucio, to slip a left-footed finish past Kattimani to win it in added time for Chennaiyin.\n\nIt was Mendoza's 13th goal of the season and came after he had missed a penalty in the second half in a madcap of a final which easily trumped last year's cagey 1-0 win for Atletico de Kolkata over Kerala Blasters.\n\nKattimani had taunted the Colombian throughout the night after he took multiple tumbles in and around the box in what seemed to be an attempt to win dangerous set-pieces.\n\nThe two times he was felled in the box (by Pranoy Halder a"
+            },
+            {
+              "docid": "19153",
+              "url": "https://en.wikipedia.org/wiki/List_of_Indian_football_champions",
+              "title": "List of Indian football champions - Wikipedia",
+              "score": 57.520620554234455,
+              "snippet": "List of Indian football champions - Wikipedia\n---\ntitle: List of Indian football champions - Wikipedia\ndate: 2011-07-16\n---\n**Table 1**\n\n| Indian Football League (1st tier) |\n|---|\n| National Football League (1996–2007)I-League (2007–2017)I-League & Indian Super League (2017–2022) Indian Super League (2022–present) |\n| Country |\n| India |\n| Founded |\n| 1996 |\n| Number of teams (from 2025-26) |\n| 14 |\n| Current champions |\n| Mohun Bagan |\n| Most successful club |\n| Mohun Bagan (7 titles) |\n\nThe Indian football champions are the winners of the highest league in Indian men's football, which is currently the Indian Super League.\n\nThough Indian football tournaments dates back to the eighteenth century, a proper league system, the National Football League (NFL) was established in 1996, playing it first season in 1996–97. Its champions were considered the national champions. After the 2006–07 season, the NFL was rebranded, becoming the I-League with its champions continuing to be considered national champions until 2017, when the Indian Super League (ISL) became the country's joint premier football league. In 2022, ISL became the only top tier football league of the country. ISL playoffs winners were considered as ISL champions until 2021–22 season. Later from 2022–23 season, ISL champions designation was awarded to the table toppers.\n\nThere are 12 clubs who have won either the National Football League or the I-League and championships and six clubs who have won the Indian Super Lea"
+            },
+            {
+              "docid": "26838",
+              "url": "https://www.hindustantimes.com/pune-news/indian-super-league-will-soon-see-an-indian-as-head-coach-says-wadoo/story-Lxc5Fcq8IF4iSGrRjQJSJM.html",
+              "title": "Indian Super League will soon see an Indian as head coach, says Wadoo",
+              "score": 55.293529427099486,
+              "snippet": "Indian Super League will soon see an Indian as head coach, says Wadoo\n---\ntitle: Indian Super League will soon see an Indian as head coach, says Wadoo\nauthor: HT Correspondent\ndate: 2018-10-19\n---\nIndian Super League will soon see an Indian as head coach, says Wadoo\n\nFCPC u-18 coach Mehrajuddin Wadoo says Indian coaches are good in their skills\n\nPune: After 32 international caps and over 50 ISL appearances, former FC Pune City (FCPC) defender Mehrajuddin Wadoo has reunited with the club by joining the Stallions as the head coach of the under-18 team. After enjoying a fine stint with the Maharashtra outfit in the debut season of the ISL, the 34-year-old will be hoping to develop rising superstars from the famed FC Pune City academy.\n\nThe former Indian international took out time from his busy schedule to speak to Hindustan Times to explain his plans on reuniting with the club. After expressing his delight to re-sign with Pune City, Wadoo said, \"While the ISL season is going on, my team will be playing in the under-18 I-league and the super division of the Mumbai League. We're also looking to enter more tournaments because as long as you don't take part in more competitions and only train then they won't grow very fast. So, ideally I'm looking for them to play 60 matches in a season.\"\n\nOnce a professional hangs up their boots in the sport of football, there are many opportunities to continue to be a part of the sport. Often players in Europe turn to punditry to offer their expe"
+            },
+            {
+              "docid": "10151",
+              "url": "https://www.indiansuperleague.com/features/keeping-the-best-for-last-a-look-back-at-closing-goals-from-every-isl-season",
+              "title": "Indian Super League: List of club-wise departures, extensions and incomings",
+              "score": 54.07054584693903,
+              "snippet": "Indian Super League: List of club-wise departures, extensions and incomings\n---\ntitle: Indian Super League: List of club-wise departures, extensions and incomings\ndate: 2024-07-17\n---\nKeeping the best for last: A look back at closing goals from every ISL season\n\nMany of these last goals of the campaign have profoundly changed match results and influenced the fortunes of numerous teams.\n\nThe Indian Super League (ISL) has witnessed numerous iconic moments over the last decade, particularly memorable late goals that epitomise the drama, skill, and passion of Indian football.\n\nThese pivotal goals have decisively altered game outcomes and shaped the fortunes of many teams. Players have consistently risen to the occasion at the season's end, showcasing their talent and determination on Indian football's grandest stage.\n\nThese goals not only decided clubs' destinies but also resonated deeply with supporters nationwide, becoming unforgettable moments etched in the collective memory of Indian football fans.\n\nAs we reflect, we recall the final goals scored in each season thus far.\n\nISL 2014: Mohammad Rafique (ATK FC)\n\nDuring the 2014 ISL season, Mohammad Rafique's last-minute goal became a significant and historic moment. In front of 60,000 spectators at Mumbai's DY Patil Stadium, the first-ever ISL final unfolded in an exhilarating atmosphere.\n\nRafique's goal, scored in the 95th minute deep into injury time, came from a near-post header off a corner. This decisive strike was the only "
+            },
+            {
+              "docid": "45856",
+              "url": "https://www.sportsadda.com/football/features-football/all-every-isl-teams-indian-super-league-clubs-history/",
+              "title": "ISL teams: All the clubs who have played the league",
+              "score": 54.02334925031211,
+              "snippet": "ISL teams: All the clubs who have played the league\n---\ntitle: ISL teams: All the clubs who have played the league\ndate: 2020-12-30\n---\nSince the inception of the Indian Super League (ISL) in 2014 as an eight-team competition, India's premier football tournament has seen as many as 14 ISL teams featuring in it.\n\nWhile some are defunct today, others are still struggling to climb the table, and then there are a few who have won the championship multiple times.\n\nThe latest ISL features 11 teams, but that will soon change with I-League winners allowed to gain promotion to the top-tier league in 2022 and 2023. Furthermore, ISL will also include a relegation system from the 2024-25 season.\n\nBefore the next few seasons see more changes, here are all the ISL clubs that have featured in the premier Indian football league in the seven seasons so far.\n\nATK FC (formerly Atletico de Kolkata)\n\nFormerly known as Atletico de Kolkata, ATK FC was the first ISL team to be announced as a participant in the Indian Super League. With current BCCI president Sourav Ganguly as co-owner, the Kolkata-based club is the most successful ISL team with three titles to their name in just six seasons.\n\nATK had reached the ISL playoffs stage in all but two editions (2017 and 2018) and their biggest success have come under the tutelage of two-time winning coach Antonio López Habas, across two separate stints.\n\nAntonio Lopez Habas is the first head coach to win the #HeroISL twice and the only one to do it with t"
+            },
+            {
+              "docid": "74000",
+              "url": "https://timesofindia.indiatimes.com/sports/football/indian-super-league/top-stories/mehraj-ud-din-wadoo-kashmirs-football-hero/articleshow/50119083.cms",
+              "title": "Mehraj-ud-din Wadoo, Kashmir's football hero",
+              "score": 53.67109483452115,
+              "snippet": "Mehraj-ud-din Wadoo, Kashmir's football hero\n---\ntitle: Mehraj-ud-din Wadoo, Kashmir's football hero\nauthor: Tahir Ibn Manzoor; TNN; Updated Dec\ndate: 2015-12-10\n---\n- News\n\n- Sports News\n\n- Football\n\n- Indian Super League\n\n- Mehraj-ud-din Wadoo, Kashmir's football hero\n\nTrending\n\nThis story is from December 10, 2015\n\nThe seasoned muscular defender, 31-year-old footballer Mehraj-ud-din Wadoo, who ran thousands of miles in his career, is making a dream run in football for Kashmir.\n\nThe seasoned muscular defender, 31-year-old footballer Mehraj-ud-din Wadoo, who ran thousands of miles in his career, is making a dream run in football for Kashmir.\n\nThe seasoned muscular defender, 31-year-old footballer Mehraj-ud-din Wadoo, who ran thousands of miles in his career, is making a dream run in football for Kashmir.\n\nWadoo's net worth is around Rs 2.2 crore, after he joined the Indian Super League (ISL) for Pune FC in the tournament's first season, after he was noticed from the club scene. In this year's ISL, Wadoo has had 12 appearances for his new franchise Chennaiyan FC.\n\nWadoo is living his dream, for what he had endured in his young days was challenging. The incredible rise in Wadoo's varied career took a leap when he started at the tender age of nine, playing day-long football under the watchful eye of his father, Mohammad Sultan Wadoo, who had represented J&K in the Santosh Trophy and coached him to learn the nuances of the game at his courtyard. His father had decided to throw a"
+            },
+            {
+              "docid": "63063",
+              "url": "https://www.fourfourtwo.com/features/footballers-who-played-in-india",
+              "title": "Footballers who played in India",
+              "score": 53.6146087356959,
+              "snippet": "Footballers who played in India\n---\ntitle: Footballers who played in India\nauthor: Tom Hancock\ndate: 2024-07-08\n---\nFootballers who played in India\n\nA look at the biggest international stars to ply their trade in the Indian Super League\n\nIn 2014, traditionally cricket-mad India tried to increase its presence on the global football map with the launch of the Indian Super League.\n\nThe early ISL hype appears to have been short-lived, but the competition's first decade saw it play host to some notable international stars from Europe, South America and beyond – including Champions League and World Cup winners.\n\nLet's get straight to the countdown, shall we?\n\n32. Peter Ramage (Kerala Blasters)\n\nHaving played in England for the likes of local club Newcastle, QPR and Crystal Palace, Peter Ramage headed to India in 2015 to join Kerala Blasters (who sound like they belong in the IPL T20 cricket league rather than the country's top football competition).\n\nThe defender made 14 appearances for the Blasters as they finished bottom of the ISL under former England caretaker manager Peter Taylor.\n\n31. Adam Le Fondre (Mumbai City)\n\nA prolific scorer in the English lower leagues for Rochdale and Rotherham, Adam Le Fondre reached the Premier League with Reading in 2012 – and notched goals in his one and only top-flight season.\n\nJust under a decade later, he was averaging better than a goal every other game in the ISL for Mumbai City – who he helped to the title while on loan from Sydney FC.\n\n30."
+            },
+            {
+              "docid": "22520",
+              "url": "https://i-league.org/bharat-fc-snap-up-mehrajuddin-wadoo/",
+              "title": "Points Table",
+              "score": 51.777902968629995,
+              "snippet": "Points Table\n---\ntitle: Points Table\ndate: 2014-12-30\n---\nI-LEAGUE Media Team\n\nNEW DELHI: Bharat FC took another important step towards fortifying their backline, adding experienced Indian defender Mehrajuddin Wadoo to the squad; the Club informed on December 29. Wadoo who has already joined Bharat FC's pre-season training camp is on loan from Indian Super League side FC Pune City for the 2014-15 season. .\n\n30-year-old Wadoo, who can play across the backline but was used as a right-back by his ISL side comes to Bharat FC off the back of a successful season. He made 10 appearances for FC Pune City, earning praise for his work-rate and willingness to push up the field to help out in the attacking third.\n\nWadoo, who hails from Srinagar, the capital of Jammu and Kashmir, is also credited with popularizing football in the valley. One of the first footballers from the state to earn a professional contract, Wadoo has plied his trade with some of the most reputed Indian clubs. Having begun his career with Hindustan Aeronautics Limited (HAL) Bangalore in the 2002-2003 season, Wadoo wasted no time in carving out a credible reputation for himself. He moved to Indian Telephone Institute the next season but left to join Sporting Clube de Goa after just six months at ITI.\n\nAt the beginning of the 2004 season, he joined Kolkata giants Mohun Bagan AC, spending three seasons with the Mariners. He then switched to Mohun Bagan's fierce rivals East Bengal, playing for them from 2007 to 2011. The"
+            }
+          ]
+        },
+        {
+          "query": "Mehrajuddin Wadoo India national team caps international",
+          "results": [
+            {
+              "docid": "26838",
+              "url": "https://www.hindustantimes.com/pune-news/indian-super-league-will-soon-see-an-indian-as-head-coach-says-wadoo/story-Lxc5Fcq8IF4iSGrRjQJSJM.html",
+              "title": "Indian Super League will soon see an Indian as head coach, says Wadoo",
+              "score": 49.92780009542076,
+              "snippet": "Indian Super League will soon see an Indian as head coach, says Wadoo\n---\ntitle: Indian Super League will soon see an Indian as head coach, says Wadoo\nauthor: HT Correspondent\ndate: 2018-10-19\n---\nIndian Super League will soon see an Indian as head coach, says Wadoo\n\nFCPC u-18 coach Mehrajuddin Wadoo says Indian coaches are good in their skills\n\nPune: After 32 international caps and over 50 ISL appearances, former FC Pune City (FCPC) defender Mehrajuddin Wadoo has reunited with the club by joining the Stallions as the head coach of the under-18 team. After enjoying a fine stint with the Maharashtra outfit in the debut season of the ISL, the 34-year-old will be hoping to develop rising superstars from the famed FC Pune City academy.\n\nThe former Indian international took out time from his busy schedule to speak to Hindustan Times to explain his plans on reuniting with the club. After expressing his delight to re-sign with Pune City, Wadoo said, \"While the ISL season is going on, my team will be playing in the under-18 I-league and the super division of the Mumbai League. We're also looking to enter more tournaments because as long as you don't take part in more competitions and only train then they won't grow very fast. So, ideally I'm looking for them to play 60 matches in a season.\"\n\nOnce a professional hangs up their boots in the sport of football, there are many opportunities to continue to be a part of the sport. Often players in Europe turn to punditry to offer their expe"
+            },
+            {
+              "docid": "22520",
+              "url": "https://i-league.org/bharat-fc-snap-up-mehrajuddin-wadoo/",
+              "title": "Points Table",
+              "score": 45.19607111415785,
+              "snippet": "Points Table\n---\ntitle: Points Table\ndate: 2014-12-30\n---\nI-LEAGUE Media Team\n\nNEW DELHI: Bharat FC took another important step towards fortifying their backline, adding experienced Indian defender Mehrajuddin Wadoo to the squad; the Club informed on December 29. Wadoo who has already joined Bharat FC's pre-season training camp is on loan from Indian Super League side FC Pune City for the 2014-15 season. .\n\n30-year-old Wadoo, who can play across the backline but was used as a right-back by his ISL side comes to Bharat FC off the back of a successful season. He made 10 appearances for FC Pune City, earning praise for his work-rate and willingness to push up the field to help out in the attacking third.\n\nWadoo, who hails from Srinagar, the capital of Jammu and Kashmir, is also credited with popularizing football in the valley. One of the first footballers from the state to earn a professional contract, Wadoo has plied his trade with some of the most reputed Indian clubs. Having begun his career with Hindustan Aeronautics Limited (HAL) Bangalore in the 2002-2003 season, Wadoo wasted no time in carving out a credible reputation for himself. He moved to Indian Telephone Institute the next season but left to join Sporting Clube de Goa after just six months at ITI.\n\nAt the beginning of the 2004 season, he joined Kolkata giants Mohun Bagan AC, spending three seasons with the Mariners. He then switched to Mohun Bagan's fierce rivals East Bengal, playing for them from 2007 to 2011. The"
+            },
+            {
+              "docid": "51752",
+              "url": "https://www.transfermarkt.com/mehrajuddin-wadoo/erfolge/spieler/64624",
+              "title": "Mehrajuddin Wadoo",
+              "score": 43.42024466090087,
+              "snippet": "Mehrajuddin Wadoo\n---\ntitle: Mehrajuddin Wadoo\ndate: 2018-07-01\n---\nMehrajuddin Wadoo\n\nCurrently working as:\n\nAssistant Manager\n\nClub:\n\nMohammedan\n\n1x AFC Challenge Cup Winner\n\n| 2008 | India |\n\n1x Indian Super League Champion\n\n| 2015 | Chennaiyin FC |\n\n1x South Asian Champion\n\n| 2005 | India |\n\nTransfermarkt Videos\n\nAll titles\n\n| Titles and season | ||\n\n|---|---|---|\n\n| 1x Indian Super League Champion | ||\n\n| 2015 | Chennaiyin FC | |\n\n| 1x AFC Challenge Cup Winner | ||\n\n| 2008 | ||\n\n| 2x AFC Cup Participant | ||\n\n| 10/11 | Kingfisher East Bengal | |\n\n| 09/10 | Kingfisher East Bengal | |\n\n| 1x South Asian Champion | ||\n\n| 2005 |"
+            },
+            {
+              "docid": "62846",
+              "url": "https://www.firstpost.com/sports/indian-super-xi-from-jeje-to-izumi-and-chhetri-heres-the-isls-indian-team-of-the-year-2555958.html",
+              "title": "ISL 2015 wrap-up: From Jeje to Izumi and Chhetri, here is an Indian Super XI",
+              "score": 38.80824025771257,
+              "snippet": "ISL 2015 wrap-up: From Jeje to Izumi and Chhetri, here is an Indian Super XI\n---\ntitle: ISL 2015 wrap-up: From Jeje to Izumi and Chhetri, here is an Indian Super XI\ndate: 2015-12-23\n---\nIt took a mere half an hour for Jeje Lalpekhlua to become the first Indian to get on the scoresheet in the second edition of the Indian Super League. In a season which has been dominated by foreign stars all across the pitch – from the likes of Apoula Bete in goal, Leo Moura in midfield to Iain Hume and Stiven Mendoza up front, there have been a handful of Indian players who impressed spectators with their skillful displays – with Jeje winning the coveted Emerging Player of the Year award.\n\nLet us take a look at the Indian Team of the season, lining up in a 4-2-3-1 formation.\n\nAmrinder Singh: The 22-year-old Atletico de Kolkata custodian has been a revelation below the bars this season. The Indian U-23 international had the best 'minutes-to-goals-conceded' ratio among the Indian keepers, conceding a goal every 73 minutes.\n\nIt was not just his quick reflexes, but also his command of the box which made him such a safe pair of hands, even when Atletico struggled to contain opposition shots. Although he kept only a solitary clean sheet through the course of the season, Amrinder was one of the most consistent performers in Antonio Habas' side.\n\nMehrajuddin Wadoo: Locks down the right fullback position with impressive defensive numbers. With forty tackles and ten aerial duels in fourteen appearances"
+            },
+            {
+              "docid": "84162",
+              "url": "https://www.the-aiff.com/history",
+              "title": "History",
+              "score": 36.005835317961214,
+              "snippet": "History\n---\ntitle: History\ndate: 2012-03-15\n---\n1872\n\nNagendra Prasad Sarbadhakari, known as the Father of Indian Football\n\nThe game was introduced to the Calcuttans (then the capital of India) by the British soldiers in the nineteenth century. Very few would know that Nagendra Prasad Sarbadhakari, known as the Father of Indian Football forced his classmates into playing the game in his school compound. Attracted by the enthusiasm of the boys in the school, the European teachers of the school and adjacent colleges encouraged Nagendra Prasad and his companions to promote the game among the students surrounding Calcutta.\n\n1872\n\nCalcutta FC the first club to be established in 1872\n\nReports suggest that they were initially a rugby club and switched their attentions to football as late as 1894.\n\n1888\n\nThe Durand Cup, first held in Shimla\n\nIt is the first Indian football competition and incidentally the third oldest surviving competition in the World. It was started by Sir Mortimer Durand.\n\n1888\n\nDurand Cup winners receive 3 trophies\n\nThe tournament is also unique wherein the winning team walks away with three trophies. The Durand Cup and Shimla Trophy are Rolling Trophies while The President's Cup first presented by Dr. Rajendra Prasad is given to the team permanently.\n\n1889\n\nMohun Bagan set up (oldest existing club)\n\nMohun Bagan Athletic Club was set up in what is now West Bengal, in the year 1889.\n\n1892\n\nSovabazar Club win the Trades Cup\n\nThe first Indian team to achieve success"
+            },
+            {
+              "docid": "23120",
+              "url": "https://www.the-aiff.com/article/afc-pro-diploma-2022-23-course-results-declared",
+              "title": "AIFF announces Academy Accreditation 2025-26 Rules...",
+              "score": 34.92003455731478,
+              "snippet": "AIFF announces Academy Accreditation 2025-26 Rules...\n---\ntitle: AIFF announces Academy Accreditation 2025-26 Rules...\ndate: 2023-07-27\n---\nAIFF Media Team\n\nNEW DELHI: Fourteen candidates have successfully cleared the AFC Pro Diploma 2022-23 course, the results of which were announced on Thursday, July 27, 2023. The course was conducted by FIFA Coach Educator Mr. Kim Poulson. The five-module course, which started in May 2022, finally concluded with the fifth module in June 2023.\n\nThe following are the successful candidates: Renedy Singh; Ishfaq Ahmed, Vivek Nagul, Jeddy Almeida, Shakti Chauhan, Surinder Singh, Anthony Fernandes, Mehrajuddin Wadoo, Richard Hood, Pradhyum Reddy, Gavin Araujo, Noel Wilson, Venkatesh Shanmugam and Sanjoy Sen.\n\nRelated news"
+            },
+            {
+              "docid": "17654",
+              "url": "https://www.firstpost.com/sports/isl-final-chennaiyin-fc-snatch-victory-from-the-jaws-of-defeat-to-beat-goa-3-2-in-thriller-2553270.html",
+              "title": "ISL Final: Chennaiyin FC snatch victory from the jaws of defeat to beat FC Goa 3-2 in thriller",
+              "score": 30.633929228056235,
+              "snippet": "ISL Final: Chennaiyin FC snatch victory from the jaws of defeat to beat FC Goa 3-2 in thriller\n---\ntitle: ISL Final: Chennaiyin FC snatch victory from the jaws of defeat to beat FC Goa 3-2 in thriller\ndate: 2015-12-21\n---\nMargao: An incredible five minutes at the death produced three goals in a scintillating Indian Super League 2015 final – with Chennaiyin FC snatching victory from the jaws of defeat with Colombian striker Stiven Mendoza scoring the winner in a 3-2 win.\n\nThe scoreline was 1-1 when Spanish midfielder Joffre Mateu scored a freekick to put Goa in the lead from behind, going on to celebrate shirtless on his teammates' shoulders. But, minutes later, Mehrajuddin Wadoo's long ball scooted off goalkeeper Laxmikant Kattimani's gloves and looped into the net in the 90th minute to make the score 2-2.\n\nSeconds later, Mendoza had his shirt off – as he latched onto substitute Jayesh Rane's long ball, powered past centrebacks Gregory Arnolin and Lucio, to slip a left-footed finish past Kattimani to win it in added time for Chennaiyin.\n\nIt was Mendoza's 13th goal of the season and came after he had missed a penalty in the second half in a madcap of a final which easily trumped last year's cagey 1-0 win for Atletico de Kolkata over Kerala Blasters.\n\nKattimani had taunted the Colombian throughout the night after he took multiple tumbles in and around the box in what seemed to be an attempt to win dangerous set-pieces.\n\nThe two times he was felled in the box (by Pranoy Halder a"
+            },
+            {
+              "docid": "74000",
+              "url": "https://timesofindia.indiatimes.com/sports/football/indian-super-league/top-stories/mehraj-ud-din-wadoo-kashmirs-football-hero/articleshow/50119083.cms",
+              "title": "Mehraj-ud-din Wadoo, Kashmir's football hero",
+              "score": 28.879824190945474,
+              "snippet": "Mehraj-ud-din Wadoo, Kashmir's football hero\n---\ntitle: Mehraj-ud-din Wadoo, Kashmir's football hero\nauthor: Tahir Ibn Manzoor; TNN; Updated Dec\ndate: 2015-12-10\n---\n- News\n\n- Sports News\n\n- Football\n\n- Indian Super League\n\n- Mehraj-ud-din Wadoo, Kashmir's football hero\n\nTrending\n\nThis story is from December 10, 2015\n\nThe seasoned muscular defender, 31-year-old footballer Mehraj-ud-din Wadoo, who ran thousands of miles in his career, is making a dream run in football for Kashmir.\n\nThe seasoned muscular defender, 31-year-old footballer Mehraj-ud-din Wadoo, who ran thousands of miles in his career, is making a dream run in football for Kashmir.\n\nThe seasoned muscular defender, 31-year-old footballer Mehraj-ud-din Wadoo, who ran thousands of miles in his career, is making a dream run in football for Kashmir.\n\nWadoo's net worth is around Rs 2.2 crore, after he joined the Indian Super League (ISL) for Pune FC in the tournament's first season, after he was noticed from the club scene. In this year's ISL, Wadoo has had 12 appearances for his new franchise Chennaiyan FC.\n\nWadoo is living his dream, for what he had endured in his young days was challenging. The incredible rise in Wadoo's varied career took a leap when he started at the tender age of nine, playing day-long football under the watchful eye of his father, Mohammad Sultan Wadoo, who had represented J&K in the Santosh Trophy and coached him to learn the nuances of the game at his courtyard. His father had decided to throw a"
+            },
+            {
+              "docid": "2089",
+              "url": "https://dpssrinagar.com/news/celebrated-footballer-mehraj-ud-din-wadoo-organizes-football-training-session/",
+              "title": "Celebrated footballer Mehraj-ud-Din Wadoo organizes football training session",
+              "score": 20.055657075184094,
+              "snippet": "Celebrated footballer Mehraj-ud-Din Wadoo organizes football training session\n---\ntitle: Celebrated footballer Mehraj-ud-Din Wadoo organizes football training session\ndate: 2017-09-16\n---\nCelebrated footballer Mehraj-ud-Din Wadoo organizes football training session\n\nThe School organized a football training session for its students on 16th September. 115 students participated in the session. The highlight of the session was an interaction with the celebrated Kashmiri footballer Mehrajudin Wadoo. He shared his experiences with the students and provided valuable tips as well. The students were quite delighted and benefited much from this interaction."
+            },
+            {
+              "docid": "96339",
+              "url": "https://www.espn.com/soccer/story/_/id/44364002/choudhury-joins-list-premier-leagues-lone-internationals",
+              "title": "Choudhury joins list of Premier League's lone internationals",
+              "score": 17.557253647447784,
+              "snippet": "Choudhury joins list of Premier League's lone internationals\n---\ntitle: Choudhury joins list of Premier League's lone internationals\nauthor: Chris Wright Mar\ndate: 2025-03-25\n---\nAfter cementing his eligibility late last year, Leicester City midfielder Hamza Choudhury played for the Bangladesh national team for the very first time on Tuesday and therefore became the latest inductee of an exclusive Premier League club.\n\nThough he is spending this season on loan from the Foxes at Championship side Sheffield United, England-born Choudhury has previously made 57 top-flight appearances for his parent club. That makes him the first-ever Premier League player to represent Bangladesh.\n\nChoudhury won seven caps for England at under-21 level as a youngster, but officially switched his international allegiance to Bangladesh in December and was subsequently included in the Bengal Tigers' lineup for their 2027 AFC Asian Cup qualification third-round match against India on Tuesday.\n\nThe 27-year-old becomes the third Premier League player this season to be added to the list of international lone stars after Manchester City defender Abdukodir Khusanov and Ali Al-Hamadi of Ipswich Town, who became the first senior internationals from Uzbekistan and Iraq, respectively, when making their English top-flight debuts in 2024-25. Choudhury is the 19th Premier League player to be the sole representative of his particular nation in England's top flight.\n\nWith Choudhury added to the mix, the total numb"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tool_call",
+      "tool_name": "visit",
+      "arguments": {
+        "url": [
+          "https://www.the-aiff.com/article/afc-pro-diploma-2022-23-course-results-declared"
+        ],
+        "goal": "Verify that Mehrajuddin Wadoo is listed as a successful candidate who cleared the AFC Pro Diploma course"
+      },
+      "output": [
+        {
+          "url": "https://www.the-aiff.com/article/afc-pro-diploma-2022-23-course-results-declared",
+          "docid": "23120",
+          "goal": "Verify that Mehrajuddin Wadoo is listed as a successful candidate who cleared the AFC Pro Diploma course",
+          "content": "AIFF announces Academy Accreditation 2025-26 Rules...\n---\ntitle: AIFF announces Academy Accreditation 2025-26 Rules...\ndate: 2023-07-27\n---\nAIFF Media Team\n\nNEW DELHI: Fourteen candidates have successfully cleared the AFC Pro Diploma 2022-23 course, the results of which were announced on Thursday, July 27, 2023. The course was conducted by FIFA Coach Educator Mr. Kim Poulson. The five-module course, which started in May 2022, finally concluded with the fifth module in June 2023.\n\nThe following are the successful candidates: Renedy Singh; Ishfaq Ahmed, Vivek Nagul, Jeddy Almeida, Shakti Chauhan, Surinder Singh, Anthony Fernandes, Mehrajuddin Wadoo, Richard Hood, Pradhyum Reddy, Gavin Araujo, Noel Wilson, Venkatesh Shanmugam and Sanjoy Sen.\n\nRelated news",
+          "truncated": false,
+          "original_chars": 762
+        }
+      ]
+    },
+    {
+      "type": "tool_call",
+      "tool_name": "visit",
+      "arguments": {
+        "url": [
+          "https://www.transfermarkt.com/mehrajuddin-wadoo/erfolge/spieler/64624"
+        ],
+        "goal": "Verify Mehrajuddin Wadoo's ISL championship title in 2015 with Chennaiyin FC and his career clubs"
+      },
+      "output": [
+        {
+          "url": "https://www.transfermarkt.com/mehrajuddin-wadoo/erfolge/spieler/64624",
+          "docid": "51752",
+          "goal": "Verify Mehrajuddin Wadoo's ISL championship title in 2015 with Chennaiyin FC and his career clubs",
+          "content": "Mehrajuddin Wadoo\n---\ntitle: Mehrajuddin Wadoo\ndate: 2018-07-01\n---\nMehrajuddin Wadoo\n\nCurrently working as:\n\nAssistant Manager\n\nClub:\n\nMohammedan\n\n1x AFC Challenge Cup Winner\n\n| 2008 | India |\n\n1x Indian Super League Champion\n\n| 2015 | Chennaiyin FC |\n\n1x South Asian Champion\n\n| 2005 | India |\n\nTransfermarkt Videos\n\nAll titles\n\n| Titles and season | ||\n\n|---|---|---|\n\n| 1x Indian Super League Champion | ||\n\n| 2015 | Chennaiyin FC | |\n\n| 1x AFC Challenge Cup Winner | ||\n\n| 2008 | ||\n\n| 2x AFC Cup Participant | ||\n\n| 10/11 | Kingfisher East Bengal | |\n\n| 09/10 | Kingfisher East Bengal | |\n\n| 1x South Asian Champion | ||\n\n| 2005 |",
+          "truncated": false,
+          "original_chars": 636
+        }
+      ]
+    },
+    {
+      "type": "tool_call",
+      "tool_name": "visit",
+      "arguments": {
+        "url": [
+          "https://www.hindustantimes.com/pune-news/indian-super-league-will-soon-see-an-indian-as-head-coach-says-wadoo/story-Lxc5Fcq8IF4iSGrRjQJSJM.html"
+        ],
+        "goal": "Verify Mehrajuddin Wadoo's international caps (32) and ISL appearances to confirm he played for India in more than 30 matches"
+      },
+      "output": [
+        {
+          "url": "https://www.hindustantimes.com/pune-news/indian-super-league-will-soon-see-an-indian-as-head-coach-says-wadoo/story-Lxc5Fcq8IF4iSGrRjQJSJM.html",
+          "docid": "26838",
+          "goal": "Verify Mehrajuddin Wadoo's international caps (32) and ISL appearances to confirm he played for India in more than 30 matches",
+          "content": "Indian Super League will soon see an Indian as head coach, says Wadoo\n---\ntitle: Indian Super League will soon see an Indian as head coach, says Wadoo\nauthor: HT Correspondent\ndate: 2018-10-19\n---\nIndian Super League will soon see an Indian as head coach, says Wadoo\n\nFCPC u-18 coach Mehrajuddin Wadoo says Indian coaches are good in their skills\n\nPune: After 32 international caps and over 50 ISL appearances, former FC Pune City (FCPC) defender Mehrajuddin Wadoo has reunited with the club by joining the Stallions as the head coach of the under-18 team. After enjoying a fine stint with the Maharashtra outfit in the debut season of the ISL, the 34-year-old will be hoping to develop rising superstars from the famed FC Pune City academy.\n\nThe former Indian international took out time from his busy schedule to speak to Hindustan Times to explain his plans on reuniting with the club. After expressing his delight to re-sign with Pune City, Wadoo said, \"While the ISL season is going on, my team will be playing in the under-18 I-league and the super division of the Mumbai League. We're also looking to enter more tournaments because as long as you don't take part in more competitions and only train then they won't grow very fast. So, ideally I'm looking for them to play 60 matches in a season.\"\n\nOnce a professional hangs up their boots in the sport of football, there are many opportunities to continue to be a part of the sport. Often players in Europe turn to punditry to offer their expert opinions in front of camera, while some of them work as club ambassadors. Another venture a majority of former pros take up is that of coaching and giving back to the sport that has rewarded them heavily during their career.\n\nGiving an explanation on why he turned to coaching, Wadoo said, \"Even when I was playing, I always knew that I wanted to get into coaching. I used to go to Kashmir and train the boys, and it was something I enjoyed doing. Since 2014, I've been studying for my coaching licences as it was always my idea to get into coaching after my playing career. I've always wanted to share my football knowledge with others and wanted to help players with potential to grow, so it was perfect for me to take up coaching.\"\n\nSince his debut game in the ISL, the league has grown leaps and bounds and the quality of football has also improved tremendously. Gone are the days when fans used to visit stadiums only to look at the marquee names at every club, but they're now cheering in numbers for players that have elevated their status by playing in the ISL.\n\nAccording to Wadoo, it's almost like a different league that he's witnessing and is extremely delighted with the steps taken by the tournament in the right direction to make the ISL a sporting bonanza for six months of the year.\n\nGiving an insight as to what's changed in the tournament, he said, \"When I first played in the ISL, I saw that there was a lack of confidence, in me as well as most of the Indian players because it was the first time they were playing with the star players. For example, if someone found themselves in a goal-scoring position, they were not confident enough to take a shot, but instead chose to look for a pass. But right now it has all changed and the Indian players now have the confidence they need to succeed.\"\n\nIn the league's five-year history, there is still to be an Indian to take over the reins as the head coach of any particular club. Hierarchies from all the ten clubs have opted to go for foreign coaches as they believe they will bring a different philosophy and coaching style to the table and will also do a better job at commanding respect from the dressing room.\n\nAsked on what it will take to see an Indian manage an ISL club, Wadoo said, \"I think there are a lot of talented Indian coaches doing very well for themselves. If you look at the under-16 national team coach Bibiano Fernandes, he's doing good. Now the coaches that are coming in and passing their licences are actually very talented and have tremendous knowledge about football. So it's time we start believing in them. The day is not far when we see an Indian take over an ISL club and if trusted, I don't think they will let anyone down.\"\n\nCriteria to become a head coach in ISL\n\n1. Unless a head coach is being retained from the previous version of the league, the appointment requires the approval of ISL. Even if the coach has worked in seasons prior to the last season, he will still need the league's approval in writing.\n\n2. The head coaches must hold an/ be in the process of obtaining an AFC pro licence or an equivalent coaching licence.\n\n3. The profile of the ISL coach must be one of the three:\n\na) A high-profile coach with significant experience and record\n\nb) A high-profile international footballer with the required coaching licence looking to kick-start a coaching career\n\nc) A non-high profile coach with significant experience and a proven track record.\n\n4. For an assistant coach to be promoted to the role of head coach, the requirements are:\n\na) The coach should have been at the ISL club for at least one full season.\n\nb) The coach should boast a strong CV from his tenure as an assistant.\n\nc) The coach should have achieved success as an assistant coach and worked under a successful head coach.\n\nd) The coach should have worked as an assistant coach at Indian and non-Indian clubs.\n\ne) The coach should be an AFC pro licence holder (or its equivalent qualification) or be in the process acquiring the same.",
+          "truncated": false,
+          "original_chars": 5520
+        }
+      ]
+    },
+    {
+      "type": "tool_call",
+      "tool_name": "visit",
+      "arguments": {
+        "url": [
+          "https://i-league.org/bharat-fc-snap-up-mehrajuddin-wadoo/"
+        ],
+        "goal": "Verify Mehrajuddin Wadoo's career timeline to confirm he played in I-League for more than a decade"
+      },
+      "output": [
+        {
+          "url": "https://i-league.org/bharat-fc-snap-up-mehrajuddin-wadoo/",
+          "docid": "22520",
+          "goal": "Verify Mehrajuddin Wadoo's career timeline to confirm he played in I-League for more than a decade",
+          "content": "Points Table\n---\ntitle: Points Table\ndate: 2014-12-30\n---\nI-LEAGUE Media Team\n\nNEW DELHI: Bharat FC took another important step towards fortifying their backline, adding experienced Indian defender Mehrajuddin Wadoo to the squad; the Club informed on December 29. Wadoo who has already joined Bharat FC's pre-season training camp is on loan from Indian Super League side FC Pune City for the 2014-15 season. .\n\n30-year-old Wadoo, who can play across the backline but was used as a right-back by his ISL side comes to Bharat FC off the back of a successful season. He made 10 appearances for FC Pune City, earning praise for his work-rate and willingness to push up the field to help out in the attacking third.\n\nWadoo, who hails from Srinagar, the capital of Jammu and Kashmir, is also credited with popularizing football in the valley. One of the first footballers from the state to earn a professional contract, Wadoo has plied his trade with some of the most reputed Indian clubs. Having begun his career with Hindustan Aeronautics Limited (HAL) Bangalore in the 2002-2003 season, Wadoo wasted no time in carving out a credible reputation for himself. He moved to Indian Telephone Institute the next season but left to join Sporting Clube de Goa after just six months at ITI.\n\nAt the beginning of the 2004 season, he joined Kolkata giants Mohun Bagan AC, spending three seasons with the Mariners. He then switched to Mohun Bagan's fierce rivals East Bengal, playing for them from 2007 to 2011. The following season, Wadoo turned out for Salgaocar before returning to Kolkata at the beginning of the 2012-2013 season to play for Mohammedan Sporting.\n\nThe defender is also a full international for India. Having represented his country on 31 occassions, Wadoo has also scored two goals for India. It was his goal that clinched the 2005 SAFF Cup final for India against Bangladesh in Karachi. Wadoo has also been part of Nehru Cup triumphs in 2007 and 2009 apart from being in the Indian squad that won the 2008 AFC Challenge Cup.\n\nBharat FC's head-coach Stuart Watkiss said that he had been impressed by Wadoo's awareness and also his willingness to play in multiple positions during the ISL. \"Mehraj is a fantastic player. He has a lot of experience and we can use that same experience as we look to build a strong, cohesive unit. He has been a rock for his Super League side during the ISL and we hope that he transfers that same form with us here at Bharat FC,\" he said.\n\nKunal Agarwal, director of Bharat FC, said that apart from Wadoo's experience, the 30-year-old was an excellent role-model for youngsters and fans of the club. \"Mehraj is probably one of the finest footballers in our country. He is very humble, hardworking and approachable, values that Bharat FC holds very dear to its heart. Apart from that, he is brilliant with the ball at his feet and I am sure he will be an important asset to the side,\" he said.\n\nWadoo himself said that working with an experienced back-room staff and the idea of creating something from scratch was what attracted him towards Bharat FC. \"The club is young but the ideas that we want to work on are great. Training sessions are very interesting, the coaching staff is bringing a lot of new exciting ideas in and I think moving to Bharat FC was the right decision for me as far as my own career is concerned,\" said Wadoo.\n\nReport Courtesy: Bharat FC Media",
+          "truncated": false,
+          "original_chars": 3404
+        }
+      ]
+    },
+    {
+      "type": "tool_call",
+      "tool_name": "update_context",
+      "arguments": {
+        "context": "# Research Progress Summary\n\n## Question Analysis\nThe user asks about an Indian football player who:\n1. Represented India in 30+ matches\n2. Played in I-League for more than a decade\n3. Also played in ISL\n4. Passed AFC PRO license coaching course\n5. Was part of the team that won ISL title in 2015\n6. In September, participated in a school football training session\n7. **Question: How many students took part?**\n\n## Identified Player: Mehrajuddin Wadoo\n\n### Verification Checklist (ALL CONFIRMED):\n- [x] **30+ International Caps**: Confirmed as 31 caps (i-league.org article) and 32 caps (Hindustan Times article)\n- [x] **I-League for >10 years**: Career started 2002-2003 with HAL Bangalore, played for Mohun Bagan (2004-2007), East Bengal (2007-2011), Salgaocar, Mohammedan Sporting (2012-2013) = 11+ seasons\n- [x] **ISL Experience**: Played for FC Pune City, Chennaiyin FC (2015), Bharat FC\n- [x] **AFC PRO License**: Listed as successful candidate for AFC Pro Diploma 2022-23 course (AIFF official page: https://www.the-aiff.com/article/afc-pro-diploma-2022-23-course-results-declared)\n- [x] **ISL 2015 Champion**: Transfermarkt confirms \"1x Indian Super League Champion | 2015 | Chennaiyin FC\" (https://www.transfermarkt.com/mehrajuddin-wadoo/erfolge/spieler/64624)\n- [x] **September Training Session**: dpssrinagar.com article confirms \"The School organized a football training session for its students on 16th September. 115 students participated in the session\" (https://dpssrinagar.com/news/celebrated-footballer-mehraj-ud-din-wadoo-organizes-football-training-session/)\n\n### Final Answer:\n**115 students** participated in the football training session conducted by the school in September.\n\n### Evidence URLs:\n1. Training session details: https://dpssrinagar.com/news/celebrated-footballer-mehraj-ud-din-wadoo-organizes-football-training-session/\n2. AFC Pro License verification: https://www.the-aiff.com/article/afc-pro-diploma-2022-23-course-results-declared\n3. ISL 2015 Championship: https://www.transfermarkt.com/mehrajuddin-wadoo/erfolge/spieler/64624\n4. International caps (31-32): https://i-league.org/bharat-fc-snap-up-mehrajuddin-wadoo/ and https://www.hindustantimes.com/pune-news/indian-super-league-will-soon-see-an-indian-as-head-coach-says-wadoo/story-Lxc5Fcq8IF4iSGrRjQJSJM.html"
+      },
+      "output": {
+        "status": "context_updated",
+        "context": "# Research Progress Summary\n\n## Question Analysis\nThe user asks about an Indian football player who:\n1. Represented India in 30+ matches\n2. Played in I-League for more than a decade\n3. Also played in ISL\n4. Passed AFC PRO license coaching course\n5. Was part of the team that won ISL title in 2015\n6. In September, participated in a school football training session\n7. **Question: How many students took part?**\n\n## Identified Player: Mehrajuddin Wadoo\n\n### Verification Checklist (ALL CONFIRMED):\n- [x] **30+ International Caps**: Confirmed as 31 caps (i-league.org article) and 32 caps (Hindustan Times article)\n- [x] **I-League for >10 years**: Career started 2002-2003 with HAL Bangalore, played for Mohun Bagan (2004-2007), East Bengal (2007-2011), Salgaocar, Mohammedan Sporting (2012-2013) = 11+ seasons\n- [x] **ISL Experience**: Played for FC Pune City, Chennaiyin FC (2015), Bharat FC\n- [x] **AFC PRO License**: Listed as successful candidate for AFC Pro Diploma 2022-23 course (AIFF official page: https://www.the-aiff.com/article/afc-pro-diploma-2022-23-course-results-declared)\n- [x] **ISL 2015 Champion**: Transfermarkt confirms \"1x Indian Super League Champion | 2015 | Chennaiyin FC\" (https://www.transfermarkt.com/mehrajuddin-wadoo/erfolge/spieler/64624)\n- [x] **September Training Session**: dpssrinagar.com article confirms \"The School organized a football training session for its students on 16th September. 115 students participated in the session\" (https://dpssrinagar.com/news/celebrated-footballer-mehraj-ud-din-wadoo-organizes-football-training-session/)\n\n### Final Answer:\n**115 students** participated in the football training session conducted by the school in September.\n\n### Evidence URLs:\n1. Training session details: https://dpssrinagar.com/news/celebrated-footballer-mehraj-ud-din-wadoo-organizes-football-training-session/\n2. AFC Pro License verification: https://www.the-aiff.com/article/afc-pro-diploma-2022-23-course-results-declared\n3. ISL 2015 Championship: https://www.transfermarkt.com/mehrajuddin-wadoo/erfolge/spieler/64624\n4. International caps (31-32): https://i-league.org/bharat-fc-snap-up-mehrajuddin-wadoo/ and https://www.hindustantimes.com/pune-news/indian-super-league-will-soon-see-an-indian-as-head-coach-says-wadoo/story-Lxc5Fcq8IF4iSGrRjQJSJM.html"
+      }
+    },
+    {
+      "type": "tool_call",
+      "tool_name": "None",
+      "arguments": {},
+      "output": null
+    },
+    {
+      "type": "tool_call",
+      "tool_name": "finish",
+      "arguments": {
+        "answer": "The number of students who took part in the football training session was **115**. Celebrated Indian footballer Mehrajuddin Wadoo participated in a football training session organized by DPS Srirangapattana (DPS) on 16th September for its students, where 115 students took part.",
+        "evidences": [
+          {
+            "evidence": "The School organized a football training session for its students on 16th September. 115 students participated in the session.",
+            "url": "https://dpssrinagar.com/news/celebrated-footballer-mehraj-ud-din-wadoo-organizes-football-training-session/"
+          },
+          {
+            "evidence": "Mehrajuddin Wadoo represented India in more than 30 international matches (31+ caps), played in I-League for over a decade, had ISL experience including with Chennaiyin FC (2015 ISL champions), and passed AFC PRO license coaching course as declared in AIFF official results.",
+            "url": "https://www.the-aiff.com/article/afc-pro-diploma-2022-23-course-results-declared"
+          }
+        ],
+        "confidence": "95"
+      },
+      "output": {
+        "status": "finished"
+      }
+    },
+    {
+      "type": "output_text",
+      "output": "The number of students who took part in the football training session was **115**. Celebrated Indian footballer Mehrajuddin Wadoo participated in a football training session organized by DPS Srirangapattana (DPS) on 16th September for its students, where 115 students took part.\n\nConfidence: 95"
+    }
+  ]
+}
